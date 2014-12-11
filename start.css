@@ -3459,6 +3459,7 @@
   }
 
   .bonus {
+	color: #4e4e4e;
 	vertical-align: top;
 	margin: 0 65px 0 0;
 	font-family: 'trebuchet_msregular'
@@ -3479,7 +3480,9 @@
   }
 
   .cancel {
-	font-family: 'trebuchet_msregular'
+	font-family: 'trebuchet_msregular';
+	white-space: normal;
+
   }
 
   .cancel_mt {
@@ -3916,6 +3919,7 @@
   .box_bt {
 	border-top: 15px solid #d8e4da;
 	border-top-left-radius: 15px 15px;
+	-moz-border-top-left-radius: 15px 15px;
 	max-width: 557px;
 
   }
@@ -3925,6 +3929,7 @@
 	background: -webkit-linear-gradient(left, #fbf7ee, #f4efe9);
 	background: linear-gradient(left, #fbf7ee, #f4efe9);
 	-webkit-box-shadow: 0 30px 62px -53px #000;
+	background: #fbf7ee;
 	box-shadow: 0 30px 62px -53px #000;
 	margin-top: -11px;
 	padding: 23px 15px 17px 40px
@@ -4000,7 +4005,7 @@
 
   .order__measure {
 	font-size: 13px;
-	font-family: 'trebuchet_msbold'
+	font-family: 'trebuchet_msbold';
   }
 
   .order__measure u:after {
@@ -4215,6 +4220,7 @@
   .order {
 	max-width: 970px;
 	margin: 0 auto 30px;
+	white-space: nowrap;
 
   }
 
@@ -4230,7 +4236,8 @@
   }
 
   .order__center {
-	vertical-align: bottom
+	vertical-align: bottom;
+	white-space: normal;
   }
 
   .order__right {
@@ -4345,9 +4352,9 @@
 	outline: none;
 	border: none;
 	border-radius: 6px;
-	padding: 4px 10px;
+	padding: 4px 10px 5px;
 	-webkit-box-shadow: inset 0 2px 8px -3px #000;
-	box-shadow: inset 0 2px 8px -3px #000;
+	box-shadow: inset 0 2px 8px -3px #555;
 	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=2, offY=2, color=#000)
   }
 
@@ -5816,6 +5823,8 @@
 	font-size: 15px;
 	width: 66%;
 	vertical-align: middle
+
+
   }
 
   .info__another-arrow {
@@ -5871,12 +5880,14 @@
   .info__calendar-link {
 	font-size: 12px;
 	font-family: 'trebuchet_msbold_italic';
-	margin-left: 5px
+	margin-left: 5px;
+	color: #006902;
+
   }
 
   .info__calendar-link u:after {
 	bottom: 0
-  }
+	}
 
   .info__calendar-link:link, .info__calendar-link:visited {
 	color: #006902
@@ -6004,10 +6015,12 @@
 
   .delivery {
 	margin: 0 0 43px 6px;
-	font-family: 'trebuchet_msregular'
+	font-family: 'trebuchet_msregular';
+	white-space: nowrap;
   }
 
   .delivery__left {
+	white-space: normal;
 	vertical-align: top;
 	width: 265px
   }
@@ -6050,22 +6063,27 @@
   .delivery__item-chose {
 	font-size: 13px;
 	font-family: 'trebuchet_msitalic';
-	width: 134px;
-	padding: 3px 0 3px 10px;
+	padding: 3px 10px 3px 10px;
 	cursor: pointer;
 	border-radius: 8px;
-	margin-left: 8px;
 	background: #efefef;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #ddd));
 	background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#ddd));
 	background: -webkit-linear-gradient(top, #efefef 0%, #ddd 100%);
-	background: linear-gradient(to bottom, #efefef 0%, #ddd 100%)
+	background: linear-gradient(to bottom, #efefef 0%, #ddd 100%);
+
   }
 
   .delivery__item-chose .fa-sort {
 	font-size: 12px;
 	color: #616161;
 	padding-right: 3px
+  }
+  .delivery__item-chose_w_auto{
+	width: auto;
+  }
+  .data-list__field_w_271{
+	width: 262px;
   }
 
   .delivery__subtitle-info {
@@ -6186,7 +6204,7 @@
   }
 
   .data-list__field_mr_39 {
-	margin-right: 39px
+	margin-right: 36px
   }
 
   .data-list__field_w_258 {
@@ -6286,6 +6304,7 @@
   }
 
   .delivery-total {
+	white-space: nowrap;
 	margin: 0 0 0 38px
   }
 
