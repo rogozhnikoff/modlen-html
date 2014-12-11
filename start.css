@@ -3337,7 +3337,8 @@
 	transition: background .3s ease-out;
 	-webkit-transition: background .3s ease-out;
 	-o-transition: background .3s ease-out;
-	-moz-transition: background .3s ease-out
+	-moz-transition: background .3s ease-out;
+	cursor: pointer;
   }
 
   .option-list__link u:after {
@@ -3349,7 +3350,7 @@
 	color: #000
   }
 
-  .option-list__link:hover, .option-list__link:active {
+  .option-list__link:hover, .option-list__link_active {
 	background: #ece8df;
 	box-shadow: inset 0 1px 7px -3px #000;
 	-webkit-box-shadow: inset 0 1px 7px -3px #000
@@ -3436,7 +3437,9 @@
 	display: block;
 	background: url("img/icon/arrow-up-crystal.png");
 	width: 12px;
-	height: 10px
+	height: 10px;
+	cursor: pointer;
+
   }
 
   .option-list__arrow-up:hover {
@@ -3444,6 +3447,7 @@
   }
 
   .option-list__arrow-down {
+	cursor: pointer;
 	display: block;
 	background: url("img/icon/arrow-down-crystal.png");
 	width: 12px;
