@@ -2543,7 +2543,6 @@ body * img::-webkit-selection {
 
 .container__in {
   max-width: 1000px;
-  min-width: 1000px;
   margin: auto;
 }
 
@@ -3074,7 +3073,7 @@ body * img::-webkit-selection {
 }
 
 .item-main {
-  width: 80%;
+  width: 960px;
   text-align: center;
   margin: auto;
   position: relative;
@@ -3672,7 +3671,7 @@ body * img::-webkit-selection {
   width: 245px;
   cursor: pointer;
   color: #006902;
-  margin: 0 40px 15px 40px;
+  margin: 0 35px 15px 35px;
   vertical-align: top;
 
 }
@@ -3697,7 +3696,6 @@ body * img::-webkit-selection {
 }
 
 .item__img-wrap img {
-  border: 1px solid #f3f3f3;
   position: relative;
   max-height: 368px;
 }
@@ -4239,7 +4237,8 @@ body * img::-webkit-selection {
   max-width: 273px;
   vertical-align: bottom;
   position: relative;
-  width: 24%;
+  width: 200px;
+
 }
 
 .order__left_ml_8 {
@@ -5852,7 +5851,6 @@ body * img::-webkit-selection {
 
 .option-wrap {
   margin: auto;
-  min-width: 1000px;
   max-width: 1000px;
 }
 
@@ -7023,7 +7021,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 
 .color-list__circle {
   vertical-align: top;
-  padding: 1px 8px 1px 20px;
+  padding: 3px 8px 0px 20px;
   margin: 0 5px 0 0;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px
@@ -7423,7 +7421,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 .coupon {
   float: left;
   width: 245px;
-  margin: 285px 0 0
+  margin: 285px 0 0 20px
 }
 
 .coupon__top {
@@ -7875,7 +7873,7 @@ a.small_cart {
 
 .banner {
   background: transparent url(../img/texture/banner.jpg) 0 0 no-repeat;
-  max-width: 1000px;
+  max-width: 960px;
   height: 110px;
   margin: 0 auto 65px;
   border-radius: 20px;
