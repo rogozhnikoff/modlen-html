@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title>ModlenRails</title>
+	<link rel="stylesheet" href="select2.css" />
 	<link rel="stylesheet" href="start.css" />
 
-	<script type="text/javascript" src="javascripts/masonry.js"></script>
-	<script type="text/javascript" src="javascripts/lazyload.js"></script>
-	<script type="text/javascript" src="javascripts/custom.js"></script>
+	<!--<script type="text/javascript" src="javascripts/masonry.js"></script>-->
+	<!--<script type="text/javascript" src="javascripts/lazyload.js"></script>-->
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="select2.js"></script>
+	<!--<script type="text/javascript" src="javascripts/custom.js"></script>-->
 </head>
 
 
@@ -17,7 +20,7 @@
 
 <div class="pop-up-sign">
 	<div class="popup-sign" style="width: 297px">
-		<a class="popup-sign__modlen-link dashed" href="<%= variants_path %>"><u></u></a>
+		<a class="popup-sign__modlen-link dashed" href=""><u></u></a>
 
 		<div class="popup-sign__inner">
 			<a href="#" class="popup-sign__close"><i class="fa fa-times"></i></a>
@@ -120,7 +123,7 @@
 				                              market store, in that's way contact you as soon as possible.</p>
 
 				<p class="option__sewing">Sewing:</p>
-
+				<p href="" class="option__sewing_link dashed"><u>Jumpsiut</u> </p>
 			</div>
 
 
@@ -240,6 +243,60 @@
 						<span class="size-list__link size-list__link_active dashed" ><u>For growth</u></span>
 					</li>
 				</ul>
+				<script>
+					$(document).ready(function() { $("#age").select2(); });
+				</script>
+				<div class="jumpsuit">
+					<table align="center">
+						<tr>
+							<th>Age</th>
+							<th>Size</th>
+							<th>Height</th>
+							<th>Torso</th>
+							<th>Bust</th>
+							<th>Waist</th>
+							<th>Hips</th>
+							<th><i class="fa fa-sort"></i>Sleeves</th>
+						</tr>
+						<tr>
+							<td>
+								<select class="" name="" id="age">
+									<option value="">16-17</option>
+									<option value="">17-18</option>
+									<option value="">19-20</option>
+								</select>
+							</td>
+							<td>
+								<select name="" class="" id="size">
+									<option value="">S</option>
+									<option value="">L</option>
+									<option value="">M</option>
+								</select>
+							</td>
+							<td>
+								165
+							</td>
+							<td>
+								158-168
+							</td>
+							<td>
+								89-96
+							</td>
+							<td>
+								71-78
+							</td>
+							<td>
+								96-104
+							</td>
+							<td>
+								61
+							</td>
+						</tr>
+					</table>
+				</div>
+				<script>
+					$(document).ready(function() { $("#size").select2();});
+				</script>
 				<div class="option__unit-wrap">
 					<span class="option__unit option__unit_active dashed" ><u>CM</u></span>
 					<span class="option__unit dashed" ><u>Inches</u></span>
