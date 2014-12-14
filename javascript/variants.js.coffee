@@ -2,7 +2,6 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 varPages = ->
-
   color_change = (ev) ->
     $('div.color-list__circle').removeClass('active')
     $(@).prev().addClass('active')
