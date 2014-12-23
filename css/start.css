@@ -7173,8 +7173,9 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .preview {
-  margin: 30px 0 0;
-  text-align: center;
+  text-align: left;
+  max-width: 720px;
+  margin: 15px auto 0;
 }
 
 .preview__title {
@@ -7189,10 +7190,10 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .preview__bottom {
-  margin: 0 0 0;
   position: relative;
   width: 85%;
-  margin: auto;
+  margin: 30px auto 0 ;
+
 }
 
 .preview__scroll-line {
@@ -7809,8 +7810,6 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
   margin: -66px 9.3% 0 0;
   border-radius: 8px;
   background: #53920d;
-  background: -webkit-linear-gradient(90deg, #53920d 1.428571428571429%, #7ad019 66.9047619047619%, #dee987 100%) #dedede;
-  background: linear-gradient(360deg, #53920d 1.428571428571429%, #7ad019 66.9047619047619%, #dee987 100%) #dedede;
   -webkit-box-shadow: 0 2px 2px rgba(59, 98, 54, .5);
   box-shadow: 0 2px 2px rgba(59, 98, 54, .5);
   text-shadow: 0 1px 0 rgba(67, 95, 17, .5);
@@ -7818,6 +7817,9 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
   text-align: center;
   text-indent: 3px;
   color: #fff
+}
+._button:hover{
+  background: #335b09;
 }
 
 .element-1 {
@@ -8012,11 +8014,14 @@ a.small_cart {
 
 .gallery__title {
   font-size: 13px;
+  margin: 18px auto 0;
+  font-family: 'trebuchet_msitalic';
+  max-width: 720px;
 }
 
 .gallery__link-wrap {
   position: relative;
-  height: 200px;
+  height: 145px;
 }
 
 .gallery__link-wrap:after {
