@@ -4,6 +4,7 @@
 	<title>Modlen</title>
 	<link rel="stylesheet" href="css/start.css" />
 
+	<script type="text/javascript" src="javascript/vendor/jquery-1.11.1.js"></script>
 	<script type="text/javascript" src="javascript/vendor/masonry.js"></script>
 	<script type="text/javascript" src="javascript/vendor/lazyload.js"></script>
 	<script type="text/javascript" src="javascript/custom.js"></script>
@@ -101,106 +102,117 @@
 
 <div class="container">
 <div class="container__in">
-<div class="breadcrumb-wrap breadcrumb-wrap_ml_220 breadcrumb-wrap_mb_30">
-	<ul class="breadcrumb">
-		<li class="breadcrumb__item"><a class="breadcrumb__link" href="#">CUSTOM FIT</a></li>
-		<li class="breadcrumb__item"><i class="breadcrumb__arrow"></i></li>
-		<li class="breadcrumb__item"><a class="breadcrumb__link breadcrumb__link_active" href="#">CART</a></li>
-		<li class="breadcrumb__item"><i class="breadcrumb__arrow"></i></li>
-		<li class="breadcrumb__item"><a class="breadcrumb__link breadcrumb__link_next" href="#">CHECKOUT</a></li>
-	</ul>
+<div class="payment-top">
+	<div class="breadcrumb-wrap breadcrumb-wrap_ml_220  left">
+		<ul class="breadcrumb">
+			<li class="breadcrumb__item"><a class="breadcrumb__link" href="#">CUSTOM FIT</a></li>
+			<li class="breadcrumb__item"><i class="breadcrumb__arrow"></i></li>
+			<li class="breadcrumb__item"><a class="breadcrumb__link breadcrumb__link_active" href="#">CART</a></li>
+			<li class="breadcrumb__item"><i class="breadcrumb__arrow"></i></li>
+			<li class="breadcrumb__item"><a class="breadcrumb__link breadcrumb__link_next" href="#">CHECKOUT</a></li>
+		</ul>
+	</div>
+
+	<div class="currency right">
+		<p class="currency__text currency__text_bl"><i class="fa fa-eur"></i></p>
+
+		<p class="currency__text currency__text_border active"><i class="fa fa-usd"></i></p>
+
+		<p class="currency__text currency__text_br"><i class="fa fa-gbp"></i></p>
+	</div>
 </div>
-<div class="coupon">
-	<p class="coupon__top">Have a <a href="#" class="coupon__link">discount code</a></p>
+<div class="payment-wrap clearfix">
+	<div class="coupon left">
+		<p class="coupon__top">Have a <a href="#" class="coupon__link">discount code</a></p>
 
-	<form action="">
-		<input type="text" class="input input_w_162" />
+		<form action="">
+			<input type="text" class="input input_w_162" />
 
-		<p class="coupon__invalid">invalid coupon code</p>
-	</form>
-</div>
+			<p class="coupon__invalid">invalid coupon code</p>
+		</form>
+	</div>
 
-<div class="processing-order__wrap">
-	<div class="order-info">
-		<div class="box box_bt">
-			<div class="order-info__inner">
+	<div class="processing-order__wrap left">
+		<div class="order-info order-info_ml0">
+			<div class="box box_bt">
+				<div class="order-info__inner">
 
-				<div class="order-info__top order-info__top_mb_19">
-					<div class="order-info__head-number open">Order #973 <i class="order-info__icon fa fa-minus-square-o"></i>
-					</div>
-					<p class="order-info__status"><span>Status.</span> Selection completed</p>
-				</div>
-				<div id="closed">
 
-					<div class="order-info__your-order total__row_mt_15">
-						<p class="order-info__subsection order-info__subsection_pt">Your order</p>
+					<div id="closed">
 
-						<div class="order-info__all-item order-info__r_mr_87">
+						<div class="order-info__your-order total__row_mt_15">
+							<p class="order-info__subsection order-info__subsection_pt">Your order</p>
 
-							<div class="order-info__item">
-								<a href="#" class="order-info__img-link"><img src="img/icon/item-small.png" alt="" /></a>
+							<div class="order-info__all-item order-info__r_mr_87">
 
-								<div class="order-info__item-wrap">
-									<div class="order__number">Order #973-1 Custom fit</div>
-									<a href="#" class="order__name-link order__name-link_fs_15">Rhythmic Gymnastics Leotard № 24</a>
+								<div class="order-info__item">
+									<a href="#" class="order-info__img-link"><img src="img/icon/item-small.png" alt="" /></a>
+
+									<div class="order-info__item-wrap">
+										<div class="order__number">Order #973-1 Custom fit</div>
+										<a href="#" class="order__name-link order__name-link_fs_15">Rhythmic Gymnastics Leotard № 24</a>
+									</div>
 								</div>
-							</div>
 
-							<div class="order-info__item">
-								<a href="#" class="order-info__img-link"><img src="img/icon/item-small.png" alt="" /></a>
+								<div class="order-info__item">
+									<a href="#" class="order-info__img-link"><img src="img/icon/item-small.png" alt="" /></a>
 
-								<div class="order-info__item-wrap">
-									<div class="order__number">Order #973-1 Adult M</div>
-									<a href="#" class="order__name-link order__name-link_fs_15">Rhythmic Gymnastics Leotard № 24</a>
+									<div class="order-info__item-wrap">
+										<div class="order__number">Order #973-1 Adult M</div>
+										<a href="#" class="order__name-link order__name-link_fs_15">Rhythmic Gymnastics Leotard № 24</a>
+									</div>
 								</div>
-							</div>
 
-							<div class="order-info__item">
-								<a href="#" class="order-info__img-link"><img src="img/icon/item-small.png" alt="" /></a>
+								<div class="order-info__item">
+									<a href="#" class="order-info__img-link"><img src="img/icon/item-small.png" alt="" /></a>
 
-								<div class="order-info__item-wrap">
-									<div class="order__number">Order #973-1 Adult S</div>
-									<a href="#" class="order__name-link order__name-link_fs_15">Rhythmic Gymnastics Leotard № 24</a>
+									<div class="order-info__item-wrap">
+										<div class="order__number">Order #973-1 Adult S</div>
+										<a href="#" class="order__name-link order__name-link_fs_15">Rhythmic Gymnastics Leotard № 24</a>
+									</div>
 								</div>
-							</div>
 
+							</div>
 						</div>
-					</div>
 
-					<div class="order-info__delivery">
-						<p class="order-info__subsection">Delivery</p>
+						<div class="order-info__delivery">
+							<p class="order-info__subsection">Delivery</p>
 
-						<div class="order-info__delivery-address total__r_w_78">
-							<p class="order-info__user-name">MartinBrown <a href="mailto:" class="order-info__user-mail">martin@brown.com</a>
-							</p>
+							<div class="order-info__delivery-address total__r_w_78">
+								<p class="order-info__user-name">MartinBrown <a href="mailto:" class="order-info__user-mail">martin@brown.com</a>
+								</p>
 
-							<p class="order-info__address">
-								64 Hawthorne Crescent
-								Dodworth, Barnsley
-								South Yorkshire, S75 3JZ
-								United Kingdom
-							</p>
+								<p class="order-info__address">
+									64 Hawthorne Crescent
+									Dodworth, Barnsley
+									South Yorkshire, S75 3JZ
+									United Kingdom
+								</p>
+							</div>
 						</div>
+
+						<div class="order-info__paid">
+							<p class="order-info__subsection">To pay</p>
+
+							<div class="order-info__price"><i class="fa fa-usd"></i>357.-</div>
+						</div>
+
+						<div class="order-info__guarantee">
+							<p class="order-info__subsection">Guarantee</p>
+
+							<p class="order-info__guarantee-text">If your leotards are not perfect exchange them free of
+							                                      charge for another or get a complete refund.</p>
+						</div>
+
 					</div>
-
-					<div class="order-info__paid">
-						<p class="order-info__subsection order-info__subsection_pt_21">To pay</p>
-
-						<div class="order-info__price"><i class="fa fa-usd"></i>357.-</div>
-					</div>
-
-					<div class="order-info__guarantee">
-						<p class="order-info__subsection">Guarantee</p>
-
-						<p class="order-info__guarantee-text">If your leotards are not perfect exchange them free of
-						                                      charge for another or get a complete refund.</p>
-					</div>
-
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
 
 <div class="payment">
 	<div class="payment__left">
@@ -242,7 +254,7 @@
 				</div>
 				<div class="payment__field">
 					<div class="payment__input-wrap">
-						<input type="text" step="4" class="input payment__input-num" maxlength="4" />
+						<input type="text" step="4" class="input payment__input-num" maxlength="4" value="" />
 						<input type="text" class="input payment__input-num" maxlength="4" />
 						<input type="text" class="input payment__input-num" maxlength="4" />
 						<input type="text" class="input payment__input-num" maxlength="4" />
@@ -256,7 +268,7 @@
 						<span href="#" class="payment__year-choice">2014 <i class="fa fa-sort"></i></span>
 					</div>
 					<div class="payment__input-wrap payment__input-wrap_mb_0">
-						<input type="text" class="input payment__input-cvv" id="cvv" />
+						<input type="text" class="input payment__input-cvv" maxlength="4"  id="cvv" />
 					</div>
 				</div>
 			</div>

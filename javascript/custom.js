@@ -17,18 +17,18 @@ function checHeartNum() {
 
 var ready = function(){
     // lazy load for imgs
-    $.DrLazyload();
-    checHeartNum();
+//    $.DrLazyload();
+//    checHeartNum();
 
     //lazy load
-    $('.more-btn').click(function(e){
-        e.preventDefault();
-        var imgs = $('#putinHuilo').find('img');
-        imgs.attr('src',function() {
-            return $(this).data('src');
-        });
-        $('#putinHuilo').toggle('display', 'block')({
-        });
+//    $('.more-btn').click(function(e){
+//        e.preventDefault();
+//        var imgs = $('#putinHuilo').find('img');
+//        imgs.attr('src',function() {
+//            return $(this).data('src');
+//        });
+//        $('#putinHuilo').toggle('display', 'block')({
+//        });
         $(window).load(function(){
             $('#container').masonry({
 // указываем элемент-контейнер в котором расположены блоки для динамической верстки
@@ -48,7 +48,6 @@ var ready = function(){
                 }
 // опции анимации - очередь и продолжительность анимации
             });
-        });
 
     });
 
@@ -278,7 +277,7 @@ var ready = function(){
     items.on('focus', function(ev){
         var parent = $(this).addClass(activeInput).parent().addClass(active),
             lab = parent.find('label'),
-            src = '/assets/img/options/'+lab.attr('for')+'.jpg';
+            src = 'img/options/'+lab.attr('for')+'.jpg';
         img.attr('src', src);
         img.load(function(){
             var hFull = img.height(),
@@ -378,4 +377,54 @@ $(function() {
 			return alert('failure!');
 		}
 	});
+});
+
+
+$(function(){
+	var card = $('.payment__input-num');
+
+	card.keypress(function(e){
+
+		var value = $(this).val().length;
+		var thisVal = card.attr('maxlength');
+
+		if(value >= thisVal){
+
+			$(this).next(':input').focus()
+		}
+	});
+});
+
+
+
+$(function(){
+	$('.item').imagesLoaded()
+		.always( function( instance ) {
+			console.log('all images loaded');
+
+
+		})
+		.done( function( instance ) {
+			console.log('all images successfully loaded');
+
+			$('.more-btn').click(function(e){
+				e.preventDefault();
+				var imgs = $('#putinHuilo').find('img');
+
+				imgs.attr('src',function() {
+					return $(this).data('src');
+				});
+				$('#putinHuilo').toggle('display', 'block')({
+				});
+			});
+			$.DrLazyload();
+			checHeartNum();
+		})
+		.fail( function() {
+			console.log('all images loaded, at least one is broken');
+		})
+		.progress( function( instance, image ) {
+			var result = image.isLoaded ? 'loaded' : 'broken';
+			console.log( 'image is ' + result + ' for ' + image.img.src );
+		});
 });
