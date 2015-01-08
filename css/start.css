@@ -8083,6 +8083,9 @@ a.small_cart {
   margin-top: 5px;
   color: #5f6062;
 }
+.banner_txt .fa-eur{
+  font-size: 12px;
+}
 
 .banner__title {
   text-shadow: 0px 0px 10px rgba(255, 255, 2555, 1);
