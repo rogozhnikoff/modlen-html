@@ -1,34 +1,24 @@
 //ПРоверка на цифру в сердечке.
 
-function checHeartNum() {
-    var like = $('.like-this__heart'),
-        numb = like.text(), //забираем строку
-        numint = parseInt(numb);//приводим к числу
+$(function(){
+	function checHeartNum() {
+		var like = $('.like-this__heart'),
+			numb = like.text(), //забираем строку
+			numint = parseInt(numb);//приводим к числу
 
-    if(numint >= 1){ // Если равно или больше 1, добавляем класс todo: Не пашет сраная проверка!
-        like.addClass("active");
-    }
-    else{
-        like.removeClass("active");//В другом случае, убираем
-    }
+		if(numint >= 1){ // Если равно или больше 1, добавляем класс todo: Не пашет сраная проверка!
+			like.addClass("active");
+		}
+		else{
+			like.removeClass("active");//В другом случае, убираем
+		}
 
-}
+	}
+})
 
 
 var ready = function(){
-    // lazy load for imgs
-//    $.DrLazyload();
-//    checHeartNum();
 
-    //lazy load
-//    $('.more-btn').click(function(e){
-//        e.preventDefault();
-//        var imgs = $('#putinHuilo').find('img');
-//        imgs.attr('src',function() {
-//            return $(this).data('src');
-//        });
-//        $('#putinHuilo').toggle('display', 'block')({
-//        });
         $(window).load(function(){
             $('#container').masonry({
 // указываем элемент-контейнер в котором расположены блоки для динамической верстки
@@ -324,7 +314,7 @@ var ready = function(){
 // анимируем перестроение блоков
         animationOptions: {
             queue: false,
-            duration: 500
+            duration: 300
         }
 // опции анимации - очередь и продолжительность анимации
     });
@@ -344,7 +334,7 @@ var ready = function(){
 // анимируем перестроение блоков
             animationOptions: {
                 queue: false,
-                duration: 500
+                duration: 300
             }
 // опции анимации - очередь и продолжительность анимации
         });
@@ -428,3 +418,4 @@ $(function(){
 			console.log( 'image is ' + result + ' for ' + image.img.src );
 		});
 });
+
