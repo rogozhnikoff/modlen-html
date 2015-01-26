@@ -1,20 +1,22 @@
 //ПРоверка на цифру в сердечке.
+//
+//$(function(){
+//	function checHeartNum() {
+//		var like = $('.like-this__heart'),
+//			numb = like.text(), //забираем строку
+//			numint = parseInt(numb);//приводим к числу
+//
+//		if(numint >= 1){ // Если равно или больше 1, добавляем класс todo: Не пашет сраная проверка!
+//			like.addClass("active");
+//		}
+//		else{
+//			like.removeClass("active");//В другом случае, убираем
+//		}
+//
+//	}
+//})
 
-$(function(){
-	function checHeartNum() {
-		var like = $('.like-this__heart'),
-			numb = like.text(), //забираем строку
-			numint = parseInt(numb);//приводим к числу
 
-		if(numint >= 1){ // Если равно или больше 1, добавляем класс todo: Не пашет сраная проверка!
-			like.addClass("active");
-		}
-		else{
-			like.removeClass("active");//В другом случае, убираем
-		}
-
-	}
-})
 
 
 var ready = function(){
@@ -41,98 +43,85 @@ var ready = function(){
 
     });
 
+$(function(){
 
 
-// Схлопываем заказ
-   var closed = $('.order-info__icon');
+  // Схлопываем заказ
+  var closed = $('.order-info__icon');
 
-    closed.click(function(){
-        $('#closed').slideToggle(800);
+  closed.click(function(){
+    $('#closed').slideToggle(800);
 
-        if(closed.hasClass('fa-plus-square-o')){
-            closed.removeClass('fa-plus-square-o');
-        }
-        else{
-            closed.addClass('fa-plus-square-o');
-        }
-    });
+    if(closed.hasClass('fa-plus-square-o')){
+      closed.removeClass('fa-plus-square-o');
+    }
+    else{
+      closed.addClass('fa-plus-square-o');
+    }
+  });
 
 
 //Скриваем/показываем пароль
-   var pass = $('#pass'),
-       eye = $('.input-wrap__eye');
+  var pass = $('#pass'),
+      eye = $('.input-wrap__eye');
 
-    eye.click(function(e){
-        e.preventDefault();
-        if(pass.attr('type') === ('password')){
-            pass.attr('type','text');
-        } else{
-            pass.attr('type','password')
-        }
-    });
+  eye.click(function(e){
+    e.preventDefault();
+    if(pass.attr('type') === ('password')){
+      pass.attr('type','text');
+    } else{
+      pass.attr('type','password')
+    }
+  });
 
 //Выбираем цвет
 
-   var color = $('.color-choice__item'),
-       colorin = 'color-choice__item_active',
-       link = $('.color-choice__link');
+  var color = $('.color-choice__item'),
+      colorin = 'color-choice__item_active',
+      link = $('.color-choice__link');
 
-    color.click(function(){
-        $(this).addClass('color-choice__item_active');
-        $(this).siblings().removeClass(colorin);
-    });
-
-
+  color.click(function(){
+    $(this).addClass('color-choice__item_active');
+    $(this).siblings().removeClass(colorin);
+  });
 
 
-// payment cvv/cvc code show
-/* *
-* Фокус поля ввода цвв кода
-* block payment__arrow показываем add css display block
-* меняем картинке бекграунд position 0 -210px add class payment__bank-card_code
-* payment__card-description display block css. display block
-* при блюре, меняем все назад
-* */
+  var cvc = $('.payment__input-cvv');
+  $(cvc).focus(function(){
+    $('.payment__arrow').show();
+    $('.payment__bank-card').addClass('payment__bank-card_code');
+    $('.payment__card-description').show();
 
+  });
+  cvc.blur(function(){
+    $('.payment__bank-card').removeClass('payment__bank-card_code');
+    $('.payment__arrow').hide();
+    $('.payment__card-description').hide();
 
-    var cvc = $('.payment__input-cvv');
-    $(cvc).focus(function(){
-        $('.payment__arrow').show();
-        $('.payment__bank-card').addClass('payment__bank-card_code');
-        $('.payment__card-description').show();
-
-    });
-    cvc.blur(function(){
-        $('.payment__bank-card').removeClass('payment__bank-card_code');
-        $('.payment__arrow').hide();
-        $('.payment__card-description').hide();
-
-    })
+  });
 
 
 
-/*
- * подписваемся на клик по лейбу.
-  * добавляем класс лейбу актив
-  * у соседей, убираем класс актив
-  * связываем событие с контентом внизу.
-  * вешаем соседям hide, и вешаем нужному блоку show
-  *
-*/
-   $('.method-list__item').click(function(ev){
-       ev.preventDefault();
 
-       var item = $(this).closest('.method-list__item'),
-           tabs = $('.payment__card'),
-           itemPos = item.data('class');
-            console.log(itemPos, 1);
-            tabs.filter('.payment__card_' + itemPos)
-               .addClass('active')
-               .siblings().removeClass('active');
-            item
-               .addClass('method-list__item_active')
-               .siblings().removeClass('method-list__item_active');
-   })
+  $('.method-list__item').click(function(ev){
+    ev.preventDefault();
+
+    var item = $(this).closest('.method-list__item'),
+        tabs = $('.payment__card'),
+        itemPos = item.data('class');
+    console.log(itemPos, 1);
+    tabs.filter('.payment__card_' + itemPos)
+        .addClass('active')
+        .siblings().removeClass('active');
+    item
+        .addClass('method-list__item_active')
+        .siblings().removeClass('method-list__item_active');
+  });
+});
+
+
+
+
 
 
 //$(function(){
@@ -367,6 +356,9 @@ $(function() {
 			return alert('failure!');
 		}
 	});
+
+
+
 });
 
 
@@ -383,6 +375,7 @@ $(function(){
 			$(this).next(':input').focus()
 		}
 	});
+
 });
 
 
@@ -418,4 +411,9 @@ $(function(){
 			console.log( 'image is ' + result + ' for ' + image.img.src );
 		});
 });
+
+
+//todo: уебать половину высоту именно этому элементу)
+
+
 
