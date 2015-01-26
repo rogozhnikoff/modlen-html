@@ -3031,7 +3031,7 @@ body * img::-webkit-selection {
   -webkit-background-size: 200% auto;
   background-size: 200% auto;
   width: 27px;
-  height: 23px;
+  height: 24px;
   display: block;
   text-align: center;
   font-size: 11px
@@ -3208,7 +3208,7 @@ body * img::-webkit-selection {
 }
 
 .summary__btn-wrap {
-  padding: 8px 0 10px 3px
+  padding: 10px 0 10px 3px
 }
 
 .summary__left {
@@ -3352,7 +3352,7 @@ body * img::-webkit-selection {
 
 .price__right {
   float: right;
-  margin: 9px 57px 0 0
+  margin: 11px 57px 0 0
 }
 
 .option-list__item {
@@ -3440,9 +3440,9 @@ body * img::-webkit-selection {
 }
 
 .option-list__choose:hover, .option-list__choose:active {
-  background: #ece8df;
-  box-shadow: inset 0 1px 7px -3px #000;
-  -webkit-box-shadow: inset 0 1px 7px -3px #000
+  /*background: #ece8df;*/
+  /*box-shadow: inset 0 1px 7px -3px #000;*/
+  /*-webkit-box-shadow: inset 0 1px 7px -3px #000*/
 }
 
 .option-list__choose:hover u, .option-list__choose:active u {
@@ -4407,7 +4407,7 @@ border: 1px solid #f3f3f3;
 }
 
 .btn_in-shadow {
-  padding: 3px 18px
+  padding: 3px 13px
 }
 
 .input-wrap_mb {
@@ -7414,7 +7414,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .share {
-  margin: 28px 0 0 30px;
+  margin: 23px 0 0 30px;
   font-family: 'trebuchet_msregular'
 }
 
