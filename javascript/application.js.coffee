@@ -15,3 +15,4 @@ $ ->
       $('.option-sign-in').remove()
     else
       alert('failure!')
+      alert('failure!')
