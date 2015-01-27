@@ -3177,8 +3177,20 @@ body * img::-webkit-selection {
 }
 
 .summary_bs {
-  -webkit-box-shadow: 0 30px 102px -53px #000;
-  box-shadow: 0 30px 102px -53px #000
+  /*-webkit-box-shadow: 0 30px 102px -53px #000;*/
+  /*box-shadow: 0 30px 102px -53px #000*/
+  position: relative;
+
+}
+.summary_bs:after{
+  content: '';
+  position: absolute;
+  bottom: -45px;
+  left: -20px;
+  background: url("../img/texture/bottom-middle-total.png");
+  display: block;
+  width: 299px;
+  height: 45px;
 }
 
 .summary__save-shopping {
@@ -7489,6 +7501,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 
 .property__wrap {
   max-width: 1000px;
+  min-width: 1000px;
   margin: auto;
 }
 
