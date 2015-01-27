@@ -2642,6 +2642,7 @@ body * img::-webkit-selection {
   font-size: 11px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   position: relative;
+  line-height: 1.9;
 }
 .head__cart-circle:after{
   display: inline-block;
