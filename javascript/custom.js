@@ -26,7 +26,7 @@ var ready = function(){
 // указываем элемент-контейнер в котором расположены блоки для динамической верстки
                 itemSelector: '.item',
                 isFitWidth: true,
-                columnWidth: 320,
+                columnWidth: 315,
 // указываем класс элемента являющегося блоком в нашей сетке
                 singleMode: false,
 // true - если у вас все блоки одинаковой ширины
@@ -289,45 +289,7 @@ $(function(){
             parent.find('label').removeClass(wrongLabel);
         }
     });
-    $('#container').masonry({
-// указываем элемент-контейнер в котором расположены блоки для динамической верстки
-        itemSelector: '.item',
-        isFitWidth: true,
-        columnWidth: 320,
-// указываем класс элемента являющегося блоком в нашей сетке
-        singleMode: false,
-// true - если у вас все блоки одинаковой ширины
-        isResizable: true,
-// перестраивает блоки при изменении размеров окна
-        isAnimated: true,
-// анимируем перестроение блоков
-        animationOptions: {
-            queue: false,
-            duration: 300
-        }
-// опции анимации - очередь и продолжительность анимации
-    });
 //masonry
-    $(window).load(function(){
-        $('#container').masonry({
-// указываем элемент-контейнер в котором расположены блоки для динамической верстки
-            itemSelector: '.item',
-            isFitWidth: true,
-            columnWidth: 320,
-// указываем класс элемента являющегося блоком в нашей сетке
-            singleMode: false,
-// true - если у вас все блоки одинаковой ширины
-            isResizable: true,
-// перестраивает блоки при изменении размеров окна
-            isAnimated: true,
-// анимируем перестроение блоков
-            animationOptions: {
-                queue: false,
-                duration: 300
-            }
-// опции анимации - очередь и продолжительность анимации
-        });
-    });
 };
 
 function validateOption($el) {
