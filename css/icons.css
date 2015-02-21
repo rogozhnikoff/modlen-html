@@ -1,0 +1,89 @@
+.icon-fb {
+    background: url("../img/icon/facebook.svg") no-repeat top center
+}
+
+.icon-fb, .icon-instagram {
+    vertical-align: top;
+    height: 20px;
+    width: 9px;
+    padding-right: 11px;
+}
+
+.icon-instagram {
+    padding-right: 11px;
+    background: url("../img/icon/instagram.svg") no-repeat top center
+}
+
+.icon-pinterest {
+    padding-left: 1px;
+    background: url("../img/icon/pinterest.svg") no-repeat top center
+}
+
+.icon-pinterest, .icon-etsy {
+    vertical-align: top;
+    height: 20px;
+    width: 16px
+}
+
+.icon-etsy {
+    background: url("../img/icon/etsy-16x16.svg") no-repeat top center
+}
+
+
+.instagram-icon {
+    vertical-align: middle;
+    background: url("../img/icon/instagram.svg") no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 19px;
+    width: 19px
+}
+
+.instagram-icon:hover {
+    opacity: .8
+}
+
+.icon-pink {
+    position: relative
+}
+
+.icon-pink:before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #d04298;
+    border-radius: 50%;
+    top: 2px;
+    left: -17px
+}
+
+.icon-green {
+    position: relative
+}
+
+.icon-green:before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #61a93b;
+    border-radius: 50%;
+    top: 2px;
+    left: -17px
+}
+
+.icon-white {
+    position: relative
+}
+
+.icon-white:before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 2px;
+    left: -17px
+}

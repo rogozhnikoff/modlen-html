@@ -1,0 +1,63 @@
+.price__amount {
+    font-size: 45px;
+    line-height: 40px
+}
+
+.price__amount .fa-usd {
+    font-size: 24px;
+    position: relative;
+    top: -11px
+}
+
+.price__around {
+    color: #676566;
+    font-size: 11px;
+    padding-left: 18px;
+    /*white-space: pre*/
+}
+.price__cur{
+    font-size: 28px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.price__like-off {
+    text-decoration: none;
+    background: url("../img/icon/like.svg") 100% 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 30px;
+    height: 25px
+}
+
+.price__like-off:hover {
+    background-position: 0 0;
+    opacity: .5
+}
+
+.price__like-on {
+    text-decoration: none;
+    background: url("../img/icon/like.svg") 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 31px;
+    height: 25px
+}
+
+.price__like-on:hover {
+    width: 33px;
+    height: 27px;
+    background-position: 1% 0
+}
+
+.price__left {
+    float: left;
+    width: 50%
+}
+
+.price__right {
+    float: right;
+    margin: 11px 57px 0 0
+}

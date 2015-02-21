@@ -1,0 +1,135 @@
+.option-list__item {
+    float: left
+}
+
+.option-list__item_position {
+    margin: 2px 0 0 14px
+}
+
+.option-list__link {
+    font-size: 15px;
+    padding: 3px 6px 5px;
+    border-radius: 5px 5px;
+    transition: background .3s ease-out;
+    -webkit-transition: background .3s ease-out;
+    -o-transition: background .3s ease-out;
+    -moz-transition: background .3s ease-out;
+    cursor: pointer;
+}
+
+.option-list__link u:after {
+    border-top-color: #bbd1a3;
+    bottom: 1px
+}
+
+.option-list__link:link, .option-list__link:visited {
+    color: #000
+}
+
+.option-list__link:hover, .option-list__link_active {
+    background: #ece8df;
+    box-shadow: inset 0 1px 7px -3px #000;
+    -webkit-box-shadow: inset 0 1px 7px -3px #000
+}
+
+.option-list__link:hover u, .option-list__link:active u {
+    display: inline
+}
+
+.option-list__link:hover u:after, .option-list__link:active u:after {
+    border-top: none
+}
+
+.option-list__link.active {
+    background: #ece8df;
+    box-shadow: inset 0 1px 7px -3px #000;
+    -webkit-box-shadow: inset 0 1px 7px -3px #000
+}
+
+.option-list__link.active u {
+    color: #000;
+    display: inline
+}
+
+.option-list__link.active u:after {
+    border-top: none
+}
+
+.option-list__link_c_green {
+    margin-right: 10px
+}
+
+.option-list__link_c_green:link, .option-list__link_c_green:visited {
+    color: #006902
+}
+
+.option-list__choose {
+    font-size: 13px;
+    padding: 6px 6px 5px;
+    border-radius: 5px 5px;
+    transition: background .3s ease-out;
+    -webkit-transition: background .3s ease-out;
+    -o-transition: background .3s ease-out;
+    -moz-transition: background .3s ease-out
+}
+
+.option-list__choose u:after {
+    border-top: 1px solid #bbd1a3;
+    bottom: -1px
+}
+
+.option-list__choose:link, .option-list__choose:visited {
+    color: #006902
+}
+
+.option-list__choose:hover, .option-list__choose:active {
+    /*background: #ece8df;*/
+    /*box-shadow: inset 0 1px 7px -3px #000;*/
+    /*-webkit-box-shadow: inset 0 1px 7px -3px #000*/
+}
+
+.option-list__choose:hover u, .option-list__choose:active u {
+    display: inline
+}
+
+.option-list__choose:hover u:after, .option-list__choose:active u:after {
+    border-top: none
+}
+
+.option-list__count {
+    margin-left: 5px;
+}
+
+.option-list__arrow, .option-list__info {
+    vertical-align: middle
+}
+
+.option-list__info {
+    font-size: 15px;
+    font-family: 'trebuchet_msbold'
+}
+
+.option-list__arrow-up {
+    display: block;
+    background: url("../img/icon/arrow-up-crystal.png");
+    width: 12px;
+    height: 10px;
+    cursor: pointer;
+
+}
+
+.option-list__arrow-up:hover {
+    opacity: .6
+}
+
+.option-list__arrow-down {
+    cursor: pointer;
+    display: block;
+    background: url("../img/icon/arrow-down-crystal.png");
+    width: 12px;
+    height: 10px
+}
+
+.option-list__arrow-down:hover {
+    opacity: .6
+}

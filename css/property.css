@@ -1,0 +1,329 @@
+.property__large-img {
+    width: 400px;
+    background: #fff;
+    border: 3px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    display: none;
+    z-index: 1099
+}
+
+.property__large-img.active {
+    display: block
+}
+
+.property__color {
+    float: left;
+    width: 200px;
+}
+
+.property__item-view {
+    float: left;
+}
+
+.property__img-wrap {
+    width: 450px;
+    position: relative;
+    text-align: center;
+}
+
+.property__pailletes {
+    position: absolute;
+    text-decoration: none;
+    border-bottom: 1px solid #cde5cd;
+    font-size: 15px;
+    line-height: 1.2;
+    top: 52px;
+    left: 37px
+}
+
+.property__pailletes:link, .property__pailletes:visited {
+    color: #000
+}
+
+.property__pailletes:hover, .property__pailletes:active {
+    opacity: .8
+}
+
+.property__pailletes .pointer {
+    display: block;
+    border-bottom: 1px solid #555;
+    border-bottom-left-radius: 100%;
+    transform: rotate(26deg) scale(2);
+    width: 86px;
+    height: 47px;
+    position: absolute;
+    top: 62px;
+    left: -12px;
+}
+
+.property__mesh {
+    position: absolute;
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    font-size: 15px;
+    top: 249px;
+    right: -46px;
+    text-align: left;
+    line-height: 1.2
+}
+
+
+.property__mesh span {
+    position: relative;
+    border-bottom: 1px solid #cde5cd;
+    line-height: 1
+}
+
+.property__mesh:link, .property__mesh:visited {
+    color: #000
+}
+
+.property__mesh:hover, .property__mesh:active {
+    opacity: .8
+}
+
+.property__mesh .pointer {
+    display: block;
+    border-bottom: 1px solid #555;
+    border-bottom-right-radius: 100%;
+    transform: rotate(63deg) scale(2);
+    width: 53px;
+    height: 40px;
+    position: absolute;
+    top: -64px;
+    left: -105px;
+}
+
+.property__fabric {
+    position: absolute;
+    text-decoration: none;
+    border-bottom: 1px solid #cde5cd;
+    font-size: 15px;
+    line-height: 1.2;
+    bottom: 189px;
+    right: -29px
+}
+
+.property__fabric:link, .property__fabric:visited {
+    color: #000
+}
+
+.property__fabric:hover, .property__fabric:active {
+    opacity: .8
+}
+
+.property__fabric .pointer {
+    display: block;
+    border-bottom: 1px solid #555;
+    border-bottom-left-radius: 120%;
+    transform: rotate(-222deg) scale(2);
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    top: -33px;
+    left: -125px;
+}
+
+.property__crystal-wrap {
+    position: absolute;
+    top: 48px;
+    right: 1px
+}
+
+.property__crystal-wrap .pointer {
+    display: block;
+    border-bottom: 1px solid #555;
+    border-bottom-left-radius: 94%;
+    transform: rotate(146deg) scale(2);
+    width: 47px;
+    height: 27px;
+    position: absolute;
+    top: 10px;
+    left: -76px;
+}
+
+.property__crystal {
+    font-size: 15px
+}
+
+.property__crystal u:after {
+    bottom: 0
+}
+
+.property__crystal:link, .property__crystal:visited {
+    color: #006902
+}
+
+.property__crystal:hover, .property__crystal:active {
+    color: #e12519
+}
+
+.property__crystal:hover u:after, .property__crystal:active u:after {
+    bottom: 0;
+    border-top-color: #e12519
+}
+
+.property__application-wrap {
+    position: absolute;
+    left: -24px;
+    bottom: 197px
+}
+
+.property__application-wrap .pointer {
+    display: block;
+    border-bottom: 1px solid #555;
+    border-bottom-left-radius: 140%;
+    transform: rotate(-7deg) scale(2);
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: -3px;
+    left: 41px;
+}
+
+.property__application {
+    font-size: 15px;
+    position: absolute;
+    left: -95px;
+    top: -40px;
+}
+
+.property__application u:after {
+    bottom: 0
+}
+
+.property__application:link, .property__application:visited {
+    color: #006902
+}
+
+.property__application:hover, .property__application:active {
+    color: #e12519
+}
+
+.property__application:hover u:after, .property__application:active u:after {
+    bottom: 0;
+    border-top-color: #e12519
+}
+
+.property__top {
+    margin: 0 auto 24px;
+    text-align: left;
+    width: 753px;
+
+
+}
+
+.property__stock-link {
+    font-size: 15px;
+    padding-top: 0;
+    margin-right: 32px;
+}
+
+.property__stock-link u:after {
+    bottom: 0;
+    border-top-color: #006902
+}
+
+.property__stock-link:link, .property__stock-link:visited {
+    color: #006902
+}
+
+.property__stock-link:hover, .property__stock-link:active {
+    color: #e12519
+}
+
+.property__stock-link:hover u:after, .property__stock-link:active u:after {
+    bottom: 0;
+    border-top-color: #e12519
+}
+
+.property__item-title {
+    vertical-align: middle;
+    margin-top: 0;
+}
+.property__item_num{
+    /*font-size: 45px;	*/
+}
+
+.property__next-arrow {
+    width: auto;
+    height: 24px;
+    background: url("../img/icon/arrow-long-02.png") center repeat;
+    vertical-align: middle;
+    margin: 0 30px 3px;
+    padding: 0 ;
+    position: relative;
+}
+.property__next-arrow:before{
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background: transparent url('../img/icon/arrow-long-01.png') center no-repeat;
+    width: 18px;
+    height: 24px;
+}
+.property__next-arrow:after{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: transparent url('../img/icon/arrow-long-03.png') center no-repeat;
+    width: 22px;
+    height: 24px;
+}
+.property__item-desc {
+    font-size: 18px;
+    max-width: 720px;
+    font-weight: 700;
+    margin: 26px auto 0;
+    line-height: 1.4;
+}
+
+.property__example {
+    margin: 45px auto 0;
+    font-size: 0;
+    position: relative;
+    max-width: 720px;
+
+}
+
+.property__example-wrap {
+    width: 112px
+}
+
+.property__include {
+    margin: 18px auto 0;
+    font-family: 'trebuchet_msitalic';
+    font-size: 13px;
+    max-width: 720px;
+}
+
+.property__include-link {
+    font-family: 'trebuchet_msbold';
+    border-bottom: 1px solid #deead2;
+    text-decoration: none
+}
+
+.property__include-link:link, .property__include-link:visited {
+    color: #006902
+}
+
+.property__include-link:hover, .property__include-link:active {
+    opacity: .8
+}
+
+.property__summary {
+    float: right;
+}
+
+.property__wrap {
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: auto;
+}

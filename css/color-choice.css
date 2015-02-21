@@ -1,0 +1,56 @@
+.color-choice {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: block;
+    z-index: 0;
+    margin-top: -45px;
+
+}
+
+.color-choice, .color-choice__item {
+    transition: .1s ease .1s;
+    -webkit-transition: .1s ease .1s;
+    -o-transition: .1s ease .1s;
+    -moz-transition: .1s ease .1s
+}
+
+.color-choice__item {
+    width: 30px;
+    padding-right: 4px;
+    border-radius: 50% 0 0 50%
+}
+
+.color-choice__item:hover, .color-choice__item:active, .color-choice__item:focus {
+    background-color: #dcdde2
+}
+
+.color-choice__item_active {
+    background-color: #dcdde2
+}
+
+.color-choice__link {
+    font-size: 23px;
+    line-height: 30px;
+    display: block
+}
+
+.color-choice__link_color-1, .color-choice__link_color-1:visited, .color-choice__link_color-1:focus {
+    color: #fca61b;
+    outline: none
+}
+
+.color-choice__link_color-2, .color-choice__link_color-2:visited, .color-choice__link_color-2:focus {
+    color: #d04298;
+    outline: none
+}
+
+.color-choice__link_color-3, .color-choice__link_color-3:visited, .color-choice__link_color-3:focus {
+    color: #2fa0cc;
+    outline: none
+}
+
+.color-choice__link_color-4, .color-choice__link_color-4:visited, .color-choice__link_color-4:focus {
+    color: #5eb15f;
+    outline: none
+}

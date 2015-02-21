@@ -1,0 +1,241 @@
+.payment {
+    /*margin: 0 0 43px -11px*/
+    margin: 43px auto 30px auto;
+    max-width: 890px;
+}
+
+.payment__left {
+    vertical-align: top;
+    width: 294px
+}
+
+.payment__bank-card {
+    height: 220px;
+    margin: 37px 0 0 -14px;
+    background: url("../img/content/bank-card@2x.jpg") -16px 0 no-repeat;
+    -webkit-background-size: 310px auto;
+    background-size: 310px auto
+}
+
+.payment__bank-card_code {
+    background-position: -16px -220px
+}
+
+.payment__card-description {
+    display: none;
+    font-size: 14px;
+    padding: 0 30px 0 46px;
+    margin: -73px 0 0;
+    line-height: 1.4;
+}
+
+.payment__desc-inner {
+    border: 2px solid #e9e9e9;
+    padding: 6px 60px 5px 36px
+}
+
+.payment__desc-head {
+    margin: 19px 0 0;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.payment__desc-link {
+    margin: 8px 0 0 38px;
+    border-bottom: 1px solid #deead2;
+    text-decoration: none;
+    line-height: 1.4
+}
+
+.payment__desc-link:link, .payment__desc-link:visited {
+    color: #006902
+}
+
+.payment__desc-link:hover, .payment__desc-link:active {
+    opacity: .8
+}
+
+.payment__right, .payment__data-card, .payment__field {
+    vertical-align: top;
+    padding-top: 1px;
+}
+
+.payment__field {
+    width: 380px;
+    margin-left: 22px
+}
+
+.payment__input-num {
+    width: 32px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #fffae7
+}
+
+.payment__input-name {
+    background-color: #fffae7;
+    width: 145px
+}
+
+.payment__card {
+    margin: 46px 0 0;
+    display: none
+}
+
+.payment__card.active {
+    display: block
+}
+
+.payment__card-info {
+    font-size: 15px;
+    margin-bottom: 17px;
+    display: block;
+    position: relative
+}
+
+.payment__card-info_mb_19 {
+    margin-bottom: 19px
+}
+
+.payment__arrow {
+    position: absolute;
+    display: none;
+    top: 17px;
+    left: -12px;
+    height: 1px;
+    background-color: #c81616;
+    width: 108px;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: rotate(-124deg);
+    -ms-transform: rotate(-124deg);
+    transform: rotate(-124deg)
+}
+
+.payment__arrow:before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #c81616;
+    border-radius: 50%;
+    background: 0 0;
+    right: -27px;
+    top: -13px
+}
+
+.payment__input-wrap {
+    margin: 0 0 18px
+}
+
+.payment__input-wrap_mb_0 {
+    margin: 0
+}
+
+.payment__input-wrap_mb {
+    margin-bottom: 14px;
+    margin-left: 0
+}
+
+.payment__input-desc {
+    font-size: 16px;
+    font-family: 'trebuchet_msitalic';
+    margin-left: 21px
+}
+
+.payment__input-cvv {
+    width: 32px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #fffae7
+}
+
+.payment__billing {
+    margin: 22px 0 0;
+    font-size: 16px
+}
+
+.payment__billing-same {
+    font-family: 'trebuchet_msitalic'
+}
+
+.payment__change {
+    margin-left: 5px
+}
+
+.payment__change u:after {
+    bottom: 0
+}
+
+.payment__change:link, .payment__change:visited {
+    color: #006902
+}
+
+.payment__change:hover, .payment__change:active {
+    color: #e12519
+}
+
+.payment__month-choice {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 0 0 0 8px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f0f0f0));
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f0f0f0));
+    background: -webkit-linear-gradient(top, #fff 0%, #f0f0f0 100%);
+    background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%)
+}
+
+.payment__month-choice .fa-sort {
+    font-size: 12px;
+    padding: 0 5px 0 18px;
+    line-height: 1
+}
+
+.payment__year-choice {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 0 0 0 5px;
+    cursor: pointer;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f0f0f0));
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f0f0f0));
+    background: -webkit-linear-gradient(top, #fff 0%, #f0f0f0 100%);
+    background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%)
+}
+
+.payment__year-choice .fa-sort {
+    font-size: 12px;
+    padding: 0 5px 0 11px;
+    line-height: 1
+}
+
+.payment__desc {
+    margin: 0 0 34px
+}
+
+
+.payment-top {
+    margin: 0 0 33px
+}
+
+.payment-order {
+    margin: 0 0 53px
+}
+
+.payment-bottom {
+    width: 554px;
+    float: right;
+    margin-right: 125px;
+    margin-top: 14px;
+}
+
+.payment-wrap {
+    margin: auto;
+    font-family: 'trebuchet_msregular';
+    max-width: 960px;
+    padding: 0 20px;
+}

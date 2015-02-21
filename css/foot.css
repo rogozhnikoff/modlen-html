@@ -1,0 +1,111 @@
+.foot {
+    background: #fff url("../img/texture/footer-back-test.jpg") 0 30px no-repeat
+}
+
+.foot__wrap {
+    margin-top: 60px;
+    margin-left: 265px
+}
+
+.foot__inner {
+    margin-top: 60px
+}
+
+.foot__img-wrap {
+    float: left;
+    width: 235px
+}
+
+.foot__right {
+    float: left;
+    text-align: left
+}
+
+.foot__sewing {
+    vertical-align: top;
+    margin-right: 70px
+}
+
+.foot__sewing-top {
+    margin-bottom: 6px
+}
+
+.foot__sewing-img-wrap {
+    font-size: 0
+}
+
+.foot__sewing-img {
+    margin-right: 7px;
+    width: 60px;
+    height: 61px;
+    background-color: #d2d3d5
+}
+
+.foot__sewing-link {
+    border-bottom: 1px solid #deead2;
+    text-decoration: none;
+    font-family: 'trebuchet_msregular'
+}
+
+.foot__sewing-link:link, .foot__sewing-link:visited {
+    color: #000
+}
+
+.foot__sewing-link:hover, .foot__sewing-link:active {
+    opacity: .8
+}
+
+.foot__copyright {
+    vertical-align: top
+}
+
+.foot__copyright-top {
+    font-size: 16px;
+    font-family: 'trebuchet_msregular'
+}
+
+.foot__store {
+    border-bottom: 1px solid #deead2;
+    text-decoration: none;
+    font-family: 'trebuchet_msbold'
+}
+
+.foot__store:link, .foot__store:visited {
+    color: #000
+}
+
+.foot__store:hover, .foot__store:active {
+    opacity: .7
+}
+
+.foot__copyright-bottom {
+    margin: 2px 0 0
+}
+
+.foot__copy-left {
+    vertical-align: top;
+    width: 27%
+}
+
+.foot__copy-right {
+    vertical-align: top;
+    width: 40%
+}
+
+.foot__copyright-link {
+    border-bottom: 1px solid #deead2;
+    text-decoration: none;
+    font-family: 'trebuchet_msregular'
+}
+
+.foot__copyright-link:link, .foot__copyright-link:visited {
+    color: #000
+}
+
+.foot__copyright-link:hover, .foot__copyright-link:active {
+    opacity: .7
+}
+
+.foot__copyright-link_fw {
+    font-family: 'trebuchet_msbold'
+}

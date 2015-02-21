@@ -1,0 +1,493 @@
+.option {
+    font-family: 'trebuchet_msregular';
+    min-width: 980px;
+}
+
+.option__left {
+    vertical-align: top;
+    width: 254px
+}
+
+.option__control-bar {
+    float: left;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.option__control-bar-inner {
+    width: 17px
+}
+
+.option__color-text {
+    margin: 69px 0 0 47px;
+    padding: 0 0 0 12px;
+    line-height: 1.3;
+}
+
+.option__sewing {
+    font-family: 'trebuchet_msitalic';
+    font-size: 15px;
+    margin: 33px 0 0;
+    text-align: right;
+    position: relative;
+    right: -21px;
+    top: 2px;
+}
+
+.option__sewing_link {
+    font-family: 'trebuchet_msitalic';
+    font-size: 15px;
+    margin: 33px 0 0;
+    text-align: right;
+    display: block;
+    color: #006902;
+    position: relative;
+    right: -25px;
+    top: 6px;
+}
+
+.option__clear {
+    margin: 26px 0 0;
+    text-align: center;
+}
+
+.option__clear .fa-times {
+    color: #e22418;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out
+}
+
+.option__clear .fa-times:hover {
+    opacity: .7
+}
+
+.option__clear-all {
+    font-size: 14px;
+    font-family: 'trebuchet_msitalic'
+}
+
+.option__clear-all u:after {
+    bottom: 0
+}
+
+.option__clear-all:link, .option__clear-all:visited {
+    color: #006902
+}
+
+.option__clear-all:hover, .option__clear-all:active {
+    color: #e12519
+}
+
+.option__mirror {
+    margin: 103px 0 0 41px;
+
+}
+
+.option__mirror-info {
+    margin: 12px 0 0 0;
+    padding: 0 12px 0 18px;
+    line-height: 1.5;
+    font-family: 'trebuchet_msbold'
+}
+
+.option__mirror-img {
+    width: 240px;
+    height: 360px;
+}
+
+.option__videoguide {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0;
+    display: block;
+    margin: 6px 0 0 60px
+}
+
+.option__videoguide u:after {
+    bottom: 0
+}
+
+.option__videoguide:link, .option__videoguide:visited {
+    color: #006902
+}
+
+.option__videoguide:hover, .option__videoguide:active {
+    color: #e12519
+}
+
+.option__right {
+    vertical-align: top
+}
+
+.option__price {
+    font-size: 31px;
+    margin: 36px 0 0 26px
+}
+
+.option__price .fa-usd {
+    font-size: 14px;
+    position: relative;
+    top: -10px
+}
+
+.option__free-cryst {
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #73a951;
+    padding: 2px 7px 0;
+    border-radius: 4px;
+    position: absolute;
+    right: -101px;
+    top: 1px
+}
+
+.option__free-cryst:link, .option__free-cryst:visited {
+    color: #fff
+}
+
+.option__free-cryst:hover, .option__free-cryst:active {
+    opacity: .8;
+    border-bottom: none
+}
+
+.option__free-adjust {
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #73a951;
+    padding: 2px 7px 0;
+    border-radius: 4px;
+    position: absolute;
+    right: -101px;
+    top: 5px
+}
+
+.option__free-adjust:link, .option__free-adjust:visited {
+    color: #fff
+}
+
+.option__free-adjust:hover, .option__free-adjust:active {
+    opacity: .8;
+    border-bottom: none
+}
+
+.option__unit-wrap {
+    position: absolute;
+    right: -130px;
+    top: 0
+}
+
+.option__unit {
+    font-size: 15px;
+    padding: 6px 6px 5px;
+    border-radius: 5px 5px;
+    transition: background .3s ease-out;
+    -webkit-transition: background .3s ease-out;
+    -o-transition: background .3s ease-out;
+    -moz-transition: background .3s ease-out;
+    color: #006902
+}
+
+.option__unit u:after {
+    border-top-color: #bbd1a3;
+    bottom: 1px
+}
+
+.option__unit:link, .option__unit:visited {
+    color: #006902
+}
+
+.option__unit:hover, .option__unit:active, .option__unit:focus {
+    outline: none;
+    background: #ece8df;
+    box-shadow: inset 0 1px 7px -3px #000;
+    -webkit-box-shadow: inset 0 1px 7px -3px #000
+}
+
+.option__unit:hover u, .option__unit:active u, .option__unit:focus u {
+    display: inline
+}
+
+.option__unit:hover u:after, .option__unit:active u:after, .option__unit:focus u:after {
+    border-top: none
+}
+
+.option__unit_active {
+    background: #ece8df;
+    box-shadow: inset 0 1px 7px -3px #000;
+    -webkit-box-shadow: inset 0 1px 7px -3px #000
+}
+
+.option__unit_active u {
+    color: #000;
+    display: inline
+}
+
+.option__unit_active u:after {
+    border-top: none
+}
+
+.option__right-text {
+    font-family: 'trebuchet_msitalic';
+    position: absolute;
+    width: 90px;
+    line-height: 1.3;
+    right: -342px;
+    top: -2px
+}
+
+.option__center {
+    vertical-align: top;
+    margin: 1px 0 0 47px;
+}
+
+.option__color-switch {
+    text-decoration: none;
+    font-family: 'trebuchet_msitalic';
+    position: relative;
+    cursor: pointer;
+    background: #cac7c0;
+    font-size: 12px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cac7c0), color-stop(100%, #bab9b7));
+    background: -webkit-gradient(linear, left top, left bottom, from(#cac7c0), to(#bab9b7));
+    background: -webkit-linear-gradient(top, #cac7c0 0%, #bab9b7 100%);
+    background: linear-gradient(to bottom, #cac7c0 0%, #bab9b7 100%);
+    padding: 2px 0;
+    width: 170px;
+    border-radius: 10px
+}
+
+.option__color-switch .fa-sort {
+    font-size: 10px;
+    color: #616161;
+    padding: 0 5px 0 9px
+}
+
+.option__color-switch .fa-circle {
+    font-size: 13px;
+    color: #cd4295;
+    padding: 0 3px 0 0
+}
+
+.option__color-switch_yellow {
+}
+
+.option__color-switch_yellow .fa-circle {
+    color: #fffe00
+}
+
+.option__color-switch_orange {
+}
+
+.option__color-switch_orange .fa-circle {
+    color: #f9a61a
+}
+
+.option__color-switch_silver {
+}
+
+.option__color-switch_silver .fa-circle {
+    color: #cdcdcd
+}
+
+.option__color-switch_ml_10 {
+    margin-left: 10px
+}
+
+.option__order-num-head {
+    display: inline-block;
+}
+
+.option__control-wrap {
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.option__text {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 4px 0 13px
+}
+
+.option__drop-list {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.option__text-mesh {
+    background: #f1ece6;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1ece6), color-stop(100%, #e0dbd7));
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1ece6), to(#e0dbd7));
+    background: -webkit-linear-gradient(top, #f1ece6 0%, #e0dbd7 100%);
+    background: linear-gradient(to bottom, #f1ece6 0%, #e0dbd7 100%);
+    white-space: nowrap;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.option__text-mesh .fa-sort {
+    font-size: 11px;
+    color: #616161
+}
+
+.option__option-list {
+    margin-left: -5px;
+    position: relative
+}
+
+.option__adjust {
+    margin: 24px 0 0;
+    position: relative
+}
+
+.option__adjust-top {
+    margin: 0
+}
+
+.option__adjust-top h4 {
+    margin: 0 0 5px
+}
+
+.option__replace-list-wrap {
+    vertical-align: top
+}
+
+.option__color-list {
+    vertical-align: top;
+    margin-left: 28px
+}
+
+.color-list__name {
+    font-size: 17px;
+    font-family: "trebuchet_msregular";
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.option__textarea-top {
+    vertical-align: top;
+    padding: 27px 0 0 11px
+}
+
+.option__textarea {
+    width: 185px;
+    max-height: 80px;
+    color: #7f8180;
+    white-space: pre-line;
+    outline: none;
+    line-height: 1.3;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+    -webkit-box-shadow: inset 0 2px 8px -3px #000;
+    box-shadow: inset 0 2px 8px -3px #000;
+    filter: progid:DXImageTransform.Microsoft.dropshadow(offX=2, offY=2, color=#000)
+}
+
+.option__textarea:focus {
+    -webkit-box-shadow: 0 0 4px 1px #006902, inset 0 2px 8px -3px #000;
+    box-shadow: 0 0 4px 1px #006902, inset 0 2px 8px -3px #000;
+    outline: none
+}
+
+.option__user-measure {
+    margin: 22px 0 0
+}
+
+.option__order-num {
+    font-size: 16px;
+    margin: 0 0 25px
+}
+
+.option__order-num_control {
+    font-size: 13px;
+    font-family: 'trebuchet_msitalic';
+    background: #cac7c0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cac7c0), color-stop(100%, #bab9b7));
+    background: -webkit-gradient(linear, left top, left bottom, from(#cac7c0), to(#bab9b7));
+    background: -webkit-linear-gradient(top, #cac7c0 0%, #bab9b7 100%);
+    background: linear-gradient(to bottom, #cac7c0 0%, #bab9b7 100%);
+    padding: 2px 20px 3px 9px;
+    width: 220px;
+    border-radius: 10px;
+    vertical-align: bottom;
+    cursor: pointer
+}
+
+.option__order-num_control .fa-sort {
+    color: #616161;
+    font-size: 12px;
+    padding: 0 3px 0 0
+}
+
+.option__size-list {
+    margin: 16px 0 0 -26px;
+    position: relative
+}
+
+.option__measure-list {
+    vertical-align: top;
+    width: 292px
+}
+
+.option__measure-comment-field {
+    position: absolute;
+    right: -133px;
+    top: 7px;
+    font-family: 'trebuchet_msitalic'
+}
+
+.option__measure-depicted {
+    position: absolute;
+    right: -116px;
+    font-size: 13px;
+    font-family: 'trebuchet_msitalic';
+    background: #cac7c0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cac7c0), color-stop(100%, #bab9b7));
+    background: -webkit-gradient(linear, left top, left bottom, from(#cac7c0), to(#bab9b7));
+    background: -webkit-linear-gradient(top, #cac7c0 0%, #bab9b7 100%);
+    background: linear-gradient(to bottom, #cac7c0 0%, #bab9b7 100%);
+    padding: 4px 0 2px 9px;
+    width: 110px;
+    border-radius: 10px
+}
+
+.option__request {
+    margin: 7px 0 7px 37px;
+}
+
+.option__special-request {
+    vertical-align: top;
+    font-size: 14px
+}
+
+.option__textarea-wrap {
+    vertical-align: top;
+    margin-left: 79px
+}
+
+.option__textarea-special {
+    width: 257px;
+    max-height: 67px;
+    white-space: pre-line;
+    color: #7f8180;
+    line-height: 1.3;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+    -webkit-box-shadow: inset 0 2px 8px -3px #000;
+    box-shadow: inset 0 2px 8px -3px #000;
+    filter: progid:DXImageTransform.Microsoft.dropshadow(offX=2, offY=2, color=#000)
+}
+
+.option__textarea-special:focus {
+    -webkit-box-shadow: 0 0 4px 1px #006902, inset 0 2px 8px -3px #000;
+    box-shadow: 0 0 4px 1px #006902, inset 0 2px 8px -3px #000;
+    outline: none
+}

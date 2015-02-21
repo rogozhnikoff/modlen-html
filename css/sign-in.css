@@ -1,0 +1,97 @@
+.sign-in__head {
+    font-weight: 700;
+    font-size: 15px
+}
+
+.sign-in__head_mb_12 {
+    margin-bottom: 12px
+}
+
+.sign-in__new {
+    font-size: 12px
+}
+
+.sign-in__new u:after {
+    bottom: 0
+}
+
+.sign-in__new:link, .sign-in__new:visited {
+    color: #006902
+}
+
+.sign-in__new:hover, .sign-in__new:active {
+    color: #e12519
+}
+
+.sign-in__new_ml {
+    margin-left: 6px
+}
+
+.sign-in__reset-pass {
+    font-size: 12px
+}
+
+.sign-in__reset-pass u:after {
+    bottom: 0
+}
+
+.sign-in__reset-pass:link, .sign-in__reset-pass:visited {
+    color: #006902
+}
+
+.sign-in__reset-pass:hover, .sign-in__reset-pass:active {
+    color: #e12519
+}
+
+.sign-in__reset-pass_ml {
+    margin-left: 4px
+}
+
+.sign-in__left {
+    float: left;
+    border-bottom-left-radius: 7px 7px;
+    border-top-left-radius: 7px 7px;
+    background-color: #f5f5f5;
+    border-right: 3px solid #e8e8e8;
+    padding: 14px 27px 5px 40px
+}
+
+.sign-in__right {
+    float: left;
+    width: 283px;
+    padding: 38px 0 0;
+    position: relative
+}
+
+.sign-in__link {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    top: 52px;
+    left: 76px
+}
+
+.sign-in__link u:after {
+    bottom: 0
+}
+
+.sign-in__link:link, .sign-in__link:visited {
+    color: #fff
+}
+
+.sign-in__link:hover, .sign-in__link:active {
+    color: #e12519
+}
+
+.sign-in__f {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 37px;
+    right: 101px
+}
+
+.sign-in__row {
+    margin: 7px 0 10px 75px
+}

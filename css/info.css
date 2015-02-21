@@ -1,0 +1,185 @@
+
+.info {
+    width: 647px;
+    margin: 37px 0 35px 298px;
+    font-family: 'trebuchet_msregular'
+}
+
+.info__discount {
+    background-color: #e4edda;
+    border-top-left-radius: 10px 12px;
+    border-top-right-radius: 10px 12px;
+    border-bottom-right-radius: 12px 10px;
+    border-bottom-left-radius: 12px 10px;
+    padding: 9px 0 6px 40px;
+    width: 80%
+}
+
+.info__discount-text {
+    font-size: 15px;
+    width: 66%;
+    vertical-align: middle
+
+}
+
+.info__another-arrow {
+    width: 140px;
+    height: 22px;
+    background: url("../img/icon/arrow-long.svg") left center no-repeat;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    text-align: center;
+    vertical-align: middle
+}
+
+.info__another-link {
+    font-size: 13px;
+    border-bottom: 1px solid #fff;
+    transition: .4s ease-out;
+    -webkit-transition: .4s ease-out;
+    -o-transition: .4s ease-out;
+    -moz-transition: .4s ease-out
+}
+
+.info__another-link u:after {
+    bottom: 1px
+}
+
+.info__another-link:link, .info__another-link:visited {
+    color: #fff
+}
+
+.info__another-link:hover, .info__another-link:active {
+    color: #000;
+    border: none
+}
+
+.info__another-link:hover u:after, .info__another-link:active u:after {
+    bottom: 1px
+}
+
+.info__calendar {
+    margin: 35px 0 0 40px;
+    width: 558px
+}
+
+.info__label-time {
+    font-size: 16px;
+    cursor: pointer
+}
+
+.info__input-time {
+    width: 129px
+}
+
+.info__calendar-link {
+    font-size: 12px;
+    font-family: 'trebuchet_msbold_italic';
+    margin-left: 5px;
+    color: #006902;
+
+}
+
+.info__calendar-link u:after {
+    bottom: 0
+}
+
+.info__calendar-link:link, .info__calendar-link:visited {
+    color: #006902
+}
+
+.info__calendar-link:hover, .info__calendar-link:active {
+    color: #e12519
+}
+
+.info__calendar-link:hover u:after, .info__calendar-link:active u:after {
+    bottom: 0
+}
+
+.info__deadline {
+    margin: 16px 0 0 40px
+}
+
+.info__sewing {
+    font-size: 16px;
+    margin-right: 84px
+}
+
+.info__deadline-radio {
+    position: relative;
+    font-size: 14px;
+    margin-right: 50px
+}
+
+.info__label {
+    cursor: pointer
+}
+
+.info__price {
+    font-size: 16px;
+    margin-left: 136px;
+    font-family: 'trebuchet_msbold'
+}
+
+.info__price .fa-usd {
+    font-size: 14px;
+    position: relative;
+    top: -1px
+}
+
+.info__sign-user {
+    border-bottom-left-radius: 7px 7px;
+    border-top-left-radius: 7px 7px;
+    background-color: #f5f5f5;
+    border-right: 3px solid #e8e8e8;
+    width: 370px;
+    margin: 32px 0 0;
+    padding: 19px 0 15px 40px
+}
+
+.info__sign-as {
+    font-size: 14px
+}
+
+.info__user-name {
+    font-size: 14px;
+    font-family: 'trebuchet_msbold'
+}
+
+.info__user-name u:after {
+    bottom: 0;
+    border-top: 1px solid #006902
+}
+
+.info__user-name:link, .info__user-name:visited {
+    color: #000
+}
+
+.info__user-name:hover, .info__user-name:active {
+    color: #000
+}
+
+.info__user-name:hover u:after, .info__user-name:active u:after {
+    border: none
+}
+
+.info__sign-out {
+    font-size: 12px;
+    margin-left: 71px
+}
+
+.info__sign-out u:after {
+    bottom: 0
+}
+
+.info__sign-out:link, .info__sign-out:visited {
+    color: #006902
+}
+
+.info__sign-out:hover, .info__sign-out:active {
+    color: #e12519
+}
+
+.info__sign-out:hover u:after, .info__sign-out:active u:after {
+    bottom: 0
+}

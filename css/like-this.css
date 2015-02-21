@@ -1,0 +1,54 @@
+.like-this__heart {
+    color: #000;
+    text-decoration: none;
+    background: url("../img/icon/like.svg") -27px 0 no-repeat;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    width: 27px;
+    height: 24px;
+    display: block;
+    text-align: center;
+    font-size: 11px
+}
+
+.like-this__heart:visited {
+    color: #000
+}
+
+.like-this__heart:link {
+    color: #000
+}
+
+.like-this__heart:hover, .like-this__heart:focus {
+    color: #000
+}
+
+.like-this__heart:active {
+    color: #000
+}
+
+.like-this .active {
+    background-position: 0 0;
+    color: #fff
+}
+
+.like-this .active:visited {
+    color: #fff
+}
+
+.like-this .active:link {
+    color: #fff
+}
+
+.like-this .active:hover, .like-this .active:focus {
+    color: #fff
+}
+
+.like-this .active:active {
+    color: #fff
+}
+
+.like-this__num {
+    display: block;
+    padding-top: 2px
+}

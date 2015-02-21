@@ -1,0 +1,84 @@
+
+.cancel {
+    font-family: 'trebuchet_msregular';
+    white-space: normal;
+
+}
+
+.cancel_mt {
+    margin-top: 11px
+}
+
+.cancel_mt_9 {
+    margin-top: 11px
+}
+
+.cancel_offset {
+    margin: 6px 0 0 227px
+}
+
+.cancel__left {
+    float: left;
+    width: 179px;
+    font-size: 15px;
+    padding-left: 30px
+}
+
+.cancel__left_w_190 {
+    width: 190px
+}
+
+.cancel__left_w_132 {
+    width: 132px;
+    padding: 0 0 0 18px
+}
+
+.cancel__left_w_140 {
+    width: 140px
+}
+
+.cancel__order-link {
+    border-bottom: 2px solid #deead2;
+    text-decoration: none;
+    padding-bottom: 2px;
+    font-size: 15px
+}
+
+.cancel__order-link:link, .cancel__order-link:visited {
+    color: #006902
+}
+
+.cancel__order-link:hover, .cancel__order-link:active {
+    opacity: .8
+}
+
+.cancel__right {
+    float: left;
+    width: 350px
+}
+
+.cancel__right_w_320 {
+    width: 320px
+}
+
+.cancel__specify {
+    font-size: 15px;
+    line-height: 1.6;
+    padding-left: 39px
+}
+
+.cancel__red-link {
+    font-size: 16px
+}
+
+.cancel__red-link u:after {
+    bottom: 0
+}
+
+.cancel__red-link:link, .cancel__red-link:visited {
+    color: #e12519
+}
+
+.cancel__red-link:hover, .cancel__red-link:active {
+    opacity: .7
+}

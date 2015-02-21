@@ -1,0 +1,143 @@
+.data-list__item {
+    position: relative
+}
+
+.data-list__item_mt_13 {
+    margin-top: 16px
+}
+
+.data-list__item_mt_20 {
+    margin-top: 20px
+}
+
+.data-list__item_mt_17 {
+    margin-top: 17px
+}
+
+.data-list__item_mt_15 {
+    margin-top: 16px
+}
+
+.data-list__item_mt_18 {
+    margin-top: 16px
+}
+
+.data-list__item_mt {
+    margin-top: 6px;
+    margin-bottom: 24px
+}
+
+.data-list__item_mt_10 {
+    margin-top: 10px
+}
+
+.data-list__info, .data-list__label {
+    font-size: 15px;
+    float: left
+}
+
+.data-list__label {
+    cursor: pointer;
+    margin: 0;
+    padding: 0
+}
+
+.data-list__label_lh_13 {
+    line-height: 1.3
+}
+
+.data-list__field {
+    float: right;
+    margin-right: 76px
+}
+
+.data-list__field_mr_39 {
+    margin-right: 36px
+}
+
+.data-list__field_w_258 {
+    width: 258px
+}
+
+.data-list__count {
+    float: right;
+    width: 339px
+}
+
+.data-list__input {
+    width: 243px
+}
+
+.data-list__input_w_123 {
+    width: 123px
+}
+
+.data-list__input_text {
+    width: 243px;
+    height: 34px;
+    max-height: 34px
+}
+
+.data-list__input_checkbox, .data-list__ems {
+    vertical-align: middle
+}
+
+.data-list__ems {
+    font-size: 13px;
+    font-family: 'trebuchet_msitalic'
+}
+
+.data-list__price {
+    position: absolute;
+    right: -89px;
+    top: 0;
+    font-size: 16px;
+    vertical-align: middle;
+    font-family: 'trebuchet_msbold'
+}
+
+.data-list__price .fa-usd {
+    font-size: 14px;
+    position: relative;
+    top: -1px
+}
+
+.data-list__explanation {
+    font-family: 'trebuchet_msitalic';
+    font-size: 13px;
+    padding: 1px 0 0 2px
+}
+
+.data-list__country-switch {
+    font-size: 13px;
+    font-family: 'trebuchet_msitalic';
+    padding: 3px 0 2px 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 253px;
+    background: #efefef;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #ddd));
+    background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#ddd));
+    background: -webkit-linear-gradient(top, #efefef 0%, #ddd 100%);
+    background: linear-gradient(to bottom, #efefef 0%, #ddd 100%)
+}
+
+.data-list__country-switch .fa-sort {
+    font-size: 12px;
+    color: #616161;
+    padding-right: 4px
+}
+
+.data-list__price-git {
+    position: absolute;
+    font-size: 16px;
+    right: -89px;
+    top: -2px;
+    font-family: 'trebuchet_msbold'
+}
+
+.data-list__price-git .fa-usd {
+    font-size: 14px;
+    position: relative;
+    top: -1px
+}

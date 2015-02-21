@@ -1,0 +1,273 @@
+
+
+.order-info {
+    font-family: 'trebuchet_msregular';
+    text-align: center;
+    margin-left: 165px;
+}
+.order-info_ml0{
+    margin-left: 0;
+}
+
+.order-info_left {
+    float: left
+}
+
+.order-info__inner {
+    border-top-left-radius: 15px 15px;
+    background-color: #f4efe9;
+    border-bottom-right-radius: 15px 15px;
+    -webkit-box-shadow: 0px 48px 90px -85px #000;
+    box-shadow: 0px 48px 90px -85px #000;
+    margin-top: -11px;
+    padding: 25px 20px 18px 39px
+}
+
+.order-info__inner_pt {
+    padding: 14px 20px 30px 40px
+}
+
+.order-info__your-order {
+    margin-top: 3px
+}
+
+.order-info__delivery {
+    margin-top: 16px
+}
+
+.order-info__delivery_mt_11 {
+    margin-top: 11px
+}
+
+.order-info__delivery-address {
+    float: right;
+    width: 78%
+}
+
+.order-info__subsection {
+    float: left;
+    line-height: 2;
+    font-size: 16px
+}
+
+.order-info__subsection_pt {
+    padding-top: 7px
+}
+
+.order-info__subsection_pt_21 {
+    padding-top: 6px
+}
+
+.order-info__all-item {
+    float: right;
+    width: 78%
+}
+
+.order-info__item-wrap {
+    margin-bottom: 3px;
+    margin-left: 1px
+}
+.order-info__paid{
+    padding-top: 13px;
+}
+.order-info__paid_mb {
+    margin-bottom: 10px
+}
+
+.order-info__guarantee-text {
+    float: right;
+    width: 78%;
+    margin-top: 5px;
+}
+
+.order-info__guarantee-text_mt_3 {
+    margin-top: 3px
+}
+
+.order-info__bottom {
+    margin: 15px 0 18px 85px
+}
+
+.order-info__user-name {
+    font-size: 16px
+}
+
+.order-info__user-mail {
+    font-size: 14px;
+    border-bottom: 2px solid #deead2;
+    text-decoration: none;
+    padding-bottom: 2px;
+    margin-left: 20px
+}
+
+.order-info__user-mail:link, .order-info__user-mail:visited {
+    color: #006902
+}
+
+.order-info__user-mail:hover, .order-info__user-mail:active {
+    opacity: .8
+}
+
+.order-info__address {
+    width: 44%;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.order-info__price {
+    font-size: 31px;
+    line-height: 1;
+    float: right;
+    width: 78%
+}
+
+.order-info__price .fa-usd {
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    vertical-align: top;
+}
+
+.order-info__price_lh {
+    line-height: normal;
+    padding-top: 10px
+}
+
+.order-info__guarantee {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.order-info__free {
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #73a951;
+    padding: 2px 7px;
+    margin-left: 7px;
+    border-radius: 4px
+}
+
+.order-info__free:link, .order-info__free:visited {
+    color: #fff
+}
+
+.order-info__free:hover, .order-info__free:active {
+    opacity: .8;
+    border-bottom: none
+}
+
+.order-info__update-link {
+    font-size: 15px
+}
+
+.order-info__update-link u:after {
+    bottom: 1px
+}
+
+.order-info__update-link:link, .order-info__update-link:visited {
+    color: #006902
+}
+
+.order-info__update-link:hover, .order-info__update-link:active {
+    color: #e12519
+}
+
+.order-info__link-why {
+    position: absolute;
+    top: 6px;
+    left: -410px;
+    font-size: 12px;
+    border-bottom: 2px solid #deead2;
+    text-decoration: none;
+    line-height: 1.4
+}
+
+.order-info__link-why:link, .order-info__link-why:visited {
+    color: #006902
+}
+
+.order-info__link-why:hover, .order-info__link-why:active {
+    opacity: .8
+}
+
+.order-info__update {
+    margin: 18px 0 0 23px;
+    position: relative
+}
+
+.order-info__price-update {
+    margin-left: 20px;
+    font-size: 14px
+}
+
+.order-info__price-update .fa-usd {
+    font-size: 14px
+}
+
+.order-info__invoice {
+    font-size: 15px
+}
+
+.order-info__invoice u:after {
+    bottom: 1px
+}
+
+.order-info__invoice:link, .order-info__invoice:visited {
+    color: #006902
+}
+
+.order-info__invoice:hover, .order-info__invoice:active {
+    color: #e12519
+}
+
+.order-info__pay-type {
+    font-size: 15px
+}
+
+.order-info__pay-type u:after {
+    bottom: 1px
+}
+
+.order-info__pay-type:link, .order-info__pay-type:visited {
+    color: #006902
+}
+
+.order-info__pay-type:hover, .order-info__pay-type:active {
+    color: #e12519
+}
+
+.order-info__view {
+    margin: 10px 0 0 23px;
+    font-size: 15px
+}
+
+.order-info__status {
+    font-size: 15px;
+    line-height: 1
+}
+
+.order-info__status span {
+    font-family: 'trebuchet_msitalic'
+}
+
+.order-info__head-number {
+    font-size: 19px;
+    position: relative
+}
+
+.order-info__head-number.open .fa-minus-square-o, .order-info__head-number.close .fa-plus-square-o {
+    position: absolute;
+    font-size: 19px;
+    left: -23px;
+    top: 8px;
+    cursor: pointer
+}
+
+.order-info__head-number.close .fa-minus-square-o {
+    display: none
+}
+
+.order-info__top_mb_19 {
+    margin-bottom: 16px
+}

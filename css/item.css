@@ -1,0 +1,227 @@
+.item {
+    display: inline-block;
+    width: 245px;
+    cursor: pointer;
+    color: #006902;
+    margin: 35px 35px 35px 35px;
+    vertical-align: top;
+
+}
+.item:hover{
+
+}
+.item-bords{
+    border: 2px dashed #ccc;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.item__code{
+    padding: 20px
+}
+
+.item__sub-title {
+    font-size: 22px;
+    color: #000;
+    font-family: "PT_Sans-Narrow-Regular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: left;
+}
+
+.item__txt {
+    font-size: 14px;
+    color: #000;
+}
+
+.item:hover {
+    color: red;
+}
+
+.item__img-wrap {
+    text-align: center
+}
+
+.item__img-wrap img {
+    border: 1px solid #f3f3f3;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.item:hover .item__img-wrap img {
+    border: 1px solid #d0e8d0;
+}
+.item__bottom{
+    text-align: left;
+}
+
+.item__img-wrap_bb_none {
+    text-align: center
+}
+
+.item__img-wrap_bb_none img {
+    border: none;
+    position: relative;
+    bottom: -5px
+}
+
+.item__img-wrap_choice {
+    position: relative
+}
+
+.item__img-wrap_choice:hover, .item__img-wrap_choice:active {
+    opacity: .99
+}
+
+.item__img-wrap_choice:hover .color-choice, .item__img-wrap_choice:active .color-choice {
+    left: -34px
+}
+
+.item__img-link {
+    text-decoration: none;
+    display: block
+}
+
+.item__img-link:link, .item__img-link:visited {
+    color: #006902
+}
+
+.item__img-link:hover, .item__img-link:active {
+    color: red
+}
+
+.item__name-link-wrap {
+    text-align: left
+}
+
+.item__name-link {
+    border-bottom: 2px solid #deead2
+}
+
+.item__rotator {
+    vertical-align: bottom;
+    background: url("../img/icon/rotator.svg") no-repeat;
+    height: 23px;
+    width: 20%;
+    margin-left: 3px;
+}
+
+.item__rotator_w_43 {
+    width: 43px
+}
+
+.item__rotator_offset {
+    display: block;
+    margin-left: 194px
+}
+
+.item__like-off {
+    text-decoration: none;
+    background: url("../img/icon/like.svg") 100% 0 no-repeat;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    vertical-align: bottom;
+    width: 25px;
+    height: 21px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+.item__like-off.active {
+    background-position: 0 0
+}
+
+.item__like-on {
+    text-decoration: none;
+    background: url("../img/icon/like.svg") 0 0 no-repeat;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    vertical-align: bottom;
+    width: 25px;
+    height: 21px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.item__like-on:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.item__img-link_bs img {
+    -webkit-transition: .2s ease-in;
+    transition: .2s ease-in;
+    filter: progid:DXImageTransform.Microsoft.shadow(direction=150, color=#000, strength=5)
+}
+
+.item__img-link_bs img:hover {
+    -webkit-box-shadow: 0 6px 55px -15px #000;
+    box-shadow: 0 6px 55px -15px #000
+}
+
+.item__price {
+    font-size: 16px;
+    font-weight: 700;
+    white-space: pre;
+    vertical-align: bottom;
+    margin-right: 19px;
+}
+
+.item__price .fa-eur {
+    font-size: 15px;
+    margin-right: 3px;
+}
+
+.item__price_strike {
+    color: #000;
+    position: relative;
+
+}
+.item__price_strike span{
+    font-weight: lighter;
+}
+
+.item__price_strike:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 90%;
+    top: 11px;
+    background-color: #c41131;
+    color: #000;
+}
+
+.item__price_red {
+    color: #e43226;
+}
+
+.item__price_collar {
+    right: -311px
+}
+
+.item__price_collar, .item__price_skirt, .item__price_sleeves {
+    position: absolute;
+    display: block;
+    top: 4px;
+    width: auto
+}
+
+.item__price_skirt, .item__price_sleeves {
+    right: -314px
+}
+
+.item__stock-img {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: url("../img/icon/stock.png") no-repeat;
+    top: 0;
+    right: -1px;
+}
