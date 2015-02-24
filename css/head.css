@@ -1,6 +1,8 @@
 .head {
     width: 900px;
-    margin: 0 auto 31px
+    margin: 0 auto 31px;
+    position: relative;
+    padding: 37px 0 0;
 }
 
 .head__theme {
@@ -9,7 +11,15 @@
     -webkit-background-size: cover;
     background-size: cover;
     border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px
+    border-bottom-right-radius: 7px;
+    position: fixed;
+    width: 880px;
+    top: 0;
+    z-index: 1;
+}
+.head__content {
+    z-index: 2;
+    position: relative;
 }
 .head__etsy-link{
     display: inline-block;
@@ -186,4 +196,63 @@
 
 .head__my-link:hover u:after, .head__my-link:active u:after {
     bottom: -1px
+}
+
+
+
+.head__lang-line {
+    position: absolute;
+    width: 128px;
+    height: 160px;
+    top: 0;
+    right: -68px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    background-image: url('../img/lenta-top-right.jpg');
+}
+@media  (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .head__lang-line {
+        background-image: url('../img/lenta-top-right@2x.jpg');
+    }
+}
+
+.head__lang-switcher {
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 2;
+    top: 41px;
+    right: 14px;
+    text-decoration: none;
+}
+
+.head__lang-switcher u {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+
+.head__lang-current:before {
+    content: '▼';
+    font-size: 60%;
+    position: relative;
+    top: -2px;
+    left: -3px;
+    color: rgba(255, 255, 255, .5);
+}
+
+.head__lang-switcher:link,
+.head__lang-switcher:hover
+{
+    color: #fff;
+}
+.head__lang-switcher:hover {
+    cursor: pointer;
+}
+.head__lang-switcher:hover u {
+    border-bottom-color: rgba(255, 255, 255, 1);
+}
+.head__lang-switcher:hover .head__lang-current:before {
+    color: rgba(255, 255, 255, 1);
 }
