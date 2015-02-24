@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/delivery.css"/>
     <link rel="stylesheet" href="css/foot-banner.css"/>
     <link rel="stylesheet" href="css/data-list.css"/>
+    <link rel="stylesheet" href="css/ic.css"/>
     <link rel="stylesheet" href="css/modlen.css"/>
 
     <script type="text/javascript" src="javascript/vendor/jquery-1.11.1.js"></script>
@@ -60,17 +61,19 @@
         <div class="head__right">
             <div class="head__top">
                 <div class="head__my">
-                    <div class="head__like">
-                        <div class="like-this">
-                            <a class="like-this__heart" href=""><span class="like-this__num">0</span></a>
-                        </div>
-                    </div>
-                    <a href="" class="head__my-link dashed"><u>My Modlen</u></a>
+                    <!--<div class="head__like">-->
+                        <!--<div class="like-this">-->
+                            <!--<a class="like-this__heart" href=""><span class="like-this__num">0</span></a>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
                     <div class="head__cart">
-                        <span class="head__cart-circle active">17</span>
+                        <i class="ic ic-cart head__cart-icon"></i>
                         <a href="" class="head__cart-link">Cart</a>
+                        <span class="head__cart-count">17</span>
                     </div>
+
+                    <a href="" class="head__my-link dashed"><u>My Modlen</u></a>
                 </div>
                 <div class="head__free">
                     <a href="#" class="head__shipping-link">Free shipping</a>
