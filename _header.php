@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/size-list.css"/>
     <link rel="stylesheet" href="css/measure-list.css"/>
     <link rel="stylesheet" href="css/delivery.css"/>
+    <link rel="stylesheet" href="css/foot-banner.css"/>
     <link rel="stylesheet" href="css/data-list.css"/>
     <link rel="stylesheet" href="css/modlen.css"/>
 

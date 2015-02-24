@@ -17,7 +17,7 @@
 
                 <p class="and">&amp;</p>
                 <input class="field field-2" name="name" placeholder="e-mail" type="email">
-                <button class="_button">SIGN UP&nbsp;</button>
+                <button class="sbtn sbtn_skew">SIGN UP&nbsp;</button>
 
             </div>
 

@@ -1,0 +1,188 @@
+
+.and {
+    clear: both;
+    z-index: 3;
+    margin: -71px 0 0 62%;
+    /*background-color: rgba(255, 255, 255, 0);*/
+    font: italic 400 6em/1.23 'PT Sans';
+    color: rgba(0, 0, 0, .3)
+}
+
+.and, .element {
+    position: relative;
+    float: left
+}
+
+.element {
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-color: #dedede
+}
+
+.enter-your {
+    float: left;
+    z-index: 6;
+    margin: -60px 0 0 36.99844%;
+    font: italic 400 2.4em/1.38 'PT Sans'
+}
+
+.enter-your, .field {
+    position: relative;
+    color: rgba(0, 0, 0, .6)
+}
+
+.field {
+    display: block;
+    float: right;
+    height: 29px;
+    margin-top: -60px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .72);
+    background-color: rgba(242, 242, 242, 0);
+    font: italic 700 17px/1.38 'PT Sans';
+    text-align: center;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.field::-webkit-input-placeholder {
+    color: #3d3d3d;
+}
+
+.header {
+    font-size: 21px;
+}
+
+.header, .header-text {
+    font-family: "PT_Sans-Narrow-Regular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    float: left;
+    line-height: 1.38;
+    text-transform: uppercase;
+    color: #000
+}
+
+.header-text {
+    clear: both;
+    margin-left: .56476%;
+    font-size: 1.285em;
+}
+
+.memberclub-header {
+    position: relative;
+    float: left;
+    z-index: 9;
+    width: 270px;
+    height: 41px;
+    margin: -68px 0 0 5.7%
+}
+
+.sbtn {
+    padding: 0;
+    display: block;
+    position: relative;
+    float: right;
+    clear: both;
+    z-index: 2;
+    width: 9%;
+    height: 32px;
+    margin: -66px 3.5% 0 0;
+    border-radius: 8px;
+    background: #53920d;
+    -webkit-box-shadow: 0 2px 2px rgba(59, 98, 54, .5);
+    box-shadow: 0 2px 2px rgba(59, 98, 54, .5);
+    text-shadow: 0 1px 0 rgba(67, 95, 17, .5);
+    font: 400 1.8em/2.08 'PT Sans';
+    text-align: center;
+    text-indent: 3px;
+    color: #fff
+}
+
+.sbtn:hover {
+    background: #335b09;
+}
+
+.sbtn_skew {
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    -o-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/*._button {*/
+/*padding: 0;*/
+/*display: block;*/
+/*position: relative;*/
+/*float: right;*/
+/*clear: both;*/
+/*z-index: 2;*/
+/*width: 9%;*/
+/*height: 32px;*/
+/*margin: -66px 9.3% 0 0;*/
+/*border-radius: 8px;*/
+/*background: #53920d;*/
+/*-webkit-box-shadow: 0 2px 2px rgba(59, 98, 54, .5);*/
+/*box-shadow: 0 2px 2px rgba(59, 98, 54, .5);*/
+/*text-shadow: 0 1px 0 rgba(67, 95, 17, .5);*/
+/*font: 400 1.8em/2.08 'PT Sans';*/
+/*text-align: center;*/
+/*text-indent: 3px;*/
+/*color: #fff*/
+/*}*/
+
+/*._button:hover {*/
+/*background: #335b09;*/
+/*}*/
+
+.element-1 {
+    z-index: 0;
+    width: 103%;
+    height: 100px;
+    margin-left: -1.5%;
+    background: url("../img/texture/Spring-2_spam-1.jpg");
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    -o-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.element-2 {
+    clear: both;
+    z-index: 1;
+    width: 98%;
+    height: 68px;
+    margin: -84px 0 0 1%;
+    background: url("../img/texture/Spring-2_spam-2blur.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-transform: skewX(-15deg);
+    -moz-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    -o-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+}
+
+.field-1 {
+    z-index: 5;
+    width: 11.5%;
+    margin-right: 39%
+}
+
+.field-2 {
+    z-index: 4;
+    width: 16.2%;
+    margin-right: 14.6%;
+}

@@ -1,5 +1,5 @@
 .foot {
-    background: #fff url("../img/texture/footer-back-test.jpg") 0 30px no-repeat
+    background: #fff url("../img/texture/footer-back-test.jpg") left bottom no-repeat;
 }
 
 .foot__wrap {
