@@ -1,5 +1,7 @@
 $(function() {
-    $('.item').imagesLoaded()
+    var items = $('.item');
+
+    items.imagesLoaded()
         .always(function(instance) {
             console.log('all images loaded');
         })

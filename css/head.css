@@ -16,6 +16,7 @@
     width: 880px;
     top: 0;
     z-index: 1;
+    opacity: .9
 }
 .head__content {
     z-index: 2;
@@ -210,11 +211,11 @@
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
-    background-image: url('../img/lenta-top-right.jpg');
+    background-image: url('../img/lenta-top-right.png');
 }
 @media  (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
     .head__lang-line {
-        background-image: url('../img/lenta-top-right@2x.jpg');
+        background-image: url('../img/lenta-top-right@2x.png');
     }
 }
 

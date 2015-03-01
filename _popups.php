@@ -1,7 +1,4 @@
 <!-- _________ popups _________ -->
-<div class="pop-up">
-    <img src=""/>
-</div>
 
 <div class="pop-up-sign">
     <div class="popup-sign" style="width: 297px">
