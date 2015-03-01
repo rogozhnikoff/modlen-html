@@ -40,7 +40,20 @@
     <script type="text/javascript" src="javascript/vendor/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="javascript/vendor/masonry.js"></script>
     <script type="text/javascript" src="javascript/vendor/lazyload.js"></script>
-    <script type="text/javascript" src="javascript/modlen.js"></script>
+
+    <script type="text/javascript" src="javascript/check-heart.js"></script>
+    <script type="text/javascript" src="javascript/choose-color.js"></script>
+    <script type="text/javascript" src="javascript/currency.js"></script>
+    <script type="text/javascript" src="javascript/flatty.js"></script>
+    <script type="text/javascript" src="javascript/gallery.js"></script>
+    <script type="text/javascript" src="javascript/item.js"></script>
+    <script type="text/javascript" src="javascript/like.js"></script>
+    <script type="text/javascript" src="javascript/method-click.js"></script>
+    <script type="text/javascript" src="javascript/navi.js"></script>
+    <script type="text/javascript" src="javascript/options.js"></script>
+    <script type="text/javascript" src="javascript/order.js"></script>
+    <script type="text/javascript" src="javascript/pass.js"></script>
+    <script type="text/javascript" src="javascript/popup.js"></script>
 
 </head>
 <body>
