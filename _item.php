@@ -1,3 +1,6 @@
+<!--
+перечеркивание
+-->
 <? function renderItem ($num = 1, $stock = false) {
 ?>
         <div class="item" data-num="<?=$num?>">
@@ -7,11 +10,10 @@
                     <div class="color-choice item__img-choice">
                         <ul class="color-choice__list">
                             <?
-                        $colors = array('fca61b', 'd04298', '2fa0cc', '5eb15f');
-                        $active = rand(0, count($colors) - 1);
-                        shuffle($colors);
-                        foreach($colors as $i => $color) { ?>
-
+                            $colors = array('fca61b', 'd04298', '2fa0cc', '5eb15f');
+                            $active = rand(0, count($colors) - 1);
+                            shuffle($colors);
+                            foreach($colors as $i => $color) { ?>
                             <li class="color-choice__item <? if ($i == $active) { echo 'color-choice__item_active'; } ?>">
                                 <i class="fa fa-circle color-choice__link" style="color: <?='#'.$color;?>"></i>
                             </li>
@@ -29,9 +31,16 @@
             <? if ($stock) { ?><div class="item__stock-img"></div><? } ?>
 
             <div class="item__bottom">
-                <div class="item__price item__price_strike"><i class="fa fa_fs_light fa-eur"></i><span class="">100</span>
+                <?
+                    $price = rand(10, 1111);
+                ?>
+                <div class="item__price item__price_stock">
+                    <i class="item__price-striker"></i>
+                    <i class="fa fa_fs_light fa-eur"></i><span><?=($price + 50)?></span>
                 </div>
-                <div class="item__price item__price_red"><i class="fa fa_fs_light fa-eur"></i><span class="">150</span>
+                <div class="item__price item__price_red">
+                    <i class="fa fa_fs_light fa-eur"></i>
+                    <span><?=$price?></span>
                 </div>
                 <a class="item__rotator" href="#"></a>
                 <a class="item__like-off" href="#"></a>

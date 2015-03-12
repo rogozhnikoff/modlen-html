@@ -163,9 +163,9 @@
 .item__price {
     font-size: 16px;
     font-weight: 700;
-    white-space: pre;
+    /*white-space: pre;*/
     vertical-align: bottom;
-    margin-right: 19px;
+    position: relative;
 }
 
 .item__price .fa-eur {
@@ -173,21 +173,19 @@
     margin-right: 3px;
 }
 
-.item__price_strike {
+.item__price_stock {
     color: #000;
-    position: relative;
-
 }
-.item__price_strike span{
+.item__price_stock span{
     font-weight: lighter;
 }
 
-.item__price_strike:before {
-    content: "";
+.item__price-striker {
     position: absolute;
     height: 1px;
-    width: 90%;
-    top: 11px;
+    width: 100%;
+    left: 0;
+    bottom: 50%;
     background-color: #c41131;
     color: #000;
 }
@@ -218,6 +216,7 @@
     background: url("../img/icon/stock.png") no-repeat;
     top: 0;
     right: -1px;
+    z-index: 3;
 }
 
 
