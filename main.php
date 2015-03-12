@@ -1,4 +1,5 @@
 <? include '_header.php'; ?>
+<? include '_item.php'; ?>
 
 <div class="banner">
     <div class="banner__bottline">
@@ -24,42 +25,16 @@
     </div>
 </div>
 <div class="item-main" id="container">
-    <div style="" class="item">
-        <div class="item__img-wrap item__img-wrap_choice">
-            <div class="color-choice">
-                <ul class="color-choice__list">
-                    <li class="color-choice__item   color-choice__item_active ">
-                        <i class="fa fa-circle color-choice__link color-choice__link_color-2"></i>
-                    </li>
-                    <li class="color-choice__item  ">
-                        <i class="fa fa-circle color-choice__link color-choice__link_color-1"></i>
-                    </li>
-                    <li class="color-choice__item  ">
-                        <i class="fa fa-circle color-choice__link color-choice__link_color-3"></i>
-                    </li>
-                </ul>
-            </div>
+    <? renderItem(1) ?>
+    <? renderItem(2, true) ?>
+    <? renderItem(3) ?>
+    <? renderItem(4, true) ?>
+    <? renderItem(5) ?>
+    <? renderItem(6, true) ?>
+    <? renderItem(7) ?>
+    <? renderItem(8, true) ?>
+    <? renderItem(9) ?>
 
-            <div class="item__img-shadow item__img-shadow_top-right">
-                <div class="item__img-shadow item__img-shadow_bottom-left">
-                    <img class="item__img" src="img/content/item-leotard.jpg">
-                </div>
-            </div>
-
-            <div class="item__name-link-wrap">
-                <p class="item__name-link">Rhythmic Gymnastics Leotard <span class=""># 31</span></p>
-            </div>
-            <div class="item__stock-img" style="display: none"></div>
-        </div>
-        <div class="item__bottom">
-            <div class="item__price item__price_strike"><i class="fa fa_fs_light fa-eur"></i><span class="">100</span>
-            </div>
-            <div class="item__price item__price_red"><i class="fa fa_fs_light fa-eur"></i><span class="">150</span>
-            </div>
-            <a class="item__rotator" href="#"></a>
-            <a class="item__like-off" href="#"></a>
-        </div>
-    </div>
     <div style="" class="item ">
         <div class="item__img-wrap item__img-wrap_choice">
             <img data-lazy-src="img/items/n12p-IMG_9409.jpg" src="img/items/n12p-IMG_9409.jpg">
