@@ -232,7 +232,7 @@
     position: absolute;
     background-position: center center;
     background-repeat: no-repeat;
-    /*background-size: contain;*/
+    background-size: contain;
     opacity: 0;
     transition: opacity .5s ease;
 }
@@ -247,6 +247,7 @@
     width: 244px;
     height: 38px;
     background-image: url('../img/shadows/shadow-top.png');
+    background-position: center bottom;
 }
 .item__img-shadow_top-right:after {
     right: -40px;
@@ -254,6 +255,7 @@
     width: 40px;
     height: 100%;
     background-image: url('../img/shadows/shadow-right.png');
+    background-position: left center;
 }
 .item__img-shadow_bottom-left {}
 .item__img-shadow_bottom-left:before {
@@ -262,6 +264,7 @@
     width: 244px;
     height: 46px;
     background-image: url('../img/shadows/shadow-bottom.png');
+    background-position: center top;
 }
 .item__img-shadow_bottom-left:after {
     left: -40px;
@@ -269,6 +272,7 @@
     width: 40px;
     height: 100%;
     background-image: url('../img/shadows/shadow-left.png');
+    background-position: right center;
     z-index: 1;
 }
 .item__img-choice {
