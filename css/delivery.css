@@ -45,14 +45,17 @@
     font-size: 15px;
     margin: 11px 0 0
 }
-.delivery__address-make{
+
+.delivery__address-make {
     display: inline-block;
 }
-.delivery__select-list{
+
+.delivery__select-list {
     display: inline-block;
 
 }
-.delivery__select-list_full{
+
+.delivery__select-list_full {
     width: 100%;
 }
 
@@ -150,8 +153,6 @@
 .delivery__ems-link:hover u:after, .delivery__ems-link:active u:after {
     bottom: 0
 }
-
-
 
 .delivery-wrap {
     margin: auto;

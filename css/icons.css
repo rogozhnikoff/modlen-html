@@ -29,11 +29,9 @@
     background: url("../img/icon/etsy-16x16.svg") no-repeat top center
 }
 
-
 .instagram-icon {
     vertical-align: middle;
     background: url("../img/icon/instagram.svg") no-repeat;
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     height: 19px;
     width: 19px

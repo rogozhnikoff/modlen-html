@@ -15,7 +15,8 @@
     padding-left: 18px;
     /*white-space: pre*/
 }
-.price__cur{
+
+.price__cur {
     font-size: 28px;
     vertical-align: top;
     display: inline-block;
@@ -24,7 +25,6 @@
 .price__like-off {
     text-decoration: none;
     background: url("../img/icon/like.svg") 100% 0 no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     display: block;
     width: 30px;
@@ -39,7 +39,6 @@
 .price__like-on {
     text-decoration: none;
     background: url("../img/icon/like.svg") 0 0 no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     display: block;
     width: 31px;

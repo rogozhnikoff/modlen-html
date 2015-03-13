@@ -9,7 +9,8 @@
     padding: 3px 15px 5px 10px;
     border-radius: 7px
 }
-.measure-list__item_offset{
+
+.measure-list__item_offset {
     margin-top: 4px;
 }
 
@@ -82,18 +83,15 @@
 }
 
 .measure-list__input_error {
-    -webkit-box-shadow: 0 0 4px 1px #e4231a, inset 0 2px 8px -3px #000;
     box-shadow: 0 0 4px 1px #e4231a, inset 0 2px 8px -3px #000
 }
 
 .measure-list__input_error:focus {
-    -webkit-box-shadow: 0 0 4px 1px #e4231a, inset 0 2px 8px -3px #000;
     box-shadow: 0 0 4px 1px #e4231a, inset 0 2px 8px -3px #000;
     outline: none
 }
 
 .measure-list__input_blue:focus {
-    -webkit-box-shadow: 0 0 4px 1px #e6eef1, inset 0 2px 8px -3px #000;
     box-shadow: 0 0 4px 1px #e6eef1, inset 0 2px 8px -3px #000;
     outline: none
 }

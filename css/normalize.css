@@ -119,7 +119,6 @@ input[type="file"] {
     border: initial;
     background-color: #fff;
     background-color: initial;
-    -webkit-box-shadow: none;
     box-shadow: none;
     line-height: 18px 9
 }
@@ -157,7 +156,6 @@ input:focus:required:invalid, textarea:focus:required:invalid, select:focus:requ
 
 input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, select:focus:required:invalid:focus {
     border-color: red;
-    -webkit-box-shadow: 0 0 6px #f33;
     box-shadow: 0 0 6px #f33
 }
 
@@ -493,8 +491,6 @@ pre code {
     color: inherit
 }
 
-
-
 input, textarea, select, option {
     color: #000;
     background: #fff
@@ -550,28 +546,36 @@ body {
     word-wrap: break-word
 }
 
+body *::-moz-selection {
+    background: #ccc
+}
+
 body *::selection {
-    background: red
+    background: #ccc
 }
 
 body *::-moz-selection {
-    background: red
+    background: #ccc
 }
 
 body *::-webkit-selection {
-    background: red
-}
-
-body * img::selection {
-    background: red
+    background: #ccc
 }
 
 body * img::-moz-selection {
-    background: red
+    background: #ccc
+}
+
+body * img::selection {
+    background: #ccc
+}
+
+body * img::-moz-selection {
+    background: #ccc
 }
 
 body * img::-webkit-selection {
-    background: red
+    background: #ccc
 }
 
 .link:hover u:after, .link:hover b:after, .link:hover em:after, .link:hover span:after {

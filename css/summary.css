@@ -46,7 +46,8 @@
     position: relative;
 
 }
-.summary_bs:after{
+
+.summary_bs:after {
     content: '';
     position: absolute;
     bottom: -45px;
@@ -136,7 +137,6 @@
     width: 215px;
     height: 29px;
     background: url("../img/icon/arrow-long.svg") left center no-repeat;
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     text-align: center;
     vertical-align: middle;

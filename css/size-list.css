@@ -1,5 +1,4 @@
 
-
 .size-list__item {
     float: left;
     margin: 0 0 0 18px
@@ -70,7 +69,6 @@
 
 .size-list__arrow {
     background: url("../img/icon/arrow.svg") no-repeat center center;
-    -webkit-background-size: cover;
     background-size: cover;
     display: block;
     width: 14px;

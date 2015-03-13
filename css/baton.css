@@ -1,0 +1,49 @@
+/*
+    Иногда после всей этой выпечки тянет на наш социальный пустой хлеб
+    Батон со сгущенкой, ммм
+*/
+
+.baton {
+    display: inline-block;
+    border: 0;
+    background: -webkit-linear-gradient(#999, #dddddd);
+    background: linear-gradient(#999, #dddddd);
+    padding: 0 9px;
+    margin: 0;
+
+    color: white;
+    line-height: 17px;
+    height: 22px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-shadow: 0 -1px 0 rgba(64, 125, 15, 0.5);
+}
+
+.baton_green {
+    background: -webkit-linear-gradient(#a7c794, #7aac5c);
+    background: linear-gradient(#a7c794, #7aac5c);
+    opacity: .7;
+    box-shadow: 0 1px 0 rgb(114, 145, 95);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.baton_green:hover {
+    background: -webkit-linear-gradient(#9ac381, rgb(78, 134, 44));
+    background: linear-gradient(#9ac381, rgb(78, 134, 44));
+    opacity: 1;
+}
+
+.baton_green_active {
+    opacity: 1;
+}
+
+.baton__icon {
+    position: relative;
+    /*top: 3px;*/
+    line-height: 1;
+    float: right;
+
+    width: 20px;
+    height: 19px;
+}

@@ -52,6 +52,8 @@
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 100%;
+    -webkit-transform: rotate(26deg) scale(2);
+    -ms-transform: rotate(26deg) scale(2);
     transform: rotate(26deg) scale(2);
     width: 86px;
     height: 47px;
@@ -72,7 +74,6 @@
     line-height: 1.2
 }
 
-
 .property__mesh span {
     position: relative;
     border-bottom: 1px solid #cde5cd;
@@ -91,6 +92,8 @@
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-right-radius: 100%;
+    -webkit-transform: rotate(63deg) scale(2);
+    -ms-transform: rotate(63deg) scale(2);
     transform: rotate(63deg) scale(2);
     width: 53px;
     height: 40px;
@@ -121,6 +124,8 @@
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 120%;
+    -webkit-transform: rotate(-222deg) scale(2);
+    -ms-transform: rotate(-222deg) scale(2);
     transform: rotate(-222deg) scale(2);
     width: 60px;
     height: 50px;
@@ -139,6 +144,8 @@
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 94%;
+    -webkit-transform: rotate(146deg) scale(2);
+    -ms-transform: rotate(146deg) scale(2);
     transform: rotate(146deg) scale(2);
     width: 47px;
     height: 27px;
@@ -178,6 +185,8 @@
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 140%;
+    -webkit-transform: rotate(-7deg) scale(2);
+    -ms-transform: rotate(-7deg) scale(2);
     transform: rotate(-7deg) scale(2);
     width: 80px;
     height: 40px;
@@ -215,7 +224,6 @@
     text-align: left;
     width: 753px;
 
-
 }
 
 .property__stock-link {
@@ -246,7 +254,8 @@
     vertical-align: middle;
     margin-top: 0;
 }
-.property__item_num{
+
+.property__item_num {
     /*font-size: 45px;	*/
 }
 
@@ -256,10 +265,11 @@
     background: url("../img/icon/arrow-long-02.png") center repeat;
     vertical-align: middle;
     margin: 0 30px 3px;
-    padding: 0 ;
+    padding: 0;
     position: relative;
 }
-.property__next-arrow:before{
+
+.property__next-arrow:before {
     content: '';
     position: absolute;
     right: 100%;
@@ -268,7 +278,8 @@
     width: 18px;
     height: 24px;
 }
-.property__next-arrow:after{
+
+.property__next-arrow:after {
     content: '';
     position: absolute;
     left: 100%;
@@ -277,6 +288,7 @@
     width: 22px;
     height: 24px;
 }
+
 .property__item-desc {
     font-size: 18px;
     max-width: 720px;

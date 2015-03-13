@@ -26,7 +26,6 @@
     width: 140px;
     height: 22px;
     background: url("../img/icon/arrow-long.svg") left center no-repeat;
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     text-align: center;
     vertical-align: middle
