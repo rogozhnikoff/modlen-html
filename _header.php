@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/icons.css"/>
     <link rel="stylesheet" href="css/head.css"/>
     <link rel="stylesheet" href="css/order.css"/>
-    <link rel="stylesheet" href="css/property.css"/>
+    <link rel="stylesheet" href="css/product.css"/>
     <link rel="stylesheet" href="css/item.css"/>
     <link rel="stylesheet" href="css/sign-in.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>
@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="css/lang.css"/>
     <link rel="stylesheet" href="css/baton.css"/>
     <link rel="stylesheet" href="css/modlen.css"/>
+    <link rel="stylesheet" href="css/badge.css"/>
 
     <script type="text/javascript" src="javascript/vendor/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="javascript/vendor/masonry.js"></script>

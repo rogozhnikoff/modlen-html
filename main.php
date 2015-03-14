@@ -6,17 +6,17 @@
         <h2 class="banner__title">Rhythmic Gymnastics Leotards </h2>
 
         <div class="banner__links">
-            <div class="property__next-arrow banner__arrow">
+            <div class="green-arrow-item">
                 <a class="" href="#">Stock for Sale</a>
 
                 <p class="banner_txt">Leotard from <span class="fa fa-eur"></span>89</p>
             </div>
-            <div class="property__next-arrow banner__arrow">
+            <div class="green-arrow-item">
                 <a class=" " href="#"><u>Discounts for Team</u></a>
 
                 <p class="banner_txt">Up to 25% discount</p>
             </div>
-            <div class="property__next-arrow banner__arrow">
+            <div class="green-arrow-item">
                 <a class="" href="#">Very Bright Leotard </a>
 
                 <p class="banner_txt">A lot of shiny crystals</p>

@@ -659,9 +659,8 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .preview {
-    text-align: left;
-    max-width: 720px;
-    margin: 15px auto 0;
+    margin: 62px auto 20px;
+    text-align: center;
 }
 
 .preview__title {
@@ -670,16 +669,17 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .preview__img-wrap {
-    vertical-align: top;
-    border: 1px solid #fbfaf8;
-    position: relative
+
 }
 
 .preview__bottom {
     position: relative;
     width: 85%;
     margin: 30px auto 0;
+}
 
+.preview__bottom_w_100 {
+    width: 100%;
 }
 
 .preview__scroll-line {
@@ -710,22 +710,53 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     box-shadow: 0 0 8px -3px #000
 }
 
-.preview__img-link {
-    -webkit-transition: .3s ease-out;
-    transition: .3s ease-out;
-    display: inline-block;
-    max-width: 100px;
+.preview__link-wrap {
+    position: relative;
 }
 
-/*.preview__img-link:hover {*/
-/*position: absolute;*/
-/*z-index: 10;*/
-/*width: 90px;*/
-/*top: -25px;*/
-/*left: -15px;*/
-/*-webkit-box-shadow: 0 0 45px -10px #000;*/
-/*box-shadow: 0 0 45px -10px #000*/
-/*}*/
+.preview__link-wrap:before,
+.preview__link-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 40px;
+    height: 100%;
+
+}
+
+.preview__link-wrap:before {
+    left: -40px;
+    background: transparent url('../img/shadows/shadow-left.png') 0 0 no-repeat;
+    -webkit-background-size: 100%;
+}
+
+.preview__link-wrap:after {
+    right: -40px;
+    background: transparent url('../img/shadows/shadow-right.png') 0 0 no-repeat;
+    -webkit-background-size: 100%;
+}
+
+.preview__img-link {
+    float: left;
+    margin: 0 1px 0 0;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    max-width: 112px;
+    line-height: 1px;
+    opacity: 1;
+}
+
+.preview__img-link:last-child {
+    margin-right: 0;
+}
+
+.preview__img-link:hover {
+    opacity: 0.9;
+}
+
+.preview__img-link:focus {
+    outline: none;
+}
 
 .preview__img-link.active {
     position: absolute;
@@ -813,8 +844,8 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .share {
-    margin: 23px 0 0 30px;
-    font-family: 'trebuchet_msregular'
+    margin: 20px 0;
+    font-family: 'trebuchet_msregular';
 }
 
 .share__soc {
@@ -822,6 +853,33 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     width: 81px;
     padding: 1px 0 1px 5px;
     border-radius: 4px
+}
+
+.share__list {
+    margin: 31px 0;
+    padding: 0 37px;
+}
+
+.share__item {
+    margin: 0 0 10px;
+}
+
+.share__link {
+    padding: 3px 4px 0;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #222;
+    border-radius: 3px;
+}
+
+.share__link:hover {
+    border-color: #999;
+}
+
+.share__link:link,
+.share__link:hover,
+.share__link:visited {
+    color: #222;
 }
 
 .share__fb-icon {
@@ -870,18 +928,35 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     opacity: .8
 }
 
-.share__link {
+.summary-add {
+    position: relative;
+    margin: 20px 0;
+    z-index: 20;
+}
+
+.summary-add__el {
+    margin: 0 0 5px;
+}
+
+.summary-add__list {
+    padding: 0 28px;
+}
+
+.summary-add__link {
     font-size: 12px;
     text-decoration: none;
     margin: 0 0 3px 7px;
-    border-bottom: 1px solid #cde5cd
+    border-bottom: 1px dashed #cde5cd;
+    color: green;
 }
 
-.share__link:link, .share__link:visited {
-    color: #000
+.summary-add__link:link,
+.summary-add__link:visited {
+    color: green
 }
 
-.share__link:hover, .share__link:active {
+.summary-add__link:hover,
+.summary-add__link:active {
     opacity: .8
 }
 
@@ -1227,18 +1302,46 @@ a.small_cart {
 }
 
 .banner__title {
-    text-shadow: 0px 0px 10px rgba(255, 255, 2555, 1);
-    font-size: 44px;
-    font-family: "GrossKunst";
     margin-top: 16px;
+    font: 44px 'GrossKunst';
+    text-shadow: 0 0 10px rgba(255, 255, 2555, 1);
 }
 
-.banner__arrow {
+.green-arrow-item {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    margin: 0 25px;
+    background: url("../img/icon/arrow-long-02.png") center repeat;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
-.banner__arrow a {
+.green-arrow-item_l_45 {
+    margin-left: 45px;
+}
+
+.green-arrow-item:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background: transparent url('../img/icon/arrow-long-01.png') center no-repeat;
+    width: 18px;
+    height: 24px;
+}
+
+.green-arrow-item:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: transparent url('../img/icon/arrow-long-03.png') center no-repeat;
+    width: 22px;
+    height: 24px;
+}
+
+.green-arrow-item a {
     display: inline-block;
     position: relative;
     line-height: 1.9;
@@ -1246,7 +1349,7 @@ a.small_cart {
     padding: 0 10px;
 }
 
-.banner__arrow a:hover {
+.green-arrow-item a:hover {
     color: #f5f5f5;
 }
 
@@ -1264,7 +1367,7 @@ a.small_cart {
 
 .gallery__link-wrap {
     position: relative;
-    height: 145px;
+    margin: 21px 0 52px;
 }
 
 .gallery__link-wrap:after {
@@ -1281,7 +1384,6 @@ a.small_cart {
     vertical-align: middle;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-
 }
 
 .gallery__img-link + .active {
@@ -1371,10 +1473,6 @@ a.small_cart {
     margin: auto;
 }
 
-.arrow-small {
-    width: 96px;
-    margin-right: 52px;
-}
 
 .clearfix {
 
@@ -1394,4 +1492,52 @@ a.small_cart {
 
 #tel {
     width: 40%;
+}
+
+.light-shadowed-box {
+    /*margin: 40px 0;*/
+    background-color: #fefdf8;
+    border: 1px dashed #999;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 30px 60px -50px #000;
+    box-shadow: 0 30px 60px -50px #000;
+}
+
+.light-shadowed-box_no_border {
+    border-color: transparent;
+}
+
+.accessories {
+
+}
+
+.accessories__head {
+    margin: 0 0 15px;
+    padding: 0 0 0 85px;
+}
+
+.accessories__link {
+    font: 17px 'trebuchet_msbold';
+    color: green;
+    border-bottom: 2px solid #EFEFEF;
+    cursor: pointer;
+}
+
+.accessories__link:link{
+    color: green;
+}
+
+.accessories__link:hover,
+.accessories__link:visited {
+    color: green;
+    opacity: 0.8;
+}
+
+.accessories__list {
+
+}
+
+.accessories__el {
+    float: left;
+    margin-right: -5px;
 }

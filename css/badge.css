@@ -1,0 +1,55 @@
+.badge {
+    background: transparent;
+    padding: 0 7px 2px;
+    font: 100 16px/1 'Conv_PT_Sans-Narrow-Web-Regular';
+    color: white;
+    border-radius: 5px;
+}
+
+.badge_green {
+    background-color: #72aa51;
+}
+
+.badge_pink {
+    background-color: #fe00fe;
+}
+
+.badge__light-pink {
+    background-color: #f47d82;
+}
+
+.badge_brown {
+    background-color: #d9c99a;
+}
+
+.badge_red {
+    background-color: #fc0d1b;
+}
+
+.badge_grey {
+    background-color: #cccccc;
+}
+
+.badge_blue {
+    background-color: #168fc4;
+}
+
+.badge_yellow {
+    background-color: #fed330;
+}
+
+.badge_light-blue {
+    background-color: #5dccf3;
+}
+
+.badge_violet {
+    background-color: #a017a7;
+}
+
+.badge_dark-blue {
+    background-color: #5966ac;
+}
+
+.badge_text-dark {
+    color: #555;
+}

@@ -387,3 +387,14 @@
 .item:hover .item__count u {
     color: rgb(160, 52, 52);
 }
+
+.item_size_small {
+    width: 200px;
+    margin: 13px 15px;
+}
+
+.item_size_small .item__img-shadow_top-right:before,
+.item_size_small .item__img-shadow_bottom-left:before {
+    width: 200px;
+}
+
