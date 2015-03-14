@@ -268,7 +268,8 @@
 .property__next-arrow {
     position: relative;
     display: inline-block;
-    margin: 0 12px;
+    height: 24px;
+    margin: 0 25px;
     background: url("../img/icon/arrow-long-02.png") center repeat;
 }
 
