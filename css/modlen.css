@@ -1,9 +1,22 @@
-
 .wrapper {
     position: relative;
     height: auto;
     min-height: 100%;
     background-color: #fff
+}
+.wrapper:after {
+    content: '';
+    background: transparent;
+    transition: background .3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.wrapper-onpopup:after {
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .7);
 }
 
 .container {

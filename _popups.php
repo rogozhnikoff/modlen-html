@@ -1,27 +1,8 @@
 <!-- _________ popups _________ -->
-
-<div class="pop-up-sign">
-    <div class="popup-sign" style="width: 297px">
-        <a class="popup-sign__modlen-link dashed" href=""><u></u></a>
-
+<div class="popup" id="popup-mymodlen" data-width="297">
+    <div class="popup-sign">
         <div class="popup-sign__inner">
-            <a href="#" class="popup-sign__close"><i class="fa fa-times"></i></a>
-
-            <div class="popup-sign__img-wrap">
-                <a href="#" class="popup-sign__link dashed"><u>Sign in with</u></a>
-                <span class="popup-sign__f">f</span>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<div class="pop-up-sign">
-    <div class="popup-sign" style="width: 297px">
-        <a class="popup-sign__modlen-link dashed" href="#"><u>My Modlen</u></a>
-
-        <div class="popup-sign__inner">
-            <a href="#" class="popup-sign__close"><i class="fa fa-times"></i></a>
+            <a href="#" class="popup__close popup-sign__close"><i class="fa fa-times"></i></a>
 
             <div class="popup-sign__img-wrap">
                 <a href="#" class="popup-sign__link dashed"><u>Sign in with</u></a>
@@ -53,4 +34,22 @@
         </div>
     </div>
 </div>
-<!-- _________ popups _________ -->
+
+
+
+
+<div class="pop-up-sign">
+    <div class="popup-sign" style="width: 297px">
+        <a class="popup-sign__modlen-link dashed" href=""><u></u></a>
+
+        <div class="popup-sign__inner">
+            <a href="#" class="popup-sign__close"><i class="fa fa-times"></i></a>
+
+            <div class="popup-sign__img-wrap">
+                <a href="#" class="popup-sign__link dashed"><u>Sign in with</u></a>
+                <span class="popup-sign__f">f</span>
+            </div>
+
+        </div>
+    </div>
+</div>

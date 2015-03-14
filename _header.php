@@ -89,7 +89,7 @@
                             <span class="head__cart-count">17</span>
                         </div>
 
-                        <a href="" class="head__my-link dashed"><u>My Modlen</u></a>
+                        <a href="#popup-mymodlen" class="head__my-link dashed popup-link"><u>My Modlen</u></a>
                     </div>
                     <div class="head__free">
                         <a href="#" class="head__shipping-link">Free shipping</a>

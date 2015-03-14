@@ -25,7 +25,6 @@
     </div>
 </div>
 <div class="item-main" id="container">
-    <? renderItem(1, false) ?>
     <? renderItem(2, true) ?>
     <? renderItem(3, false) ?>
     <? renderItem(4, true) ?>
