@@ -9,7 +9,7 @@
             </div>
 			<h4 class="product__item-title">Rhyhtmic Gymnastics Leotard <span class="product__item_num"># 31</span></h4>
 
-			<div class="green-arrow-item">
+			<div class="green-arrow-item green-arrow-item_l_45">
 				<a class="" href="#">Next Leotard</a>
 			</div>
 		</div>
@@ -79,7 +79,7 @@
 			</div>
 
 			<div class="product__summary">
-				<div class="summary summary_bs" style="width: 288px">
+				<div class="summary summary_bs">
 					<div class="summary__head">
 						<p>
                             <b>Summary</b> without tax, fees and options
@@ -128,10 +128,10 @@
 				</div>
 				<div class="summary-add">
                     <ul class="summary-add__list">
-                        <li>
+                        <li class="summary-add__el">
                             <a href="#" class="summary-add__link">Delivery & Payment</a>
                         </li>
-                        <li>
+                        <li class="summary-add__el">
                             <a href="#" class="summary-add__link">Guarantee</a>
                         </li>
                     </ul>
@@ -154,20 +154,21 @@
                 </div>
 			</div>
 		</div>
-		<div class="preview">
-			<div class="preview__img-wrap">
-				<div class="preview__link-wrap">
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-2.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-3.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-4.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-2.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-3.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-4.jpg" alt="" /></a>
-				</div>
-			</div>
-		</div>
+        <div class="product__preview">
+            <div class="preview">
+                <div class="preview__img-wrap">
+                    <div class="preview__link-wrap">
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-2.jpg" alt="" /></a>
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-3.jpg" alt="" /></a>
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-4.jpg" alt="" /></a>
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-2.jpg" alt="" /></a>
+                        <a class="preview__img-link " href="#"><img src="img/content/example-small/example-3.jpg" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<div class="product__additional">
             <div class="product__about">
                 <h4 class="product__about-title">About the leotard</h4>
@@ -194,96 +195,194 @@
             </div>
 		</div>
 
-        <div class="product__features">
-            <div class="product__features-row">
-                <ul class="product__features-list">
-                    <li class="product__feature">
-                        <i class="product__feature-img icon-handwash"></i>
-                        <span class="product__factor">
-                            Hand washig at
-                            <i class="badge badge_pink">30 &deg;C / 86 &deg;F</i>
-                        </span>
-                    </li>
-                    <li class="product__feature">
-                        <i class="product__feature-img icon-no-dry"></i>
-                        <span class="product__factor">
-                            Do not dry clean
-                        </span>
-                    </li>
-                    <li class="product__feature">
-                        <i class="product__feature-img icon-no-tumble"></i>
-                        <span class="product__factor">
-                            Do not tumble dry
-                        </span>
-                    </li>
-                </ul>
-                <ul class="product__features-list">
-                    <li class="product__feature">
-                        <i class="product__feature-img icon-copyright"></i>
-                        <span class="product__factor">
-                            Some minor improvements & errors are permitted
-                        </span>
-                    </li>
-                    <li class="product__feature">
-                        <i class="product__feature-img icon-no-chlorine"></i>
-                        <span class="product__factor">
-                            No chlorine bleach
-                        </span>
-                    </li>
+        <div class="product__features-wrap">
+            <div class="light-shadowed-box">
+                <div class="product__features">
+                    <div class="product__features-row">
+                        <ul class="product__features-list">
+                            <li class="product__feature">
+                                <i class="product__feature-img icon-handwash"></i>
+                                <span class="product__factor">
+                                    Hand washig at
+                                    <i class="badge badge__light-pink">30 &deg;C / 86 &deg;F</i>
+                                </span>
+                            </li>
+                            <li class="product__feature">
+                                <i class="product__feature-img icon-no-dry"></i>
+                                <span class="product__factor">
+                                    Do not dry clean
+                                </span>
+                            </li>
+                            <li class="product__feature">
+                                <i class="product__feature-img icon-no-tumble"></i>
+                                <span class="product__factor">
+                                    Do not tumble dry
+                                </span>
+                            </li>
+                        </ul>
+                        <ul class="product__features-list">
+                            <li class="product__feature">
+                                <i class="product__feature-img icon-copyright"></i>
+                                <span class="product__factor">
+                                    Some minor improvements & errors are permitted
+                                </span>
+                            </li>
+                            <li class="product__feature">
+                                <i class="product__feature-img icon-no-chlorine"></i>
+                                <span class="product__factor">
+                                    No chlorine bleach
+                                </span>
+                            </li>
 
-                    <li class="product__feature">
-                        <i class="product__feature-img icon-iron"></i>
-                        <span class="product__factor">
-                            Not be ironed
-                        </span>
-                    </li>
-                </ul>
+                            <li class="product__feature">
+                                <i class="product__feature-img icon-iron"></i>
+                                <span class="product__factor">
+                                    Not be ironed
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
-		<div class="gallery">
-			<div class="gallery__title">More leotards:</div>
-			<div class="gallery__top">
-				<div class="gallery__link-wrap">
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
-				</div>
-			</div>
+        <div class="product__accessories">
+            <div class="accessories">
+                <div class="accessories__head">
+                    <a class="accessories__link">Rhythmic gymnastics accessories</a>
+                    <span>for this leotard:</span>
+                </div>
+                <div class="light-shadowed-box light-shadowed-box_no_border left">
+                    <ul class="accessories__list">
+                        <li class="accessories__el">
+                            <div class="item item_size_small">
+                                <div class="item__img-shadow item__img-shadow_top-right">
+                                    <div class="item__img-shadow item__img-shadow_bottom-left">
+                                        <img class="item__img" src="img/content/item_2.jpg">
+                                    </div>
+                                </div>
 
-			<div class="preview__bottom">
-				<div class="preview__scroll-line"></div>
-				<div class="preview__scroll"></div>
-			</div>
-		</div>
+                                <div class="item__name-link-wrap">
+                                    <p class="item__name-link">Rhythmic Gymnastics Leotard <span class=""># 1</span></p>
+                                </div>
 
+                                <div class="item__bottom">
+                                    <div class="item__price item__price_stock">
+                                        <i class="item__price-striker"></i>
+                                        <i class="fa fa_fs_light fa-eur"></i><span>300</span>
+                                    </div>
+                                    <div class="item__price item__price_red">
+                                        <i class="fa fa_fs_light fa-eur"></i>
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accessories__el">
+                            <div class="item item_size_small">
+                                <div class="item__img-shadow item__img-shadow_top-right">
+                                    <div class="item__img-shadow item__img-shadow_bottom-left">
+                                        <img class="item__img" src="img/content/item_2.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="item__name-link-wrap">
+                                    <p class="item__name-link">Rhythmic Gymnastics Leotard <span class=""># 1</span></p>
+                                </div>
+
+                                <div class="item__bottom">
+                                    <div class="item__price item__price_stock">
+                                        <i class="item__price-striker"></i>
+                                        <i class="fa fa_fs_light fa-eur"></i><span>300</span>
+                                    </div>
+                                    <div class="item__price item__price_red">
+                                        <i class="fa fa_fs_light fa-eur"></i>
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accessories__el">
+                            <div class="item item_size_small">
+                                <div class="item__img-shadow item__img-shadow_top-right">
+                                    <div class="item__img-shadow item__img-shadow_bottom-left">
+                                        <img class="item__img" src="img/content/item_2.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="item__name-link-wrap">
+                                    <p class="item__name-link">Rhythmic Gymnastics Leotard <span class=""># 1</span></p>
+                                </div>
+
+                                <div class="item__bottom">
+                                    <div class="item__price item__price_stock">
+                                        <i class="item__price-striker"></i>
+                                        <i class="fa fa_fs_light fa-eur"></i><span>300</span>
+                                    </div>
+                                    <div class="item__price item__price_red">
+                                        <i class="fa fa_fs_light fa-eur"></i>
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="accessories__el">
+                            <div class="item item_size_small">
+                                <div class="item__img-shadow item__img-shadow_top-right">
+                                    <div class="item__img-shadow item__img-shadow_bottom-left">
+                                        <img class="item__img" src="img/content/item_2.jpg">
+                                    </div>
+                                </div>
+
+                                <div class="item__name-link-wrap">
+                                    <p class="item__name-link">Rhythmic Gymnastics Leotard <span class=""># 1</span></p>
+                                </div>
+
+                                <div class="item__bottom">
+                                    <div class="item__price item__price_stock">
+                                        <i class="item__price-striker"></i>
+                                        <i class="fa fa_fs_light fa-eur"></i><span>300</span>
+                                    </div>
+                                    <div class="item__price item__price_red">
+                                        <i class="fa fa_fs_light fa-eur"></i>
+                                        <span>250</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="product__gallery">
+            <div class="gallery">
+                <div class="gallery__title">More leotards:</div>
+                <div class="gallery__top">
+                    <div class="gallery__link-wrap">
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n24-IMG_8897-3.jpg" alt="" /></div>
+                        <div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
+                    </div>
+                </div>
+
+                <div class="preview__bottom preview__bottom_w_100">
+                    <div class="preview__scroll-line"></div>
+                    <div class="preview__scroll"></div>
+                </div>
+            </div>
+        </div>
 	</div>
-
-	<div class="happy">
-		<div class="happy__left">
-			<h4 class="happy__title">Happy Customer</h4>
-
-			<p class="happy__user">Rebecca,<a class="happy__user-country" href="#">NEW ZEALAND</a></p>
-
-			<div class="happy__reviews">
-				<a href="#" class="happy__reviews-link">ALL REVIEWS</a>
-			</div>
-		</div>
-
-		<div class="happy__right">
-			<p class="happy__info">Arrived today. Yay!!! We just love it fits perfectly.</p>
-
-			<p class="happy__info"> Beautifully made, from picture did think it was going to be abit more black through the
-			                        center, but still
-			                        looks fantastic...Will recommended to others and we...</p>
-		</div>
-	</div>
-
 </div>
 
 

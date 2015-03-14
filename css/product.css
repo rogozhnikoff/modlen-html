@@ -17,7 +17,7 @@
 
 .product__color {
     float: left;
-    width: 140px;
+    width: 135px;
 }
 
 .product__item-view {
@@ -283,12 +283,12 @@
 
 .product__summary {
     float: right;
-    width: 340px;
+    width: 290px;
 }
 
 .product__wrap {
-    max-width: 1000px;
-    min-width: 1000px;
+    max-width: 950px;
+    min-width: 950px;
     margin: auto;
 }
 
@@ -315,6 +315,10 @@
 .product__about-text {
     margin: 0 0 7px;
     font: 18px/1.4 'trebuchet_msregular';
+}
+
+.product__preview {
+
 }
 
 .product__include {
@@ -356,19 +360,17 @@
     opacity: .8
 }
 
+.product__features-wrap {
+    margin: 40px 45px 40px 0;
+}
+
 .product__features {
     position: relative;
-    margin: 40px 0;
     padding: 20px 0 0 20px;
-    background-color: #fefdf8;
-    border: 1px dashed #999;
-    border-radius: 15px;
-    -webkit-box-shadow: 0 30px 60px -50px #000;
-    box-shadow: 0 30px 60px -50px #000;
 }
 
 .product__features-list {
-    width: 48%;
+    width: 60%;
     display: inline-block;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -400,4 +402,12 @@
     height: 60px;
     width: 60px;
     background-position: center center;
+}
+
+.product__accessories {
+    margin: 63px 0 20px;
+}
+
+.product__gallery {
+    margin: 77px 40px 17px 0;
 }
