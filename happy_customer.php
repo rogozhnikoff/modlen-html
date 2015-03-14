@@ -126,40 +126,72 @@
 						</div>
 					</div>
 				</div>
-				<div class="share">
-                    <ul class="share__list">
-                        <li class="share__item">
-                            <a href="#" class="share__link ">Delivery & Payment</a>
+				<div class="summary-add">
+                    <ul class="summary-add__list">
+                        <li>
+                            <a href="#" class="summary-add__link">Delivery & Payment</a>
                         </li>
-                        <li class="share__item">
-                            <a href="#" class="share__link">Guarantee</a>
+                        <li>
+                            <a href="#" class="summary-add__link">Guarantee</a>
                         </li>
                     </ul>
 				</div>
+                <div class="share">
+                    <ul class="share__list">
+                        <li class="share__item">
+                            <a href="#" class="share__link">
+                                <i class="icon-fb"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li class="share__item">
+                            <a href="#" class="share__link">
+                                <i class="icon-pinterest"></i>
+                                <span>Pinterest</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 			</div>
-		</div>
-		<div class="property__item-desc">
-			Click add to cart and tou will be guided through taking taking your measurements & other options
 		</div>
 		<div class="preview">
 			<div class="preview__img-wrap">
 				<div class="preview__link-wrap">
 					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
+					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-2.jpg" alt="" /></a>
+					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-3.jpg" alt="" /></a>
+					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-4.jpg" alt="" /></a>
 					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
-					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-1.jpg" alt="" /></a>
+					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-2.jpg" alt="" /></a>
+					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-3.jpg" alt="" /></a>
+					<a class="preview__img-link " href="#"><img src="img/content/example-small/example-4.jpg" alt="" /></a>
 				</div>
 			</div>
 		</div>
-		<div class="property__include">
-			Leotard include:
-			<a href="#" class="property__include-link">Stretch lycra</a>,
-			<a href="#" class="property__include-link">Pailletes</a>,
-			<a href="#" class="property__include-link">Applications</a>,
-			<a href="#" class="property__include-link">Fabric</a>,
-			<a href="#" class="property__include-link">Crystals</a>,
-			<a href="#" class="property__include-link">Skin Colored Mesh</a>,
+		<div class="property__additional">
+            <div class="property__about">
+                <h4 class="property__about-title">About the leotard</h4>
+                <p class="property__about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A adipisci asperiores at corporis delectus enim ex,
+                    exercitationem expedita explicabo...
+                </p>
+                <p class="property__about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A adipisci asperiores at corporis delectus enim ex.
+                </p>
+            </div>
+            <div class="property__include">
+                <h5 class="property__include-title">Leotard include:</h5>
+                <ul class="property__include-list">
+                    <li><a href="#" class="property__include-link">Stretch lycra</a></li>
+                    <li><a href="#" class="property__include-link">Pailletes</a></li>
+                    <li><a href="#" class="property__include-link">Applications</a></li>
+                    <li><a href="#" class="property__include-link">Fabric</a></li>
+                    <li><a href="#" class="property__include-link">Crystals</a></li>
+                    <li><a href="#" class="property__include-link">Skin Colored Mesh</a></li>
+                </ul>
+            </div>
 		</div>
 		<div class="gallery">
 			<div class="gallery__title">More different:</div>
