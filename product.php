@@ -1,21 +1,21 @@
 <? include '_header.php'; ?>
 
-<div class="property__wrap">
-	<div class="property">
+<div class="product__wrap">
+	<div class="product">
 
-		<div class="property__top">
-            <div class="property__stock">
-			    <a href="#" class="property__stock-link dashed">Stock for sale</a>
+		<div class="product__top">
+            <div class="product__stock">
+			    <a href="#" class="product__stock-link dashed">Stock for sale</a>
             </div>
-			<h4 class="property__item-title">Rhyhtmic Gymnastics Leotard <span class="property__item_num"># 31</span></h4>
+			<h4 class="product__item-title">Rhyhtmic Gymnastics Leotard <span class="product__item_num"># 31</span></h4>
 
-			<div class="property__next-arrow banner__arrow">
+			<div class="green-arrow-item">
 				<a class="" href="#">Next Leotard</a>
 			</div>
 		</div>
 
-		<div class="property__item-wrap">
-			<div class="property__color">
+		<div class="product__item-wrap">
+			<div class="product__color">
                 <div class="color-badges-box">
                     <ul class="color-badge-group color-badge-group_active">
                         <li class="color-badge-group__el">
@@ -72,13 +72,13 @@
                 </div>
 			</div>
 
-			<div class="property__item-view">
-				<div class="property__img-wrap">
+			<div class="product__item-view">
+				<div class="product__img-wrap">
 					<img src="img/content/big-item.jpg" alt="Leotard" />
 				</div>
 			</div>
 
-			<div class="property__summary">
+			<div class="product__summary">
 				<div class="summary summary_bs" style="width: 288px">
 					<div class="summary__head">
 						<p>
@@ -168,33 +168,35 @@
 				</div>
 			</div>
 		</div>
-		<div class="property__additional">
-            <div class="property__about">
-                <h4 class="property__about-title">About the leotard</h4>
-                <p class="property__about-text">
+		<div class="product__additional">
+            <div class="product__about">
+                <h4 class="product__about-title">About the leotard</h4>
+                <p class="product__about-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     A adipisci asperiores at corporis delectus enim ex,
                     exercitationem expedita explicabo...
                 </p>
-                <p class="property__about-text">
+                <p class="product__about-text">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     A adipisci asperiores at corporis delectus enim ex.
                 </p>
             </div>
-            <div class="property__include">
-                <h5 class="property__include-title">Leotard include:</h5>
-                <ul class="property__include-list">
-                    <li><a href="#" class="property__include-link">Stretch lycra</a></li>
-                    <li><a href="#" class="property__include-link">Pailletes</a></li>
-                    <li><a href="#" class="property__include-link">Applications</a></li>
-                    <li><a href="#" class="property__include-link">Fabric</a></li>
-                    <li><a href="#" class="property__include-link">Crystals</a></li>
-                    <li><a href="#" class="property__include-link">Skin Colored Mesh</a></li>
+            <div class="product__include">
+                <h5 class="product__include-title">Leotard include:</h5>
+                <ul class="product__include-list">
+                    <li><a href="#" class="product__include-link">Stretch lycra</a></li>
+                    <li><a href="#" class="product__include-link">Pailletes</a></li>
+                    <li><a href="#" class="product__include-link">Applications</a></li>
+                    <li><a href="#" class="product__include-link">Fabric</a></li>
+                    <li><a href="#" class="product__include-link">Crystals</a></li>
+                    <li><a href="#" class="product__include-link">Skin Colored Mesh</a></li>
                 </ul>
             </div>
 		</div>
+
+
 		<div class="gallery">
-			<div class="gallery__title">More different:</div>
+			<div class="gallery__title">More leotards:</div>
 			<div class="gallery__top">
 				<div class="gallery__link-wrap">
 					<div class="gallery__img-link"><img src="img/items/n133_2.jpg" alt="" /></div>
