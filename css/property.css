@@ -17,11 +17,12 @@
 
 .property__color {
     float: left;
-    width: 200px;
+    width: 140px;
 }
 
 .property__item-view {
     float: left;
+    margin: 0 30px;
 }
 
 .property__img-wrap {
@@ -211,18 +212,16 @@
 }
 
 .property__top {
-    margin: 0 auto 24px;
-    text-align: left;
-    width: 753px;
-
-
+    /*width: 753px;*/
+    margin: 0 0 25px;
 }
 
 .property__stock-link {
     font-size: 15px;
+    margin-right: 88px;
     padding-top: 0;
-    margin-right: 32px;
 }
+
 
 .property__stock-link u:after {
     bottom: 0;
@@ -277,6 +276,10 @@
     width: 22px;
     height: 24px;
 }
+.property__next-arrow_r-220 {
+    float: right;
+    margin-right: 220px;
+}
 .property__item-desc {
     font-size: 18px;
     max-width: 720px;
@@ -320,6 +323,7 @@
 
 .property__summary {
     float: right;
+    width: 340px;
 }
 
 .property__wrap {

@@ -7,77 +7,93 @@
 			<a href="#" class="property__stock-link dashed"><u>Stock for sale</u></a>
 			<h4 class="property__item-title">Rhyhtmic Gymnastics Leotard <span class="property__item_num"># 31</span></h4>
 
-			<div class="property__next-arrow banner__arrow right arrow-small">
+			<div class="property__next-arrow property__next-arrow_r-220 banner__arrow">
 				<a class="" href="#">Next Leotard</a>
 			</div>
 		</div>
 
 		<div class="property__item-wrap">
 			<div class="property__color">
-				<div class="property__color-list">
-					<ul class="color-list">
-						<li class="color-list__item">
-							<div class="color-list__circle circle-pg active">
-								<i style="color: red" class="fa fa-circle"></i></div>
-							<span class="color-list__name">Red</span>
-						</li>
-						<li class="color-list__item">
-							<div class="color-list__circle circle-pg ">
-								<i style="color:  #ec2d8c" class="fa fa-circle"></i></div>
-							<span class="color-list__name">Pink & Green</span>
-						</li>
-						<li class="color-list__item">
-							<div class="color-list__circle circle-pg ">
-								<i style="color: #008ec6" class="fa fa-circle"></i></div>
-							<span class="color-list__name">Blue & Green</span>
-						</li>
-						<li class="color-list__item color-list__item_custom">
-							<div class="color-list__circle circle-custom"><i class="fa fa-circle"></i></div>
-							<a class="color-list__link dashed" href="#"><u>Custom color</u></a>
-
-							<div class="color-list__item-bottom">
-								You will be guided through choosing color combination.
-							</div>
-						</li>
-					</ul>
-				</div>
+                <div class="color-badges-box">
+                    <ul class="color-badge-group color-badge-group_active">
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_pink">Magenta</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_green">Green</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_brown">Mesh</i>
+                        </li>
+                    </ul>
+                    <ul class="color-badge-group">
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_red">Red</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_grey badge_text-dark">Silver</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_brown">Mesh</i>
+                        </li>
+                    </ul>
+                    <ul class="color-badge-group">
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_blue">Blue</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_yellow badge_text-dark">Yellow</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_brown">Mesh</i>
+                        </li>
+                    </ul>
+                    <ul class="color-badge-group">
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_light-blue">Light blue</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_violet">Violet</i>
+                        </li>
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_brown">Mesh</i>
+                        </li>
+                    </ul>
+                    <ul class="color-badge-group">
+                        <li class="color-badge-group__el">
+                            <i class="badge badge_dark-blue badge_btn">Custom colors</i>
+                        </li>
+                        <li class="color-badge-group__text">
+                            Choose any leotard&prime;s color by your choice
+                        </li>
+                    </ul>
+                </div>
 			</div>
+
 			<div class="property__item-view">
 				<div class="property__img-wrap">
 					<img src="img/content/big-item.jpg" alt="Leotard" />
-					<a class="item__rotator item__rotator_w_43 item__rotator_offset" href="#"></a>
-					<a href="#" class="property__pailletes">Pailettes<span class="pointer-wrap"><span
-						 class="pointer"></span></span></a>
-					<a href="#" class="property__mesh"><span>Skin<br>Colored<br>Mesh</span> <span class="pointer-wrap"><span
-						 class="pointer"></span></span></a>
-					<a href="#" class="property__fabric">Fabric <span class="pointer-wrap"><span
-						 class="pointer"></span></span></a>
-
-					<div class="property__crystal-wrap">
-						<a href="#" class="property__crystal dashed"><u>Crystals</u></a>
-						<span class="pointer"></span>
-					</div>
-					<div class="property__application-wrap">
-						<a href="#" class="property__application dashed"><u>Applications</u></a>
-						<span class="pointer"></span>
-					</div>
 				</div>
 			</div>
+
 			<div class="property__summary">
 				<div class="summary summary_bs" style="width: 288px">
 					<div class="summary__head">
-						<span class="summary__head_fw">Summary</span> without tax, fees and options
+						<p>
+                            <b>Summary</b> without tax, fees and options
+                        </p>
 					</div>
 					<div class="summary__inner">
 						<div class="price">
-							<div class="price__left">
-								<div class="price__amount"><i class="price__cur fa fa-eur"></i>119.-</div>
-								<div class="price__around">AROUND &nbsp;<i class="fa fa-usd">88</i> &nbsp;<i class="fa fa-gbp">72</i>
-								</div>
-							</div>
-							<div class="price__right">
-								<i class="like-this__heart"></i>
-							</div>
+                            <div class="price__amount">
+                                <span class="price__val"><i class="price__cur fa fa-usd"></i>119.-</span>
+                            </div>
+                            <div class="price__around">
+                                AROUND &nbsp;
+                                <i class="fa fa-usd">88</i>
+                                <span>/</span>
+                                <i class="fa fa-gbp">72</i>
+                            </div>
 						</div>
 
 						<div class="summary__options-list">
@@ -101,15 +117,11 @@
 						</div>
 
 						<div class="summary__btn-wrap">
-							<a href="#" id="btn_add_to_cart" class="btn btn_green btn_box-shadow left"><span class="btn_in-shadow">Add to cart</span></a>
-
-							<div class="summary__pay-variant">
-								<a class="summary__pay-link" href="#"><img src="img/icon/pay-VMP.png" alt="pay" /></a>
-							</div>
+							<a href="#" id="btn_add_to_cart"
+                               class="btn btn_green btn_box-shadow left">
+                                <span class="btn_in-shadow">Add to cart</span>
+                            </a>
 						</div>
-						<p class="summary__info summary__info_ml_17">
-							Click add to cart and tou will be guided through taking taking your measurements & other options
-						</p>
 					</div>
 				</div>
 				<div class="share">
