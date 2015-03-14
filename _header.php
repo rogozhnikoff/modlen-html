@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="css/data-list.css"/>
     <link rel="stylesheet" href="css/ic.css"/>
     <link rel="stylesheet" href="css/lang.css"/>
+    <link rel="stylesheet" href="css/baton.css"/>
     <link rel="stylesheet" href="css/modlen.css"/>
     <link rel="stylesheet" href="css/badge.css"/>
 

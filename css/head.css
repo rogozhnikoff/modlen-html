@@ -8,7 +8,6 @@
 .head__theme {
     height: 6px;
     background: url("../img/texture/head-back.jpg") center center no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -18,14 +17,17 @@
     z-index: 1;
     opacity: .9
 }
+
 .head__content {
     z-index: 2;
     position: relative;
 }
-.head__etsy-link{
+
+.head__etsy-link {
     display: inline-block;
     margin: 0 10px 0 0;
 }
+
 .head__theme_mb_32 {
     margin-bottom: 32px
 }
@@ -87,44 +89,47 @@
     vertical-align: top;
     margin: 0 0 0 13px
 }
+
 .head__cart-count {
-    color: rgba(179,42, 0, 1);
+    color: rgba(179, 42, 0, 1);
     margin-right: 20px;
     letter-spacing: -.5px;
 }
+
 .head__cart-count:before,
-.head__cart-count:after
-{
-    color: rgba(179,42, 0, .5)
+.head__cart-count:after {
+    color: rgba(179, 42, 0, .5)
 }
+
 .head__cart-count:before {
     content: '('
 }
+
 .head__cart-count:after {
     content: ')'
 }
 
 /*.head__cart-circle {*/
-    /*display: none;*/
-    /*vertical-align: middle;*/
-    /*width: 20px;*/
-    /*height: 20px;*/
-    /*border-radius: 50%;*/
-    /*background-color: #e2221d;*/
-    /*color: #fff;*/
-    /*text-align: center;*/
-    /*font-weight: 100;*/
-    /*font-size: 11px;*/
-    /*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
-    /*position: relative;*/
-    /*line-height: 1.9;*/
+/*display: none;*/
+/*vertical-align: middle;*/
+/*width: 20px;*/
+/*height: 20px;*/
+/*border-radius: 50%;*/
+/*background-color: #e2221d;*/
+/*color: #fff;*/
+/*text-align: center;*/
+/*font-weight: 100;*/
+/*font-size: 11px;*/
+/*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+/*position: relative;*/
+/*line-height: 1.9;*/
 /*}*/
 
 /*.head__cart-circle:after{*/
-    /*display: inline-block;*/
-    /*content: '';*/
-    /*height: 100%;*/
-    /*vertical-align: middle;*/
+/*display: inline-block;*/
+/*content: '';*/
+/*height: 100%;*/
+/*vertical-align: middle;*/
 /*}*/
 
 .head__cart-icon {
@@ -132,8 +137,7 @@
     margin-right: 4px;
 }
 
-
-.cart-num{
+.cart-num {
     vertical-align: middle;
     display: inline-block;
 }
@@ -199,8 +203,6 @@
     bottom: -1px
 }
 
-
-
 .head__lang-line {
     position: absolute;
     width: 128px;
@@ -213,7 +215,8 @@
     background-size: cover;
     background-image: url('../img/lenta-top-right.png');
 }
-@media  (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
     .head__lang-line {
         background-image: url('../img/lenta-top-right@2x.png');
     }
@@ -233,7 +236,6 @@
     border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
-
 .head__lang-current:before {
     content: '▼';
     font-size: 60%;
@@ -244,16 +246,18 @@
 }
 
 .head__lang-switcher:link,
-.head__lang-switcher:hover
-{
+.head__lang-switcher:hover {
     color: #fff;
 }
+
 .head__lang-switcher:hover {
     cursor: pointer;
 }
+
 .head__lang-switcher:hover u {
     border-bottom-color: rgba(255, 255, 255, 1);
 }
+
 .head__lang-switcher:hover .head__lang-current:before {
     color: rgba(255, 255, 255, 1);
 }

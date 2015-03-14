@@ -16,7 +16,6 @@
 .element {
     border-radius: 18px;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-color: #dedede
@@ -47,9 +46,6 @@
     text-align: center;
     outline: none;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -96,7 +92,6 @@
     margin: -66px 3.5% 0 0;
     border-radius: 8px;
     background: #53920d;
-    -webkit-box-shadow: 0 2px 2px rgba(59, 98, 54, .5);
     box-shadow: 0 2px 2px rgba(59, 98, 54, .5);
     text-shadow: 0 1px 0 rgba(67, 95, 17, .5);
     font: 400 1.8em/2.08 'PT Sans';
@@ -111,11 +106,8 @@
 
 .sbtn_skew {
     -webkit-transform: skewX(-15deg);
-    -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
-    -o-transform: skewX(-15deg);
     transform: skewX(-15deg);
-    -webkit-background-size: cover;
     background-size: cover;
 }
 
@@ -151,11 +143,8 @@
     margin-left: -1.5%;
     background: url("../img/texture/Spring-2_spam-1.jpg");
     -webkit-transform: skewX(-15deg);
-    -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
-    -o-transform: skewX(-15deg);
     transform: skewX(-15deg);
-    -webkit-background-size: cover;
     background-size: cover;
 }
 
@@ -166,12 +155,9 @@
     height: 68px;
     margin: -84px 0 0 1%;
     background: url("../img/texture/Spring-2_spam-2blur.jpg");
-    -webkit-background-size: cover;
     background-size: cover;
     -webkit-transform: skewX(-15deg);
-    -moz-transform: skewX(-15deg);
     -ms-transform: skewX(-15deg);
-    -o-transform: skewX(-15deg);
     transform: skewX(-15deg);
 }
 

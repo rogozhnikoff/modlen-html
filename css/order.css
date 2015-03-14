@@ -5,7 +5,8 @@
 .order:hover .order__control-bar {
     display: block
 }
-.order__close .order__control-bar-inner{
+
+.order__close .order__control-bar-inner {
     display: none;
 }
 
@@ -118,7 +119,6 @@
 .order__like-off {
     text-decoration: none;
     background: url("../img/icon/like.svg") 100% 0 no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     display: block;
     width: 25px;
@@ -133,7 +133,6 @@
 .order__like-on {
     text-decoration: none;
     background: url("../img/icon/like.svg") 0 0 no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     display: block;
     width: 25px;
@@ -177,14 +176,15 @@
 .order__img-link {
     display: block
 }
-.order__img-link img{
+
+.order__img-link img {
     height: 160px;
 }
+
 .order__rotator {
     width: 35px;
     height: 19px;
     background: url("../img/icon/rotator.svg");
-    -webkit-background-size: 35px 19px;
     background-size: 35px 19px
 }
 
@@ -277,7 +277,6 @@
     margin: 0 auto 27px;
     white-space: nowrap;
     padding-left: 30px;
-
 
 }
 

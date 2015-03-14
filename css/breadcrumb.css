@@ -45,7 +45,6 @@
 
 .breadcrumb__arrow {
     background: url("../img/icon/arrow.svg") center 0 no-repeat;
-    -webkit-background-size: 60% 100%;
     background-size: 60% 100%;
     width: 22px;
     height: 26px;
