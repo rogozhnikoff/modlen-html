@@ -1280,18 +1280,42 @@ a.small_cart {
 }
 
 .banner__title {
-    text-shadow: 0px 0px 10px rgba(255, 255, 2555, 1);
-    font-size: 44px;
-    font-family: "GrossKunst";
     margin-top: 16px;
+    font: 44px 'GrossKunst';
+    text-shadow: 0 0 10px rgba(255, 255, 2555, 1);
 }
 
-.banner__arrow {
+.green-arrow-item {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    margin: 0 25px;
+    background: url("../img/icon/arrow-long-02.png") center repeat;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
-.banner__arrow a {
+.green-arrow-item:before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background: transparent url('../img/icon/arrow-long-01.png') center no-repeat;
+    width: 18px;
+    height: 24px;
+}
+
+.green-arrow-item:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background: transparent url('../img/icon/arrow-long-03.png') center no-repeat;
+    width: 22px;
+    height: 24px;
+}
+
+.green-arrow-item a {
     display: inline-block;
     position: relative;
     line-height: 1.9;
@@ -1299,7 +1323,7 @@ a.small_cart {
     padding: 0 10px;
 }
 
-.banner__arrow a:hover {
+.green-arrow-item a:hover {
     color: #f5f5f5;
 }
 

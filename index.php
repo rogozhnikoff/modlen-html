@@ -1,7 +1,7 @@
 <? include '_header.php'; ?>
 	<div class="links">
 		<a class="" href="main.php">main</a>
-		<a class="" href="happy_customer.php">happy_customer</a>
+		<a class="" href="product.php">product</a>
 		<a class="" href="option-list.php">option-list</a>
 		<a class="" href="option_pick-size.php">option_pick-size</a>
 		<a class="" href="order-process.php">order-process</a>

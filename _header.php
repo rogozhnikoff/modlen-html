@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/icons.css"/>
     <link rel="stylesheet" href="css/head.css"/>
     <link rel="stylesheet" href="css/order.css"/>
-    <link rel="stylesheet" href="css/property.css"/>
+    <link rel="stylesheet" href="css/product.css"/>
     <link rel="stylesheet" href="css/item.css"/>
     <link rel="stylesheet" href="css/sign-in.css"/>
     <link rel="stylesheet" href="css/breadcrumb.css"/>

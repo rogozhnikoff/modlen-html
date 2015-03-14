@@ -1,4 +1,4 @@
-.property__large-img {
+.product__large-img {
     width: 400px;
     background: #fff;
     border: 3px solid #ccc;
@@ -11,27 +11,27 @@
     z-index: 1099
 }
 
-.property__large-img.active {
+.product__large-img.active {
     display: block
 }
 
-.property__color {
+.product__color {
     float: left;
     width: 140px;
 }
 
-.property__item-view {
+.product__item-view {
     float: left;
     margin: 0 30px;
 }
 
-.property__img-wrap {
+.product__img-wrap {
     width: 450px;
     position: relative;
     text-align: center;
 }
 
-.property__pailletes {
+.product__pailletes {
     position: absolute;
     text-decoration: none;
     border-bottom: 1px solid #cde5cd;
@@ -41,15 +41,15 @@
     left: 37px
 }
 
-.property__pailletes:link, .property__pailletes:visited {
+.product__pailletes:link, .product__pailletes:visited {
     color: #000
 }
 
-.property__pailletes:hover, .property__pailletes:active {
+.product__pailletes:hover, .product__pailletes:active {
     opacity: .8
 }
 
-.property__pailletes .pointer {
+.product__pailletes .pointer {
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 100%;
@@ -63,7 +63,7 @@
     left: -12px;
 }
 
-.property__mesh {
+.product__mesh {
     position: absolute;
     display: block;
     width: 60px;
@@ -75,21 +75,21 @@
     line-height: 1.2
 }
 
-.property__mesh span {
+.product__mesh span {
     position: relative;
     border-bottom: 1px solid #cde5cd;
     line-height: 1
 }
 
-.property__mesh:link, .property__mesh:visited {
+.product__mesh:link, .product__mesh:visited {
     color: #000
 }
 
-.property__mesh:hover, .property__mesh:active {
+.product__mesh:hover, .product__mesh:active {
     opacity: .8
 }
 
-.property__mesh .pointer {
+.product__mesh .pointer {
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-right-radius: 100%;
@@ -103,7 +103,7 @@
     left: -105px;
 }
 
-.property__fabric {
+.product__fabric {
     position: absolute;
     text-decoration: none;
     border-bottom: 1px solid #cde5cd;
@@ -113,15 +113,15 @@
     right: -29px
 }
 
-.property__fabric:link, .property__fabric:visited {
+.product__fabric:link, .product__fabric:visited {
     color: #000
 }
 
-.property__fabric:hover, .property__fabric:active {
+.product__fabric:hover, .product__fabric:active {
     opacity: .8
 }
 
-.property__fabric .pointer {
+.product__fabric .pointer {
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 120%;
@@ -135,13 +135,13 @@
     left: -125px;
 }
 
-.property__crystal-wrap {
+.product__crystal-wrap {
     position: absolute;
     top: 48px;
     right: 1px
 }
 
-.property__crystal-wrap .pointer {
+.product__crystal-wrap .pointer {
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 94%;
@@ -155,34 +155,34 @@
     left: -76px;
 }
 
-.property__crystal {
+.product__crystal {
     font-size: 15px
 }
 
-.property__crystal u:after {
+.product__crystal u:after {
     bottom: 0
 }
 
-.property__crystal:link, .property__crystal:visited {
+.product__crystal:link, .product__crystal:visited {
     color: #006902
 }
 
-.property__crystal:hover, .property__crystal:active {
+.product__crystal:hover, .product__crystal:active {
     color: #e12519
 }
 
-.property__crystal:hover u:after, .property__crystal:active u:after {
+.product__crystal:hover u:after, .product__crystal:active u:after {
     bottom: 0;
     border-top-color: #e12519
 }
 
-.property__application-wrap {
+.product__application-wrap {
     position: absolute;
     left: -24px;
     bottom: 197px
 }
 
-.property__application-wrap .pointer {
+.product__application-wrap .pointer {
     display: block;
     border-bottom: 1px solid #555;
     border-bottom-left-radius: 140%;
@@ -196,104 +196,72 @@
     left: 41px;
 }
 
-.property__application {
+.product__application {
     font-size: 15px;
     position: absolute;
     left: -95px;
     top: -40px;
 }
 
-.property__application u:after {
+.product__application u:after {
     bottom: 0
 }
 
-.property__application:link, .property__application:visited {
+.product__application:link, .product__application:visited {
     color: #006902
 }
 
-.property__application:hover, .property__application:active {
+.product__application:hover, .product__application:active {
     color: #e12519
 }
 
-.property__application:hover u:after, .property__application:active u:after {
+.product__application:hover u:after, .product__application:active u:after {
     bottom: 0;
     border-top-color: #e12519
 }
 
-.property__top {
+.product__top {
     margin: 0 0 28px;
 }
 
-.property__stock {
+.product__stock {
     display: inline-block;
     width: 21%;
     padding: 0 15px 0 0;
 }
 
-.property__stock-link {
+.product__stock-link {
     font: 15px/1.4 'trebuchet_msregular';
     color: green;
     border-bottom: 2px solid #e9f4ea;
 }
 
-.property__stock-link u:after {
+.product__stock-link u:after {
     bottom: 0;
     border-top-color: #006902
 }
 
-.property__stock-link:link, .property__stock-link:visited {
+.product__stock-link:link, .product__stock-link:visited {
     color: green
 }
 
-.property__stock-link:hover, .property__stock-link:active {
+.product__stock-link:hover, .product__stock-link:active {
     color: #e12519
 }
 
-.property__stock-link:hover u:after, .property__stock-link:active u:after {
+.product__stock-link:hover u:after, .product__stock-link:active u:after {
     bottom: 0;
     border-top-color: #e12519
 }
 
-.property__item-title {
+.product__item-title {
     display: inline-block;
     width: 45%;
     padding: 0 15px;
     box-sizing: border-box;
 }
 
-.property__item_num {
-    /*font-size: 45px;	*/
-}
-
-.property__next-arrow {
-    position: relative;
-    display: inline-block;
-    height: 24px;
-    margin: 0 25px;
-    background: url("../img/icon/arrow-long-02.png") center repeat;
-}
-
-.property__next-arrow:before {
-    content: '';
-    position: absolute;
-    right: 100%;
-    top: 0;
-    background: transparent url('../img/icon/arrow-long-01.png') center no-repeat;
-    width: 18px;
-    height: 24px;
-}
-
-.property__next-arrow:after {
-    content: '';
-    position: absolute;
-    left: 100%;
-    top: 0;
-    background: transparent url('../img/icon/arrow-long-03.png') center no-repeat;
-    width: 22px;
-    height: 24px;
-}
-
-.property__item-desc {
+.product__item-desc {
     font-size: 18px;
     max-width: 720px;
     font-weight: 700;
@@ -301,7 +269,7 @@
     line-height: 1.4;
 }
 
-.property__example {
+.product__example {
     margin: 45px auto 0;
     font-size: 0;
     position: relative;
@@ -309,26 +277,26 @@
 
 }
 
-.property__example-wrap {
+.product__example-wrap {
     width: 112px
 }
 
-.property__summary {
+.product__summary {
     float: right;
     width: 340px;
 }
 
-.property__wrap {
+.product__wrap {
     max-width: 1000px;
     min-width: 1000px;
     margin: auto;
 }
 
-.property__additional {
+.product__additional {
 
 }
 
-.property__about {
+.product__about {
     display: inline-block;
     width: 65%;
     padding: 28px 20px 0 85px;
@@ -338,18 +306,18 @@
 
 }
 
-.property__about-title {
+.product__about-title {
     margin-top: 0;
     margin-bottom: 2px;
     font: 20px 'trebuchet_msbold';
 }
 
-.property__about-text {
+.product__about-text {
     margin: 0 0 7px;
     font: 18px/1.4 'trebuchet_msregular';
 }
 
-.property__include {
+.product__include {
     display: inline-block;
     width: 30%;
     -webkit-box-sizing: border-box;
@@ -358,32 +326,32 @@
     vertical-align: top;
 }
 
-.property__include-title {
+.product__include-title {
     font: 13px 'trebuchet_msitalic';
 }
 
-.property__include-list {
+.product__include-list {
     padding: 0 0 0 15px;
     list-style: disc;
 }
 
-.property__include-list li {
+.product__include-list li {
     margin: 0 0 3px;
 }
 
-.property__include-link {
+.product__include-link {
     font: 13px/1.2 'trebuchet_msregular';
     border-bottom: 1px solid #deead2;
     text-decoration: none;
     color: green;
 }
 
-.property__include-link:link,
-.property__include-link:visited {
+.product__include-link:link,
+.product__include-link:visited {
     color: green
 }
 
-.property__include-link:hover,
-.property__include-link:active {
+.product__include-link:hover,
+.product__include-link:active {
     opacity: .8
 }
