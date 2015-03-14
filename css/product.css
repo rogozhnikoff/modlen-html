@@ -355,3 +355,49 @@
 .product__include-link:active {
     opacity: .8
 }
+
+.product__features {
+    position: relative;
+    margin: 40px 0;
+    padding: 20px 0 0 20px;
+    background-color: #fefdf8;
+    border: 1px dashed #999;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 30px 60px -50px #000;
+    box-shadow: 0 30px 60px -50px #000;
+}
+
+.product__features-list {
+    width: 48%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.product__features-list:first-child {
+    width: 35%;
+}
+
+.product__feature {
+    position: relative;
+    margin: 0 0 25px;
+    padding: 0 0 0 62px;
+}
+
+.product__factor {
+    display: inline-block;
+    padding: 6px 0 0;
+    vertical-align: top;
+    font: 18px/1.4 'trebuchet_msregular';
+}
+
+.product__feature-img {
+    position: absolute;
+    top: -14px;
+    left: 0;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-position: center center;
+}

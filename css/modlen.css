@@ -859,6 +859,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     border-color: #999;
 }
 
+.share__link:link,
 .share__link:hover,
 .share__link:visited {
     color: #222;

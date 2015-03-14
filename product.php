@@ -194,6 +194,52 @@
             </div>
 		</div>
 
+        <div class="product__features">
+            <div class="product__features-row">
+                <ul class="product__features-list">
+                    <li class="product__feature">
+                        <i class="product__feature-img icon-handwash"></i>
+                        <span class="product__factor">
+                            Hand washig at
+                            <i class="badge badge_pink">30 &deg;C / 86 &deg;F</i>
+                        </span>
+                    </li>
+                    <li class="product__feature">
+                        <i class="product__feature-img icon-no-dry"></i>
+                        <span class="product__factor">
+                            Do not dry clean
+                        </span>
+                    </li>
+                    <li class="product__feature">
+                        <i class="product__feature-img icon-no-tumble"></i>
+                        <span class="product__factor">
+                            Do not tumble dry
+                        </span>
+                    </li>
+                </ul>
+                <ul class="product__features-list">
+                    <li class="product__feature">
+                        <i class="product__feature-img icon-copyright"></i>
+                        <span class="product__factor">
+                            Some minor improvements & errors are permitted
+                        </span>
+                    </li>
+                    <li class="product__feature">
+                        <i class="product__feature-img icon-no-chlorine"></i>
+                        <span class="product__factor">
+                            No chlorine bleach
+                        </span>
+                    </li>
+
+                    <li class="product__feature">
+                        <i class="product__feature-img icon-iron"></i>
+                        <span class="product__factor">
+                            Not be ironed
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
 		<div class="gallery">
 			<div class="gallery__title">More leotards:</div>
