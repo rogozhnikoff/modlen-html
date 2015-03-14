@@ -7,7 +7,7 @@
 			<a href="#" class="property__stock-link dashed"><u>Stock for sale</u></a>
 			<h4 class="property__item-title">Rhyhtmic Gymnastics Leotard <span class="property__item_num"># 31</span></h4>
 
-			<div class="property__next-arrow property__next-arrow_r-220 banner__arrow">
+			<div class="property__next-arrow banner__arrow">
 				<a class="" href="#">Next Leotard</a>
 			</div>
 		</div>

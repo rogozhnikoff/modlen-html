@@ -221,15 +221,14 @@
 }
 
 .property__top {
-    margin: 0 0 25px;
-    text-align: left;
-    width: 753px;
+    margin: 0 0 28px;
 }
 
 .property__stock-link {
+    display: inline-block;
+    width: 21%;
+    padding: 0 15px 0 0;
     font-size: 15px;
-    margin-right: 88px;
-    padding-top: 0;
 }
 
 
@@ -252,8 +251,10 @@
 }
 
 .property__item-title {
-    vertical-align: middle;
-    margin-top: 0;
+    display: inline-block;
+    width: 45%;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .property__item_num {
@@ -261,13 +262,10 @@
 }
 
 .property__next-arrow {
-    width: auto;
-    height: 24px;
-    background: url("../img/icon/arrow-long-02.png") center repeat;
-    vertical-align: middle;
-    margin: 0 30px 3px;
-    padding: 0;
     position: relative;
+    display: inline-block;
+    margin: 0 12px;
+    background: url("../img/icon/arrow-long-02.png") center repeat;
 }
 
 .property__next-arrow:before {
@@ -288,10 +286,6 @@
     background: transparent url('../img/icon/arrow-long-03.png') center no-repeat;
     width: 22px;
     height: 24px;
-}
-.property__next-arrow_r-220 {
-    float: right;
-    margin-right: 220px;
 }
 
 .property__item-desc {
