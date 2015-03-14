@@ -800,8 +800,10 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .share {
-    margin: 23px 0 0 30px;
-    font-family: 'trebuchet_msregular'
+    position: relative;
+    margin: 20px 0;
+    font-family: 'trebuchet_msregular';
+    z-index: 10;
 }
 
 .share__soc {
@@ -857,15 +859,25 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     opacity: .8
 }
 
+.share__list {
+    padding: 0 28px;
+}
+
+.share__item {
+
+}
+
 .share__link {
+    /*display: inline-block;*/
     font-size: 12px;
     text-decoration: none;
     margin: 0 0 3px 7px;
-    border-bottom: 1px solid #cde5cd
+    border-bottom: 1px dashed #cde5cd;
+    color: green;
 }
 
 .share__link:link, .share__link:visited {
-    color: #000
+    color: green
 }
 
 .share__link:hover, .share__link:active {

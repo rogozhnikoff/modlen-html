@@ -4,7 +4,9 @@
 	<div class="property">
 
 		<div class="property__top">
-			<a href="#" class="property__stock-link dashed"><u>Stock for sale</u></a>
+            <div class="property__stock">
+			    <a href="#" class="property__stock-link dashed">Stock for sale</a>
+            </div>
 			<h4 class="property__item-title">Rhyhtmic Gymnastics Leotard <span class="property__item_num"># 31</span></h4>
 
 			<div class="property__next-arrow banner__arrow">
@@ -125,17 +127,14 @@
 					</div>
 				</div>
 				<div class="share">
-					<div class="share__soc">
-						<a href="#" class="share__text"><i class="share__fb-icon"></i>Share</a><span class="share__count">7</span>
-					</div>
-					<div class="share__info">5% discount for sharing the leotard</div>
-					<p><a href="#" class="share__discount ">More about discount</a></p>
-
-					<p><a href="#" class="share__link ">Delivery & Payment</a></p>
-
-					<p><a href="#" class="share__link">Guarantee</a></p>
-
-					<p><a href="#" class="share__link ">FAQ</a></p>
+                    <ul class="share__list">
+                        <li class="share__item">
+                            <a href="#" class="share__link ">Delivery & Payment</a>
+                        </li>
+                        <li class="share__item">
+                            <a href="#" class="share__link">Guarantee</a>
+                        </li>
+                    </ul>
 				</div>
 			</div>
 		</div>

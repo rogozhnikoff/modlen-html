@@ -1,8 +1,11 @@
 
 .summary {
+    position: relative;
     background: #fbf7ee;
     border-radius: 15px;
-    font-family: 'trebuchet_msregular'
+    font-family: 'trebuchet_msregular';
+    z-index: 5;
+
 }
 
 .summary, .summary__head {

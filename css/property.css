@@ -224,13 +224,17 @@
     margin: 0 0 28px;
 }
 
-.property__stock-link {
+.property__stock {
     display: inline-block;
     width: 21%;
     padding: 0 15px 0 0;
-    font-size: 15px;
 }
 
+.property__stock-link {
+    font: 15px/1.4 'trebuchet_msregular';
+    color: green;
+    border-bottom: 2px solid #e9f4ea;
+}
 
 .property__stock-link u:after {
     bottom: 0;
@@ -238,7 +242,7 @@
 }
 
 .property__stock-link:link, .property__stock-link:visited {
-    color: #006902
+    color: green
 }
 
 .property__stock-link:hover, .property__stock-link:active {
