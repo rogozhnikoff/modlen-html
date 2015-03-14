@@ -63,7 +63,7 @@
                     </ul>
                     <ul class="color-badge-group">
                         <li class="color-badge-group__el">
-                            <i class="badge badge_dark-blue badge_btn">Custom colors</i>
+                            <i class="badge badge_dark-blue">Custom colors</i>
                         </li>
                         <li class="color-badge-group__text">
                             Choose any leotard&prime;s color by your choice

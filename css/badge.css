@@ -15,41 +15,37 @@
 }
 
 .badge_brown {
-    background-color: #d9ca97;
+    background-color: #d9c99a;
 }
 
 .badge_red {
-    background-color: red;
+    background-color: #fc0d1b;
 }
 
 .badge_grey {
-    background-color: lightgray;
+    background-color: #cccccc;
 }
 
 .badge_blue {
-    background-color: blue;
+    background-color: #168fc4;
 }
 
 .badge_yellow {
-    background-color: yellow;
+    background-color: #fed330;
 }
 
 .badge_light-blue {
-    background-color: lightblue;
+    background-color: #5dccf3;
 }
 
 .badge_violet {
-    background-color: darkviolet;
+    background-color: #a017a7;
 }
 
 .badge_dark-blue {
-    background-color: darkblue;
+    background-color: #5966ac;
 }
 
 .badge_text-dark {
     color: #555;
-}
-
-.badge_btn {
-    cursor: pointer;
 }
