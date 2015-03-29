@@ -37,10 +37,13 @@
 }
 
 .navi-list__item {
+    font-family: 'PT_Sans-Narrow-Web-Bold';
     float: left;
     margin-left: 35px;
-    font-family: 'PT_Sans-Narrow-Web-Bold';
     position: relative
+}
+.navi-list__item:first-child {
+    margin-left: 0;
 }
 
 .navi-list__item.active {
@@ -61,9 +64,6 @@
     color: #fff
 }
 
-.navi-list__item_m_0 {
-    margin: 0
-}
 
 .navi-list__link {
     border-bottom: 1px solid #deead2;
@@ -1286,15 +1286,33 @@ a.small_cart {
 }
 
 .banner__links {
-    display: inline-block;
-    position: relative;
-    bottom: 19px;
+    position: absolute;
+    top: 68px;
+    width: 100%;
+    left: 0;
 }
 
+.banner__links a {
+    text-decoration: none;
+}
+.banner__links a span {
+    text-decoration: none;
+    position: relative;
+}
+.banner__links a span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, .5);
+}
 .banner_txt {
     font-style: italic;
     margin-top: 5px;
     color: #5f6062;
+    font-size: 12px;
 }
 
 .banner_txt .fa-eur {
@@ -1304,7 +1322,7 @@ a.small_cart {
 .banner__title {
     margin-top: 16px;
     font: 44px 'GrossKunst';
-    text-shadow: 0 0 10px rgba(255, 255, 2555, 1);
+    text-shadow: -2px 3px 0 rgba(255, 255, 255, .4);
 }
 
 .green-arrow-item {

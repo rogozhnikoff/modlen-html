@@ -7,17 +7,17 @@
 
         <div class="banner__links">
             <div class="green-arrow-item">
-                <a class="" href="#">Stock for Sale</a>
+                <a class="" href="#"><span>Stock for Sale</span></a>
 
                 <p class="banner_txt">Leotard from <span class="fa fa-eur"></span>89</p>
             </div>
             <div class="green-arrow-item">
-                <a class=" " href="#"><u>Discounts for Team</u></a>
+                <a class=" " href="#"><span>Discounts for Team</span></a>
 
                 <p class="banner_txt">Up to 25% discount</p>
             </div>
             <div class="green-arrow-item">
-                <a class="" href="#">Very Bright Leotard </a>
+                <a class="" href="#"><span>Very Bright Leotard</span></a>
 
                 <p class="banner_txt">A lot of shiny crystals</p>
             </div>

@@ -3,7 +3,7 @@ $(function () {
         wrapper = $('.wrapper'),
         timeAnimate = 300;
 
-    $body.on('click', '.popup-link', function (ev) {
+    $body.on('click', '.popup-link:not(.is-cloned)', function (ev) {
         ev.preventDefault();
 
         var link = $(this),
@@ -18,7 +18,9 @@ $(function () {
                 bottom: linkOffset.top + link.height()
             }),
             closeButton = popup.find('.popup__close'),
-            clone = link.clone().insertBefore(popup),
+            clone = (function(selector){
+                return (selector ? link.add($(selector)) : link).clone().addClass('is-cloned').insertBefore(popup)
+            })(link.data('clone-el')),
             closePopup = function(){
                 popup.animate({
                     opacity: 0

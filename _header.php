@@ -100,7 +100,7 @@
 
                 <div class="head__navi-list">
                     <ul class="navi-list">
-                        <li class="navi-list__item navi-list__item_m_0">
+                        <li class="navi-list__item">
                             <a class="navi-list__link" href="#">Rhythmic Gymnastics Leotards</a>
                         </li>
                         <li class="navi-list__item">
@@ -139,7 +139,7 @@
         </div>
 
         <i class="head__lang-line"></i>
-        <a class="head__lang-switcher" href="#">
+        <a class="head__lang-switcher popup-link" href="#popup-lang" data-clone-el=".head__lang-line">
             <span class="head__lang-current"><u>en</u></span>
         </a>
     </header>

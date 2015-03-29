@@ -203,6 +203,10 @@
     bottom: -1px
 }
 
+
+
+
+/* ------------------------ Lang switcher ------------------------ */
 .head__lang-line {
     position: absolute;
     width: 128px;
@@ -226,7 +230,7 @@
     text-transform: uppercase;
     position: absolute;
     z-index: 2;
-    top: 41px;
+    top: 39px;
     right: 14px;
     text-decoration: none;
 }
@@ -236,6 +240,10 @@
     border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
+.head__lang-switcher span u {
+    color: white;
+    font-size: 11px;
+}
 .head__lang-current:before {
     content: '▼';
     font-size: 60%;
@@ -261,3 +269,15 @@
 .head__lang-switcher:hover .head__lang-current:before {
     color: rgba(255, 255, 255, 1);
 }
+
+
+.lang-choose {
+
+}
+.lang-choose__item {
+    display: block;
+}
+.lang-choose__link {
+
+}
+/* ------------------------ end: Lang switcher ------------------------ */

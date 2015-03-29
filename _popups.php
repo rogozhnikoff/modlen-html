@@ -1,4 +1,13 @@
 <!-- _________ popups _________ -->
+
+<div class="popup" id="popup-lang" data-width="297">
+    <ul class="lang-choose">
+        <li class="lang-choose__item"><a class="lang-choose__link" href=""><u>France</u></a></li>
+        <li class="lang-choose__item"><a class="lang-choose__link" href=""><u>German</u></a></li>
+        <li class="lang-choose__item"><a class="lang-choose__link" href=""><u>Spanish</u></a></li>
+    </ul>
+</div>
+
 <div class="popup" id="popup-mymodlen" data-width="297">
     <div class="popup-sign">
         <div class="popup-sign__inner">
