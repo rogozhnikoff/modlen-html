@@ -1,8 +1,8 @@
 .color-choice {
     position: absolute;
-    left: 0;
     top: 50%;
-    margin-top: -45px;
+    left: 50%;
+    transform: translate(-3%, -50%);
 }
 
 .item:hover .color-choice {
