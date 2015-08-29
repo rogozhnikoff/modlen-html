@@ -1,3 +1,7 @@
+.navi-list {
+    position: relative;
+    left: -10px;
+}
 .navi-list__item {
     font-family: 'PT_Sans-Narrow-Web-Bold';
     float: left;
