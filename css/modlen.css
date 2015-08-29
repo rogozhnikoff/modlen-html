@@ -36,54 +36,7 @@
     width: 100%
 }
 
-.navi-list__item {
-    font-family: 'PT_Sans-Narrow-Web-Bold';
-    float: left;
-    margin-left: 35px;
-    position: relative
-}
-.navi-list__item:first-child {
-    margin-left: 0;
-}
 
-.navi-list__item.active {
-    background-color: #e9ebe5;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    color: #fff;
-    cursor: none;
-
-}
-
-.navi-list__item.active a {
-    color: #000;
-    outline: none;
-}
-
-.navi-list__item.active:visited, .navi-list__item.active:link {
-    color: #fff
-}
-
-
-.navi-list__link {
-    border-bottom: 1px solid #deead2;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'GrossKunst'
-}
-
-.navi-list__link:link, .navi-list__link:visited {
-    color: #006902
-}
-
-.navi-list__link:hover, .navi-list__link:active {
-    opacity: .8
-}
-
-.navi-list__link.active:link, .navi-list__link.active:visited {
-    color: #fff;
-    cursor: default
-}
 
 .social-list__item {
     float: left
