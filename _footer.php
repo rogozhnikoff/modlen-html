@@ -1,6 +1,6 @@
 </div><!-- .content.container -->
 
-<footer class="foot">
+<div class="foot">
     <div class="container">
         <div class="foot__inner">
 
@@ -49,10 +49,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-</footer>
+</div>
 
 </div><!-- .wrapper -->
 <? include '_popups.php'; ?>

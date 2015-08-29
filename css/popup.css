@@ -1,14 +1,12 @@
+.popup, .pop-up {
+    display: none;
+}
+
 .popup {
     position: absolute;
     z-index: 20;
     opacity: 0;
 }
-
-
-
-
-
-
 
 
 .pop-up {
