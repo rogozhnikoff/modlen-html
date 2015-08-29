@@ -49,7 +49,8 @@ $(function () {
             zIndex: 20,
             left: linkPosition.left,
             top: linkPosition.top,
-            background: 'white'
+            background: 'white',
+            display: 'block'
         });
         popup.css({
             display: 'block',

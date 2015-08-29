@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/breadcrumb.css"/>
     <link rel="stylesheet" href="css/popup.css"/>
     <link rel="stylesheet" href="css/method-list.css"/>
+    <link rel="stylesheet" href="css/navi-list.css"/>
     <link rel="stylesheet" href="css/payment.css"/>
     <link rel="stylesheet" href="css/summary.css"/>
     <link rel="stylesheet" href="css/btn.css"/>
@@ -56,7 +57,6 @@
     <script type="text/javascript" src="javascript/order.js"></script>
     <script type="text/javascript" src="javascript/pass.js"></script>
     <script type="text/javascript" src="javascript/popup.js"></script>
-
 </head>
 <body>
 <div class="wrapper">
@@ -100,14 +100,14 @@
 
                 <div class="head__navi-list">
                     <ul class="navi-list">
-                        <li class="navi-list__item">
-                            <a class="navi-list__link" href="#">Rhythmic Gymnastics Leotards</a>
+                        <li class="navi-list__item active">
+                            <a class="navi-list__link" href="#"><span>Rhythmic Gymnastics Leotards</span></a>
                         </li>
                         <li class="navi-list__item">
-                            <a class="navi-list__link" href="#">Acrobatic Gymnastics Dress</a>
+                            <a class="navi-list__link" href="#"><span>Acrobatic Gymnastics Dress</span></a>
                         </li>
                         <li class="navi-list__item ">
-                            <a class="navi-list__link" href="#">Ice Figure Skating Dress</a>
+                            <a class="navi-list__link" href="#"><span>Ice Figure Skating Dress</span></a>
                         </li>
                     </ul>
                 </div>

@@ -30,6 +30,7 @@
 }
 
 .item-bords {
+    box-sizing: border-box;
     border: 2px dashed #ccc;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
