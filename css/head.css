@@ -2,7 +2,7 @@
     width: 900px;
     margin: 0 auto 20px;
     position: relative;
-    padding: 37px 0 0;
+    padding: 0 0 0;
 }
 
 .head__theme {
@@ -11,14 +11,15 @@
     background-size: cover;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
-    position: fixed;
-    width: 880px;
-    top: 0;
+    /*position: fixed;*/
+    width: 880px
     z-index: 1;
     opacity: .9
 }
 
 .head__content {
+	margin-top:32px;
+	margin-bottom: 9px;
     z-index: 2;
     position: relative;
 }
