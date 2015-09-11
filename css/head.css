@@ -55,7 +55,7 @@
 .head__quality-link {
     text-decoration: none;
     font-family: 'GrossKunst';
-    line-height: 1.3;
+    line-height: 1.4;
     padding: 0;
     border-bottom: 1px solid #deead2
 }
@@ -74,7 +74,7 @@
 }
 
 .head__top {
-    margin: 0 0 21px;
+    margin: 0 0 15px;
     font-family: 'trebuchet_msbold'
 }
 
@@ -83,7 +83,7 @@
 }
 
 .head__social-list {
-    margin: 0 0 0 30px
+    margin: 11px 0 0 30px
 }
 
 .head__cart {
@@ -158,17 +158,29 @@
 
 .head__free {
     vertical-align: top;
-    margin: 0 0 0 48px
+    margin: -5px 0 0 6%;
+    width: 210px;
+    height: 28px;
+    background-image: url('../img/icon/head_free.jpg');
+    background-size: 210px 27px;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+	background-position: center center;
+    color: #fff;
+    text-align: center;
+    font-family: 'trebuchet_msregular'
 }
 
 .head__shipping-link {
     text-decoration: none;
-    border-bottom: 1px solid #deead2;
-    font-size: 12px
+    border-bottom: 1px solid #fcebd2;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'trebuchet_msbold'
 }
 
 .head__shipping-link:link, .head__shipping-link:visited {
-    color: #006902
+    color: #fff
 }
 
 .head__shipping-link:hover, .head__shipping-link:active {

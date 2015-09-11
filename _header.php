@@ -100,7 +100,7 @@
                     </div>
                     <div class="head__free">
                         <a href="#" class="head__shipping-link">Free shipping</a>
-                        to New York <span class="head__and">&</span> USA
+                        all over the world<!--to New York <span class="head__and">&</span> USA-->
                     </div>
                 </div>
 

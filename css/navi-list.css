@@ -46,7 +46,8 @@
 
 .navi-list__item.active .navi-list__link {
     background-color: #e9ebe5;
-    border-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
     color: #fff;
     cursor: none;
 }
