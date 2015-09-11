@@ -1,7 +1,7 @@
 <? include '_header.php'; ?>
 <? include '_item.php'; ?>
 
-<div class="banner">
+<!--<div class="banner">
     <div class="banner__bottline">
         <h2 class="banner__title">Rhythmic Gymnastics Leotards </h2>
 
@@ -23,7 +23,10 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
+
+<? include '_poster.php'; ?>
+
 <div class="item-main" id="container">
     <? renderItem(2, true) ?>
     <? renderItem(3, false) ?>

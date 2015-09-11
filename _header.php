@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="css/baton.css"/>
     <link rel="stylesheet" href="css/modlen.css"/>
     <link rel="stylesheet" href="css/badge.css"/>
+    <link rel="stylesheet" href="css/poster.css"/>
+   
 
     <script type="text/javascript" src="javascript/vendor/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="javascript/vendor/masonry.js"></script>
@@ -57,6 +59,10 @@
     <script type="text/javascript" src="javascript/order.js"></script>
     <script type="text/javascript" src="javascript/pass.js"></script>
     <script type="text/javascript" src="javascript/popup.js"></script>
+    
+    <!-- fotorama.css & fotorama.js. -->
+	<link  href="javascript/fotorama/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+	<script src="javascript/fotorama/fotorama.js"></script> <!-- 16 KB -->
 </head>
 <body>
 <div class="wrapper">
