@@ -1,11 +1,14 @@
 <!-- _________ poster _________ -->
-<div class="poster">
+
+
+<div class="poster" id="poster">
   <div class="pic clearfix">
+<script type="text/javascript">
+
+</script>  
     <div class="stay-container">
-      <p class="stay">Stay</p>
-      <p class="stay-list stay-list-1">stylish</p>
-      <p class="stay-list stay-list-2">strong</p>
-      <p class="stay-list stay-list-3">first</p>
+      <p class="stay">Your</p>
+      <h1 class="stay-list">Rhythmic<br>Gymnastics<br>Leotards</p>
     </div>
     <div class="buy-container clearfix">
       <div class="leo-number">

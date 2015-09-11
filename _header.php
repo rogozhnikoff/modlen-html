@@ -59,6 +59,10 @@
     <script type="text/javascript" src="javascript/order.js"></script>
     <script type="text/javascript" src="javascript/pass.js"></script>
     <script type="text/javascript" src="javascript/popup.js"></script>
+
+    <!-- text gradient -->    
+    <script type="text/javascript" src="javascript/gradient/jquery.measurer.js"></script>
+	<script type="text/javascript" src="javascript/gradient/jquery.gradienttext.js"></script>
     
     <!-- fotorama.css & fotorama.js. -->
 	<link  href="javascript/fotorama/fotorama.css" rel="stylesheet"> <!-- 3 KB -->

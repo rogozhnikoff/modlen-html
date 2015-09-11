@@ -4,27 +4,95 @@
   font-size: 2.625em;
   font-weight: normal;
   color: rgb(0, 0, 0);
-  height: 500px;
+  height: 260px;
 }
 
-.poster a {  color: rgb(0, 0, 0); }
+.poster a {  color: rgb(0, 0, 0); text-decoration: none; }
+
+
+
+.fotorama {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 166px;
+  height: 250px;
+  overflow: hidden;
+}
+
+
+
+.pic {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-width: 437px;
+  height: 250px;
+  border-bottom-left-radius: 20px;
+  background-color: #edece6;
+}
+
+.stay {
+  position: absolute;
+  top: 19px;
+  left: 40px;
+  z-index: 7;
+  width: 138px;
+  height: 51px;
+  padding-top: 1px;
+  font-size: 0.9em;
+  line-height: 0.1;
+  color: rgb(0, 0, 0);
+   opacity: 0.45;
+}
+
+.stay-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 80px;
+  z-index: 8;
+  width: 268px;
+  height: 118px;
+  margin: 60px 0 0 0;
+  opacity: 1;
+}
+
+.stay-list {
+  position: absolute;
+  left: 42%;
+  height: 26px;
+  padding-top: 1px;
+  font-size: 1em;
+  line-height: 1.3;
+  color: rgb(0, 0, 0);
+}
+
+.stay-list-1 {
+  top: 0;
+  z-index: 6;
+}
+
+
 
 .button {
   display: block;
   float: left;
-  width: 73px;
-  height: 32px;
-  margin-top: 70px;
-  padding-top: 7px;
+  clear: both;
+  width: 65px;
+  height: 29px;
+  margin: 15px 0 0 8.47517%;
+  padding-top: 1px;
   border-radius: 16px;
+  
   background-image: -webkit-linear-gradient(270deg, rgb(254, 221, 50) 0%, rgb(246, 167, 40) 100%);
   box-shadow: 0 1px 0 rgb(247, 221, 194), 0 4px 0 rgb(187, 128, 79);
   text-shadow: 0 1px 1px rgb(255, 226, 0);
-  text-decoration: none;
-  font-family: trebuchet_msbold;
-  font-size: 17px;
+  font-family: TrebuchetMS-Bold;
+  font-size: 0.515em;
   text-align: center;
   color: rgb(0, 0, 0);
+  
 }
 
 .button:hover {
@@ -39,95 +107,37 @@
 }
 
 .buy-container {
-  position: relative;
-  float: left;
-  z-index: 3;
-  width: 20;
-  height: 102px;
-  margin: 215px 0 0 47%;
+  position: absolute;
+  top: 18%;
+  left:50%;
+  z-index: 2;
+  width: 250px;
+  min-width: 228px;
+  max-width: 270px;
+  height: 149px;
+  padding: 1px;
+  padding-top: 10px;
+  padding-left: 7px;
+  border: 2px dashed #fff;
+  border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+  /*  background-color: #e6e3d4; */
 }
 
-.fotorama {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 333px;
-  height: 500px;
-  overflow: hidden;
-}
+.buy-container:hover { background-color: #e8e6d9; }
 
 .leo-number {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  float: left;
   width: 195px;
-  font: 0.786em/0.08 HelveticaNeue-UltraLight;
+  height: 54px;
+  margin: 27px 0 0 8.9216%;
+  font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
 .leo-number p {
   margin-bottom: 1em;
-}
-
-.pic {
-  position: relative;
-  float: left;
-  width: 100%;
-  min-width: 437px;
-  height: 500px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: #edece6;
-}
-
-.stay {
-  position: absolute;
-  top: 16px;
-  left: 25px;
-  z-index: 7;
-  width: 138px;
-  height: 51px;
-  padding-top: 1px;
-  font-size: 1.738em;
-  line-height: 0.1;
-  color: rgb(0, 0, 0);
-}
-
-.stay-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 80px;
-  z-index: 8;
-  width: 268px;
-  height: 118px;
-  margin: auto 0;
-  opacity: 0.25;
-}
-
-.stay-list {
-  position: absolute;
-  left: 56%;
-  height: 26px;
-  padding-top: 1px;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
-}
-
-.stay-list-1 {
-  top: 0;
-  z-index: 6;
-}
-
-.stay-list-2 {
-  top: 46px;
-  z-index: 5;
-}
-
-.stay-list-3 {
-  top: 92px;
-  z-index: 4;
+  line-height: 0.05em;
 }
 
 .leo-number span {
@@ -151,7 +161,7 @@
   letter-spacing: inherit;
   word-spacing: inherit;
   color: #000000;
-  opacity: 1;
+  opacity: 0.45;
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
