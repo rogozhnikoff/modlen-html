@@ -17,7 +17,7 @@
 	  </div>
       <a href="http://rhythmicgymnasticsleotards.com/169/" class="button">Buy</a>
     </div>
-    <div class="fotorama" data-autoplay="true" data-autoplay="3000" data-arrows="false" data-click="false" data-swipe="false" data-transition="dissolve" transitionduration="1000">
+    <div class="fotorama" data-autoplay="true" data-autoplay="2000" data-arrows="false" data-click="false" data-swipe="false" data-transition="dissolve" transitionduration="2000" data-keyboard="false" data-nav="false">
   		<img src="img/_poster/n169.green_4.jpg">
   		<img src="img/_poster/n169.white_4.jpg">
   		<img src="img/_poster/n169.black_4.jpg">

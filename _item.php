@@ -33,7 +33,7 @@
 
     <div class="item__bottom">
         <?
-            $price = rand(10, 1111);
+            $price = rand(9, 1700);
         ?>
         <div class="item__price <? if ($stock) { ?>item__price_stock<? } ?>">
             <? if ($stock) { ?><i class="item__price-striker"></i><? } ?>
@@ -45,10 +45,12 @@
                 <span><?=$price?></span>
             </div>
         <? } ?>
-
+        <?
+            $count = rand(1, 111);
+        ?>
         <div class="item__btn-zone">
             <button class="item__btn baton baton_green">Add to <i class="ic ic-buy-white baton__icon"></i></button>
-            <span class="item__count">(<u>2</u>)</span>
+            <span class="item__count">(<u><?=($count)?></u>)</span>
         </div>
     </div>
 </div>

@@ -71,6 +71,7 @@
 
         <div class="head__content">
             <div class="head__left">
+	          <div class="head__left_into">
                 <div class="head__logo">
                     <a href="#" class="head__logo-link"><img src='img/content/logo.svg'></a>
                 </div>
@@ -79,6 +80,7 @@
                     <h1><a href="#" class="head__quality-link">Beauty</a></h1>
                     <h1><a href="#" class="head__quality-link">Accessibility</a></h1>
                 </div>
+	          </div>  
             </div>
 
             <div class="head__right">

@@ -12,6 +12,7 @@
 }
 
 .masonry {
+	/*background: red !important;*/
     margin: 0 auto
 }
 
@@ -22,7 +23,7 @@
     color: #006902;
     margin: 35px 21px;
     vertical-align: top;
-    /*background: red !important;*/
+    /*background: blue !important;*/ 
 }
 
 .item:hover {
@@ -361,7 +362,8 @@
 
 .item__img {
     position: relative;
-    z-index: 3;
+    z-index: 3; border: 1px solid #e5e8d0; border-top-right-radius: 15px; 
+    
 }
 
 .item__btn-zone {
