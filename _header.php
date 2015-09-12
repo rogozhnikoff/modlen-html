@@ -107,13 +107,16 @@
                 <div class="head__navi-list">
                     <ul class="navi-list">
                         <li class="navi-list__item active">
-                            <a class="navi-list__link" href="#"><span>Rhythmic Gymnastics Leotards</span></a>
+                            <a class="navi-list__link" href="#"><span>Rhythmic Gymnastics<!-- Leotards--></span></a>
                         </li>
                         <li class="navi-list__item">
-                            <a class="navi-list__link" href="#"><span>Acrobatic Gymnastics Dress</span></a>
+                            <a class="navi-list__link" href="#"><span>Acrobatic Gymnastics<!-- Dress--></span></a>
                         </li>
                         <li class="navi-list__item ">
-                            <a class="navi-list__link" href="#"><span>Ice Figure Skating Dress</span></a>
+                            <a class="navi-list__link" href="#"><span>Ice Figure Skating<!-- Dress--></span></a>
+                        </li>
+                        <li class="navi-list__item ">
+                            <a class="navi-list__link" href="#"><span>Accessories<!-- Dress--></span></a>
                         </li>
                     </ul>
                 </div>
