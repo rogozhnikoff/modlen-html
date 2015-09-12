@@ -20,9 +20,9 @@
 }
 
 .container {
-    min-width: 800px;
+    min-width: 805px;
     max-width: 85%;
-    width: 880; /*880*/
+    width: 100%; /*880*/
     margin-left: auto;
     margin-right: auto
 }
@@ -1025,16 +1025,18 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 
 .currency {
     width: 66px;
-    border: 1px solid #bdbdbd;
-    border-radius: 7px;
+    border: 1px solid #e1e0d1;
+    border-radius: 17px;
     font-size: 0;
     background: #f5f5f5;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #e1e1df));
     background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e1e1df));
     background: -webkit-linear-gradient(top, #f5f5f5 0%, #e1e1df 100%);
     background: linear-gradient(to bottom, #f5f5f5 0%, #e1e1df 100%);
-    box-shadow: 0 2px 10px -5px #000;
-    margin: 5px 40px 0 0;
+    /*box-shadow: 0 2px 10px -5px #000;*/
+    margin: -28px 0 0 55%;
+    padding-top: px 0 0 1px;
+    position: absolute;
 }
 
 .currency__text {
@@ -1049,21 +1051,22 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .currency__text:hover {
-    background: #97a38b;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #97a38b), color-stop(100%, #d7e7ca));
-    background: -webkit-gradient(linear, left top, left bottom, from(#97a38b), to(#d7e7ca));
-    background: -webkit-linear-gradient(top, #97a38b 0%, #d7e7ca 100%);
-    background: linear-gradient(to bottom, #97a38b 0%, #d7e7ca 100%)
+    background: #f5f5f5;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #d9e1bc));
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#d9e1bc));
+    background: -webkit-linear-gradient(top, #f5f5f5 0%, #d9e1bc 100%);
+    background: linear-gradient(to bottom, #f5f5f5 0%, #d9e1bc 100%);
+    color: #207409;
 }
 
 .currency__text_br {
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px
 }
 
 .currency__text_bl {
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px
 }
 
 .currency__text.active {
@@ -1073,6 +1076,9 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     background: -webkit-linear-gradient(top, #97a38b 0%, #d7e7ca 100%);
     background: linear-gradient(to bottom, #97a38b 0%, #d7e7ca 100%)
 }
+.currency__text.active:hover {
+	color: black;
+	}
 
 .currency .fa-eur {
     width: 22px

@@ -1,6 +1,5 @@
 .poster {
   background-color: rgb(255, 255, 255);
-  font-family: HelveticaNeue-UltraLight;
   font-size: 2.625em;
   font-weight: normal;
   color: rgb(0, 0, 0);
@@ -32,96 +31,61 @@
   background-color: #edece6;
 }
 
-.stay {
-  position: absolute;
-  top: 19px;
-  left: 40px;
-  z-index: 7;
-  width: 138px;
-  height: 51px;
-  padding-top: 1px;
-  font-size: 0.9em;
-  line-height: 0.1;
-  color: rgb(0, 0, 0);
-   opacity: 0.45;
-}
-
-.stay-container {
+.your-container {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 80px;
   z-index: 8;
   width: 268px;
-  height: 118px;
-  margin: 60px 0 0 0;
+  height: 218px;
+  margin: 53px 0 0 0;
   opacity: 1;
+  font-family: 'Klinkopis'
 }
 
-.stay-list {
+.your {
   position: absolute;
-  left: 42%;
-  height: 26px;
+  top: 57px;
+  left: 0px;
+  z-index: 7;
   padding-top: 1px;
-  font-size: 1em;
-  line-height: 1.3;
+  font-size: 3.9em;
   color: rgb(0, 0, 0);
+   opacity: 0.10;
 }
 
-.stay-list-1 {
+
+
+.your-list {
+  position: absolute;
+  left: 44%;
+  font-size: 1.1em;
+  line-height: 1.3;
+  color: #79a435;
+}
+
+.your-list-1 {
   top: 0;
   z-index: 6;
 }
 
 
 
-.button {
-  display: block;
-  float: left;
-  clear: both;
-  width: 65px;
-  height: 29px;
-  margin: 15px 0 0 8.47517%;
-  padding-top: 1px;
-  border-radius: 16px;
-  
-  background-image: -webkit-linear-gradient(270deg, rgb(254, 221, 50) 0%, rgb(246, 167, 40) 100%);
-  box-shadow: 0 1px 0 rgb(247, 221, 194), 0 4px 0 rgb(187, 128, 79);
-  text-shadow: 0 1px 1px rgb(255, 226, 0);
-  font-family: TrebuchetMS-Bold;
-  font-size: 0.515em;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  
-}
-
-.button:hover {
-  background-image: -webkit-linear-gradient(270deg, rgb(253, 247, 184) 0%, rgb(247, 177, 43) 44.761904761904766%, rgb(241, 166, 44) 55.952380952380956%, rgb(233, 174, 71) 98.57142857142858%);
-  box-shadow: 0 1px 14px 4px rgb(255, 218, 0) inset, 0 1px 0 rgb(247, 221, 194), 0 4px 0 rgb(187, 128, 79);
-  text-shadow: 0 1px 1px rgb(255, 226, 0);
-}
-
-.button:active {
-  box-shadow: 0 2px 10px rgb(133, 79, 3) inset, 0 1px 0 rgb(247, 221, 194);
-  text-shadow: 0 -1px 1px rgb(255, 226, 0);
-}
 
 .buy-container {
   position: absolute;
-  top: 18%;
+  top: 75px;
   left:50%;
   z-index: 2;
   width: 250px;
-  min-width: 228px;
-  max-width: 270px;
-  height: 149px;
-  padding: 1px;
-  padding-top: 10px;
-  padding-left: 7px;
+  height: 100px;
+  padding: 0 0 0 0;
+  
   border: 2px dashed #fff;
   border-top-right-radius: 20px;
    border-bottom-left-radius: 20px;
-  /*  background-color: #e6e3d4; */
+  /*background-color: #e6e3d4; */
 }
 
 .buy-container:hover { background-color: #e8e6d9; }
@@ -130,14 +94,15 @@
   float: left;
   width: 195px;
   height: 54px;
-  margin: 27px 0 0 8.9216%;
-  font-size: 1em;
+  margin: 14px 0 0 11%;
+  font-size: 0.7em;
   color: rgb(0, 0, 0);
+  font-family: 'trebuchet_msregular'
 }
 
 .leo-number p {
   margin-bottom: 1em;
-  line-height: 0.05em;
+  line-height: 1.4em;
 }
 
 .leo-number span {
@@ -152,19 +117,19 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
-  font-family: 'HelveticaNeue-UltraLight';
-  font-style: inherit;
-  font-size: 0.727em;
-  font-weight: Regular;
+  letter-spacing: 1;
+  font-family: 'trebuchet_msitalic';
+  font-size: 0.6em;
   text-transform: inherit;
   text-decoration: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
   color: #000000;
-  opacity: 0.45;
+  opacity: 0.40;
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
+  margin-left: 75px
 }
 
 .leo-number strong {
@@ -192,4 +157,36 @@
   word-break: normal;
   word-wrap: normal;
   white-space: normal;
+}
+
+.button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 65px;
+  height: 31px;
+  margin: -34px 0 0 0;
+  padding-top: 0;
+  border-radius: 16px;
+  position: absolute;
+  z-index: 55;
+  background-image: -webkit-linear-gradient(270deg, rgb(254, 221, 50) 0%, rgb(246, 167, 40) 100%);
+  box-shadow: 0 1px 0 rgb(247, 221, 194), 0 4px 0 rgb(187, 128, 79);
+  text-shadow: 0 1px 1px rgb(255, 226, 0);
+  font-family: TrebuchetMS-Bold;
+  font-size: 0.65em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+
+.button:hover {
+  background-image: -webkit-linear-gradient(270deg, rgb(253, 247, 184) 0%, rgb(247, 177, 43) 44.761904761904766%, rgb(241, 166, 44) 55.952380952380956%, rgb(233, 174, 71) 98.57142857142858%);
+  box-shadow: 0 1px 14px 4px rgb(255, 218, 0) inset, 0 1px 0 rgb(247, 221, 194), 0 4px 0 rgb(187, 128, 79);
+  text-shadow: 0 1px 1px rgb(255, 226, 0);
+}
+
+.button:active {
+  box-shadow: 0 2px 10px rgb(133, 79, 3) inset, 0 1px 0 rgb(247, 221, 194);
+  text-shadow: 0 -1px 1px rgb(255, 226, 0);
 }

@@ -65,4 +65,11 @@
 }
 
 
+@font-face {
+  font-family: 'Klinkopis';
+  src: url('../fonts/fonts_last/klinkopis/Klinkopis.eot?#iefix') format('embedded-opentype'),  url('../fonts/fonts_last/klinkopis/Klinkopis.woff') format('woff'), url('../fonts/fonts_last/klinkopis/Klinkopis.ttf')  format('truetype'), url('../fonts/fonts_last/klinkopis/Klinkopis.svg#Klinkopis') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 

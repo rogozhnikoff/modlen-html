@@ -13,13 +13,7 @@
 		</ul>
 	</div>
 
-	<div class="currency right">
-		<p class="currency__text currency__text_bl"><i class="fa fa-eur"></i></p>
 
-		<p class="currency__text currency__text_border active"><i class="fa fa-usd"></i></p>
-
-		<p class="currency__text currency__text_br"><i class="fa fa-gbp"></i></p>
-	</div>
 </div>
 <div class="option">
 

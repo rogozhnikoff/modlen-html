@@ -6,16 +6,23 @@
 <script type="text/javascript">
 
 </script>  
-    <div class="stay-container">
-      <p class="stay">Your</p>
-      <h1 class="stay-list">Rhythmic<br>Gymnastics<br>Leotards</p>
+    <div class="your-container">
+      <p class="your">Your</p>
+      <h1 class="your-list">Rhythmic<br>Gymnastics<br>Leotards</p>
     </div>
     <div class="buy-container clearfix">
       <div class="leo-number">
-        <p>Leotard #169</p>
-        <p><span>from &euro;119</span><br></p>
+        <?
+            $leonumber = rand(9, 1700);
+        ?>
+        <?
+            $leoprice = rand(9, 1700);
+        ?>
+        <p>Leotard &#8470;<?=$leonumber?><br><span>from &euro;<?=$leoprice?>.-</span><br><a href="http://rhythmicgymnasticsleotards.com/169/" class="button">Buy</a></p>
+        
+        
 	  </div>
-      <a href="http://rhythmicgymnasticsleotards.com/169/" class="button">Buy</a>
+      
     </div>
     <div class="fotorama" data-autoplay="true" data-autoplay="2000" data-arrows="false" data-click="false" data-swipe="false" data-transition="dissolve" transitionduration="2000" data-keyboard="false" data-nav="false">
   		<img src="img/_poster/n169.green_4.jpg">
