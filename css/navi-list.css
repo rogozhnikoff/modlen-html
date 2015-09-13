@@ -6,11 +6,13 @@
     font-family: 'PT_Sans-Narrow-Web-Bold';
     float: left;
     margin-left: 8px;
+    /*overflow:hidden;*/
     position: relative
 }
 .navi-list__item:first-child {
     margin-left: 0;
 }
+
 
 .navi-list__link {
     display: block;

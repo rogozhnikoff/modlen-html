@@ -3,19 +3,18 @@
 <div class="product__wrap">
 	<div class="product">
 
-		<div class="product__top">
-            <div class="product__stock">
-			    <a href="#" class="product__stock-link dashed">Stock for sale</a>
-            </div>
-			<h4 class="product__item-title">Rhyhtmic Gymnastics Leotard <span class="product__item_num"># 31</span></h4>
+		<!--<div class="product__top">
+
+			
 
 			<div class="green-arrow-item green-arrow-item_l_45">
 				<a class="" href="#">Next Leotard</a>
 			</div>
-		</div>
-
+		</div>-->
+	
 		<div class="product__item-wrap">
 			<div class="product__color">
+				<h4 class="product__item-title">Rhythmic<br>Gymnastics<br>Leotard&nbsp;<span class="product__item_num">&#8470; 31</span></h4>
                 <div class="color-badges-box">
                     <ul class="color-badge-group color-badge-group_active">
                         <li class="color-badge-group__el">
@@ -70,7 +69,11 @@
                         </li>
                     </ul>
                 </div>
+                <div class="product__stock">
+			    	<a href="#" class="product__stock-link dashed">Stock for sale</a>
+            	</div>
 			</div>
+		
 
 			<div class="product__item-view">
 				<div class="product__img-wrap">
@@ -169,6 +172,7 @@
                 </div>
             </div>
         </div>
+	
 		<div class="product__additional">
             <div class="product__about">
                 <h4 class="product__about-title">About the leotard</h4>

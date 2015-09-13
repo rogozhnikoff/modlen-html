@@ -1,9 +1,11 @@
 .badge {
     background: transparent;
     padding: 0 7px 2px;
-    font: 100 16px/1 'Conv_PT_Sans-Narrow-Web-Regular';
+    font: 100 16px/1 'trebuchet_msregular';
     color: white;
-    border-radius: 5px;
+    border-radius: 1px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .badge_green {

@@ -494,7 +494,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .color-list {
-    font-family: "trebuchet_msregular", Arial, sans-serif;
+    font-family: 'trebuchet_msregular';
 }
 
 .color-list__item {
