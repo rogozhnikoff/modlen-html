@@ -79,6 +79,17 @@
 				<div class="product__img-wrap">
 					<img src="img/content/big-item.jpg" alt="Leotard" />
 				</div>
+				<div class="product__img-wrap-transparent">
+					<img src="img/content/big-item.jpg" alt="Leotard" />
+				</div>		
+				
+				<div class="product__img-wrap">
+					<img src="img/content/big-item.jpg" alt="Leotard" />
+				</div>
+				<div class="product__img-wrap-transparent">
+					<img src="img/content/big-item.jpg" alt="Leotard" />
+				</div>		
+				
 			</div>
 
 			<div class="product__summary">
