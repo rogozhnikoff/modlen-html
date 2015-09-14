@@ -131,24 +131,24 @@
                 <div class="head__social-list">
                     <ul class="social-list">
                         <li class="social-list__item social-list__item_mr_20">
-                            <a href="#" class="social-list__link">STUDIO</a>:
+                            <a href="http://modlenstudio.com/" class="social-list__link">STUDIO</a> on
 
                             <a href="#" class="head__fb-link"><i class="icon-fb"></i></a>
                             <a href="#" class="head__instagram-link"><i class="icon-instagram"></i></a>
                             <a href="#" class="head__pinterest-link"><i class="icon-pinterest"></i></a>
                         </li>
                         <li class="social-list__item">
-                            <a href="#" class="social-list__link">STORE</a>:
+                            <a href="#" class="social-list__link">STORE</a> on
                             <a href="#" class="head__etsy-link"><i class="icon-etsy"></i></a>
                         </li>
                         <li class="social-list__item social-list__item_ml_20">
                             <a href="#" class="social-list__link">HAPPY CUSTOMERS</a>
                         </li>
                         <li class="social-list__item social-list__item_ml_20">
-                            <a href="#" class="social-list__link">FAQ</a>
+                            <a href="#" class="social-list__link">ANSWERS</a>
                         </li>
                         <li class="social-list__item social-list__item_ml_17">
-                            <a href="#" class="social-list__link">CONTACT</a>
+                            <a href="mailto:elena@modlengymnastics.com" class="social-list__link">WRITE US</a>
                         </li>
                     </ul>
                 </div>

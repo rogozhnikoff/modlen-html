@@ -77,18 +77,29 @@
 
 			<div class="product__item-view">
 				<div class="product__img-wrap">
-					<img src="img/content/big-item.jpg" alt="Leotard" />
+					<img src="img/content/big/n172.blue_1.jpg" alt="Leotard" />
 				</div>
 				<div class="product__img-wrap-transparent">
-					<img src="img/content/big-item.jpg" alt="Leotard" />
-				</div>		
+					<img src="img/content/big/n172.blue_1.jpg" alt="Leotard" />
+				</div>	
+
+
 				
 				<div class="product__img-wrap">
-					<img src="img/content/big-item.jpg" alt="Leotard" />
+					<img src="img/content/big/n172.blue_3.jpg" alt="Leotard" />
 				</div>
 				<div class="product__img-wrap-transparent">
-					<img src="img/content/big-item.jpg" alt="Leotard" />
+					<img src="img/content/big/n172.blue_3.jpg" alt="Leotard" />
+				</div>	
+				
+				<div class="product__img-wrap">
+					<img src="img/content/big/n172.blue_2.jpg" alt="Leotard" />
+				</div>
+				<div class="product__img-wrap-transparent">
+					<img src="img/content/big/n172.blue_2.jpg" alt="Leotard" />
 				</div>		
+				
+
 				
 			</div>
 
