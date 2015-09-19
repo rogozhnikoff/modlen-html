@@ -1037,6 +1037,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     margin: -28px 0 0 55%;
     padding-top: px 0 0 1px;
     position: absolute;
+    height: 17px;
 }
 
 .currency__text {
@@ -1074,7 +1075,8 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #97a38b), color-stop(100%, #d7e7ca));
     background: -webkit-gradient(linear, left top, left bottom, from(#97a38b), to(#d7e7ca));
     background: -webkit-linear-gradient(top, #97a38b 0%, #d7e7ca 100%);
-    background: linear-gradient(to bottom, #97a38b 0%, #d7e7ca 100%)
+    background: linear-gradient(to bottom, #97a38b 0%, #d7e7ca 100%);
+    height: 17px;
 }
 .currency__text.active:hover {
 	color: black;

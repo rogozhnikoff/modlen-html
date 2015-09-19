@@ -95,7 +95,8 @@
                         <div class="head__cart">
                             <i class="ic ic-cart head__cart-icon"></i>
                             <a href="" class="head__cart-link">Cart</a>
-                            <span class="head__cart-count">17</span>
+							<? $headcartcount = rand(1, 111); ?>
+                            <span class="head__cart-count"><?=($headcartcount)?></span>
                         </div>
 
                         <a href="#popup-mymodlen" class="head__my-link dashed popup-link"><u>My Modlen</u></a>
