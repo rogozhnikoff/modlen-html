@@ -13,73 +13,12 @@
 		</div>-->
 	
 		<div class="product__item-wrap">
-			<div class="product__color">
-				<h4 class="product__item-title">Rhythmic<br>Gymnastics<br>Leotard&nbsp;<span class="product__item_num">&#8470; 31</span></h4>
-                <div class="color-badges-box">
-                    <ul class="color-badge-group color-badge-group_active">
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_pink">Magenta</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_green">Green</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_brown">Mesh</i>
-                        </li>
-                    </ul>
-                    <ul class="color-badge-group">
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_red">Red</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_grey badge_text-dark">Silver</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_brown">Mesh</i>
-                        </li>
-                    </ul>
-                    <ul class="color-badge-group">
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_blue">Blue</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_yellow badge_text-dark">Yellow</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_brown">Mesh</i>
-                        </li>
-                    </ul>
-                    <ul class="color-badge-group">
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_light-blue">Light blue</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_violet">Violet</i>
-                        </li>
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_brown">Mesh</i>
-                        </li>
-                    </ul>
-                    <ul class="color-badge-group">
-                        <li class="color-badge-group__el">
-                            <i class="badge badge_dark-blue">Custom colors</i>
-                        </li>
-                        <li class="color-badge-group__text">
-                            Choose any leotard&prime;s color by your choice
-                        </li>
-                    </ul>
-                </div>
-                <div class="product__stock">
-			    	<a href="#" class="product__stock-link dashed">Stock for sale</a>
-            	</div>
-			</div>
-		
-
+			<!-- <? include '_product-color.php'; ?> -->		
 			<div class="product__item-view">
 				<div class="product__img-wrap">
 					<img src="img/content/big/n172.blue_1.jpg" alt="Leotard" />
 				</div>
-				<div class="product__img-wrap-transparent">
+				<!--<div class="product__img-wrap-transparent">
 					<img src="img/content/big/n172.blue_1.jpg" alt="Leotard" />
 				</div>	
 
@@ -88,96 +27,20 @@
 				<div class="product__img-wrap">
 					<img src="img/content/big/n172.blue_3.jpg" alt="Leotard" />
 				</div>
-				<div class="product__img-wrap-transparent">
-					<img src="img/content/big/n172.blue_3.jpg" alt="Leotard" />
-				</div>	
+				
 				
 				<div class="product__img-wrap">
 					<img src="img/content/big/n172.blue_2.jpg" alt="Leotard" />
-				</div>
-				<div class="product__img-wrap-transparent">
-					<img src="img/content/big/n172.blue_2.jpg" alt="Leotard" />
-				</div>		
+				</div>-->
+					
 				
 
 				
 			</div>
 
-			<div class="product__summary">
-				<div class="summary summary_bs">
-					<div class="summary__head">
-						<p>
-                            <b>Summary</b> without tax, fees and options
-                        </p>
-					</div>
-					<div class="summary__inner">
-						<div class="price">
-                            <div class="price__amount">
-                                <span class="price__val"><i class="price__cur fa fa-usd"></i>119.-</span>
-                            </div>
-                            <div class="price__around">
-                                AROUND &nbsp;
-                                <i class="fa fa-usd">88</i>
-                                <span>/</span>
-                                <i class="fa fa-gbp">72</i>
-                            </div>
-						</div>
-
-						<div class="summary__options-list">
-							<ul class="option-list">
-								<li class="option-list__item">
-									<span class="option-list__link option-list__link_active dashed"><u>Basic</u></span>
-								</li>
-								<li class="option-list__item">
-									<span class="option-list__link dashed"><u>Swarowski</u></span>
-								</li>
-								<li class="option-list__item">
-									<div class="option-list__count">
-										<div class="option-list__arrow">
-											<span class="option-list__arrow-up"></span>
-											<span class="option-list__arrow-down"></span>
-										</div>
-										<div class="option-list__info"><span class="option-list__info_fw">1000</span> crystals</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-
-						<div class="summary__btn-wrap">
-							<a href="#" id="btn_add_to_cart"
-                               class="btn btn_green btn_box-shadow left">
-                                <span class="btn_in-shadow">Add to cart</span>
-                            </a>
-						</div>
-					</div>
-				</div>
-				<div class="summary-add">
-                    <ul class="summary-add__list">
-                        <li class="summary-add__el">
-                            <a href="#" class="summary-add__link">Delivery & Payment</a>
-                        </li>
-                        <li class="summary-add__el">
-                            <a href="#" class="summary-add__link">Guarantee</a>
-                        </li>
-                    </ul>
-				</div>
-                <div class="share">
-                    <ul class="share__list">
-                        <li class="share__item">
-                            <a href="#" class="share__link">
-                                <i class="icon-fb"></i>
-                                <span>Facebook</span>
-                            </a>
-                        </li>
-                        <li class="share__item">
-                            <a href="#" class="share__link">
-                                <i class="icon-pinterest"></i>
-                                <span>Pinterest</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-			</div>
+			<!--<div class="product__summary">
+				<? include '_product__summary.php'; ?>
+			</div>-->
 		</div>
         <div class="product__preview">
             <div class="preview">
